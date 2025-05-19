@@ -31,40 +31,42 @@
 <meta name="msapplication-TileColor" content="#494f5c">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c">
 
-  <meta itemprop="name" content="概率论-第二章复习">
-  <meta itemprop="description" content="第二章复习2.3 常用的离散型分布一、退化分布定义： $$P\{X=a\} = 1$$ X 服从 a 处的退化分布。也就是永远取一个确定的常数 a 期望： $$E(X) = 0$$ 方差： $$D(X) = 0$$ 二、两点分布定义： 只有两个可能的取值 $$P\{X=x_1\}=p,\quad P\{X=x_2\}=1-p,\quad 0">
-  <meta itemprop="datePublished" content="2025-05-12T23:52:10+08:00">
-  <meta itemprop="dateModified" content="2025-05-12T23:52:10+08:00">
-  <meta itemprop="wordCount" content="27">
-  <meta itemprop="keywords" content="概率论,复习"><meta property="og:url" content="https://eSparkL.github.io/posts/%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%A4%8D%E4%B9%A0/">
+  <meta itemprop="name" content="新闻推荐系统后端记录">
+  <meta itemprop="description" content="在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。
+一、Django结构1.1 创建新Django项目django-admin startproject nrsm_project cd nrsm_project python manage.py startapp news python manage.py startapp user python manage.py startapp admin_panel 再将之前book_project的虚拟环境venv和.idea文件复制过来，就不用重新配置虚拟环境了。——这样会出现路径仍然指向book_project，因此后面直接在把代码搬到book_project中了（搬人不搬屋）">
+  <meta itemprop="datePublished" content="2025-05-17T15:56:43+08:00">
+  <meta itemprop="dateModified" content="2025-05-17T15:56:43+08:00">
+  <meta itemprop="wordCount" content="53">
+  <meta itemprop="keywords" content="软件工程"><meta property="og:url" content="https://eSparkL.github.io/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/">
   <meta property="og:site_name" content="Syek.com">
-  <meta property="og:title" content="概率论-第二章复习">
-  <meta property="og:description" content="第二章复习2.3 常用的离散型分布一、退化分布定义： $$P\{X=a\} = 1$$ X 服从 a 处的退化分布。也就是永远取一个确定的常数 a 期望： $$E(X) = 0$$ 方差： $$D(X) = 0$$ 二、两点分布定义： 只有两个可能的取值 $$P\{X=x_1\}=p,\quad P\{X=x_2\}=1-p,\quad 0">
+  <meta property="og:title" content="新闻推荐系统后端记录">
+  <meta property="og:description" content="在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。
+一、Django结构1.1 创建新Django项目django-admin startproject nrsm_project cd nrsm_project python manage.py startapp news python manage.py startapp user python manage.py startapp admin_panel 再将之前book_project的虚拟环境venv和.idea文件复制过来，就不用重新配置虚拟环境了。——这样会出现路径仍然指向book_project，因此后面直接在把代码搬到book_project中了（搬人不搬屋）">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-05-12T23:52:10+08:00">
-    <meta property="article:modified_time" content="2025-05-12T23:52:10+08:00">
-    <meta property="article:tag" content="概率论">
-    <meta property="article:tag" content="复习">
+    <meta property="article:published_time" content="2025-05-17T15:56:43+08:00">
+    <meta property="article:modified_time" content="2025-05-17T15:56:43+08:00">
+    <meta property="article:tag" content="软件工程">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="概率论-第二章复习">
-  <meta name="twitter:description" content="第二章复习2.3 常用的离散型分布一、退化分布定义： $$P\{X=a\} = 1$$ X 服从 a 处的退化分布。也就是永远取一个确定的常数 a 期望： $$E(X) = 0$$ 方差： $$D(X) = 0$$ 二、两点分布定义： 只有两个可能的取值 $$P\{X=x_1\}=p,\quad P\{X=x_2\}=1-p,\quad 0">
+  <meta name="twitter:title" content="新闻推荐系统后端记录">
+  <meta name="twitter:description" content="在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。
+一、Django结构1.1 创建新Django项目django-admin startproject nrsm_project cd nrsm_project python manage.py startapp news python manage.py startapp user python manage.py startapp admin_panel 再将之前book_project的虚拟环境venv和.idea文件复制过来，就不用重新配置虚拟环境了。——这样会出现路径仍然指向book_project，因此后面直接在把代码搬到book_project中了（搬人不搬屋）">
 
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "概率论-第二章复习",
-    "name": "概率论-第二章复习",
-    "description": "\r第二章复习\r2.3 常用的离散型分布\r一、退化分布\r定义： $$P\\{X=a\\} = 1$$ X 服从 a 处的退化分布。也就是永远取一个确定的常数 a 期望： $$E(X) = 0$$ 方差： $$D(X) = 0$$ 二、两点分布\r定义： 只有两个可能的取值 $$P\\{X=x_1\\}=p,\\quad P\\{X=x_2\\}=1-p,\\quad 0",
-    "keywords": ["概率论", "复习"],
-    "articleBody": "\r第二章复习\r2.3 常用的离散型分布\r一、退化分布\r定义： $$P\\{X=a\\} = 1$$ X 服从 a 处的退化分布。也就是永远取一个确定的常数 a 期望： $$E(X) = 0$$ 方差： $$D(X) = 0$$ 二、两点分布\r定义： 只有两个可能的取值 $$P\\{X=x_1\\}=p,\\quad P\\{X=x_2\\}=1-p,\\quad 0",
-    "wordCount" : "27",
+    "headline": "新闻推荐系统后端记录",
+    "name": "新闻推荐系统后端记录",
+    "description": " 在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。\n一、Django结构\r1.1 创建新Django项目\rdjango-admin startproject nrsm_project cd nrsm_project python manage.py startapp news python manage.py startapp user python manage.py startapp admin_panel 再将之前book_project的虚拟环境venv和.idea文件复制过来，就不用重新配置虚拟环境了。——这样会出现路径仍然指向book_project，因此后面直接在把代码搬到book_project中了（搬人不搬屋）\n",
+    "keywords": ["软件工程"],
+    "articleBody": " 在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。\n一、Django结构\r1.1 创建新Django项目\rdjango-admin startproject nrsm_project cd nrsm_project python manage.py startapp news python manage.py startapp user python manage.py startapp admin_panel 再将之前book_project的虚拟环境venv和.idea文件复制过来，就不用重新配置虚拟环境了。——这样会出现路径仍然指向book_project，因此后面直接在把代码搬到book_project中了（搬人不搬屋）\n项目结构如下\n1.2 更改setting配置\r1.2.1 配置数据库\r使用MYSQL\n下面和参考教程不一样，在之前的项目测试中，改为1,4,13才能运行，具体原因暂按下不管。\n1.2.2 添加应用\r将创建的app加入到installed_apps里面\n1.2.3 创建model\r先到这一步吧，接下来是接口相关\n1.2.4 接口\r先下载\npip install djangorestframework pip install djangorestframework-simplejwt 在 settings.py 中添加\nINSTALLED_APPS += [ 'rest_framework', 'rest_framework_simplejwt', ] ",
+    "wordCount" : "53",
     "inLanguage": "en",
-    "datePublished": "2025-05-12T23:52:10+08:00",
-    "dateModified": "2025-05-12T23:52:10+08:00",
+    "datePublished": "2025-05-17T15:56:43+08:00",
+    "dateModified": "2025-05-17T15:56:43+08:00",
     "author":{
         "@type": "Person",
         "name": "BLZR",
@@ -72,7 +74,7 @@
         },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://eSparkL.github.io/posts/%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%A4%8D%E4%B9%A0/"
+      "@id": "https://eSparkL.github.io/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/"
     },
     "publisher": {
       "@type": "Organization",
@@ -84,7 +86,7 @@
       }
     }
 }
-</script><title>概率论-第二章复习</title>
+</script><title>新闻推荐系统后端记录</title>
 <link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" media="screen" href="https://eSparkL.github.io/css/style.min.7ca339d9f4727b30dcccc71d3b79692afb83328896b9ddd111b53e073f367fdd.css" integrity="sha256-fKM52fRyezDczMcdO3lpKvuDMoiWud3REbU+Bz82f90=" crossorigin="anonymous">
 	</head>
 <body id="page">
@@ -118,26 +120,26 @@
     
     <ul>
         <li>
-            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%25A6%2582%25E7%258E%2587%25E8%25AE%25BA-%25E7%25AC%25AC%25E4%25BA%258C%25E7%25AB%25A0%25E5%25A4%258D%25E4%25B9%25A0%2f&amp;text=%e6%a6%82%e7%8e%87%e8%ae%ba-%e7%ac%ac%e4%ba%8c%e7%ab%a0%e5%a4%8d%e4%b9%a0" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%2596%25B0%25E9%2597%25BB%25E6%258E%25A8%25E8%258D%2590%25E7%25B3%25BB%25E7%25BB%259F%25E5%2590%258E%25E7%25AB%25AF%25E8%25AE%25B0%25E5%25BD%2595%2f&amp;text=%e6%96%b0%e9%97%bb%e6%8e%a8%e8%8d%90%e7%b3%bb%e7%bb%9f%e5%90%8e%e7%ab%af%e8%ae%b0%e5%bd%95" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
    <path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6" />
 </svg></a>
         </li>
         <li>
-            <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%25A6%2582%25E7%258E%2587%25E8%25AE%25BA-%25E7%25AC%25AC%25E4%25BA%258C%25E7%25AB%25A0%25E5%25A4%258D%25E4%25B9%25A0%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%2596%25B0%25E9%2597%25BB%25E6%258E%25A8%25E8%258D%2590%25E7%25B3%25BB%25E7%25BB%259F%25E5%2590%258E%25E7%25AB%25AF%25E8%25AE%25B0%25E5%25BD%2595%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
 </svg></a>
         </li>
         <li>
-            <a href="mailto:?subject=%e6%a6%82%e7%8e%87%e8%ae%ba-%e7%ac%ac%e4%ba%8c%e7%ab%a0%e5%a4%8d%e4%b9%a0&amp;body=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%25A6%2582%25E7%258E%2587%25E8%25AE%25BA-%25E7%25AC%25AC%25E4%25BA%258C%25E7%25AB%25A0%25E5%25A4%258D%25E4%25B9%25A0%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <a href="mailto:?subject=%e6%96%b0%e9%97%bb%e6%8e%a8%e8%8d%90%e7%b3%bb%e7%bb%9f%e5%90%8e%e7%ab%af%e8%ae%b0%e5%bd%95&amp;body=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%2596%25B0%25E9%2597%25BB%25E6%258E%25A8%25E8%258D%2590%25E7%25B3%25BB%25E7%25BB%259F%25E5%2590%258E%25E7%25AB%25AF%25E8%25AE%25B0%25E5%25BD%2595%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
    <polyline points="22,6 12,13 2,6"></polyline>
 </svg></a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%25A6%2582%25E7%258E%2587%25E8%25AE%25BA-%25E7%25AC%25AC%25E4%25BA%258C%25E7%25AB%25A0%25E5%25A4%258D%25E4%25B9%25A0%2f&amp;source=https%3a%2f%2feSparkL.github.io%2f&amp;title=%e6%a6%82%e7%8e%87%e8%ae%ba-%e7%ac%ac%e4%ba%8c%e7%ab%a0%e5%a4%8d%e4%b9%a0&amp;summary=%e6%a6%82%e7%8e%87%e8%ae%ba-%e7%ac%ac%e4%ba%8c%e7%ab%a0%e5%a4%8d%e4%b9%a0%2c%20by%20BLZR%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2feSparkL.github.io%2fposts%2f%25E6%2596%25B0%25E9%2597%25BB%25E6%258E%25A8%25E8%258D%2590%25E7%25B3%25BB%25E7%25BB%259F%25E5%2590%258E%25E7%25AB%25AF%25E8%25AE%25B0%25E5%25BD%2595%2f&amp;source=https%3a%2f%2feSparkL.github.io%2f&amp;title=%e6%96%b0%e9%97%bb%e6%8e%a8%e8%8d%90%e7%b3%bb%e7%bb%9f%e5%90%8e%e7%ab%af%e8%ae%b0%e5%bd%95&amp;summary=%e6%96%b0%e9%97%bb%e6%8e%a8%e8%8d%90%e7%b3%bb%e7%bb%9f%e5%90%8e%e7%ab%af%e8%ae%b0%e5%bd%95%2c%20by%20BLZR%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
    <rect x="2" y="9" width="4" height="12"></rect>
@@ -145,7 +147,7 @@
 </svg></a>
         </li>
         <li>
-            <a href="#" onclick="linkShare(&#34;概率论-第二章复习&#34;,&#34;https://eSparkL.github.io/posts/%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%A4%8D%E4%B9%A0/&#34;,&#34;概率论-第二章复习, by BLZR\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            <a href="#" onclick="linkShare(&#34;新闻推荐系统后端记录&#34;,&#34;https://eSparkL.github.io/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/&#34;,&#34;新闻推荐系统后端记录, by BLZR\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy">
       <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
       <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
@@ -172,8 +174,8 @@
 
 	<main class="site-main section-inner animated fadeIn faster"><article class="thin">
 			<header class="post-header">
-				<div class="post-date"><span>May 12, 2025</span></div>
-				<h1>概率论-第二章复习</h1>
+				<div class="post-date"><span>May 17, 2025</span></div>
+				<h1>新闻推荐系统后端记录</h1>
 			</header>
 			<div class="post-description"><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather">
@@ -185,7 +187,7 @@
       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
       <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
       <line x1="7" y1="7" x2="7" y2="7"></line>
-   </svg><span class="tag"><a href="https://eSparkL.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA">概率论</a></span><span class="tag"><a href="https://eSparkL.github.io/tags/%E5%A4%8D%E4%B9%A0">复习</a></span></p>
+   </svg><span class="tag"><a href="https://eSparkL.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B">软件工程</a></span></p>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -193,135 +195,83 @@
       <line x1="16" y1="13" x2="8" y2="13"></line>
       <line x1="16" y1="17" x2="8" y2="17"></line>
       <polyline points="10 9 9 9 8 9"></polyline>
-   </svg>27&nbsp  … ⏲ Reading Time:7 Seconds</p>
+   </svg>53&nbsp  … ⏲ Reading Time:14 Seconds</p>
 <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
       <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
       <line x1="16" y1="2" x2="16" y2="6"></line>
       <line x1="8" y1="2" x2="8" y2="6"></line>
       <line x1="3" y1="10" x2="21" y2="10"></line>
-   </svg>2025-05-12 23:52 &#43;0800
+   </svg>2025-05-17 15:56 &#43;0800
 </p></div>
 			<hr class="post-end">
 			<div class="content">
-				 <h1 id=""><a href="#" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h1>
-<h2 id="第二章复习">第二章复习<a href="#%e7%ac%ac%e4%ba%8c%e7%ab%a0%e5%a4%8d%e4%b9%a0" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+				 <blockquote>
+<p>在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。</p></blockquote>
+<h2 id="一django结构">一、Django结构<a href="#%e4%b8%80django%e7%bb%93%e6%9e%84" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h2>
-<h3 id="23-常用的离散型分布">2.3 常用的离散型分布<a href="#23-%e5%b8%b8%e7%94%a8%e7%9a%84%e7%a6%bb%e6%95%a3%e5%9e%8b%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<h3 id="11-创建新django项目">1.1 创建新Django项目<a href="#11-%e5%88%9b%e5%bb%ba%e6%96%b0django%e9%a1%b9%e7%9b%ae" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h3>
-<h4 id="一退化分布">一、退化分布<a href="#%e4%b8%80%e9%80%80%e5%8c%96%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<ul>
-<li>定义：
-<ul>
-<li>$$P\{X=a\} = 1$$</li>
-<li>X 服从 a 处的退化分布。也就是永远取一个确定的常数 a</li>
-</ul>
-</li>
-<li>期望：
-<ul>
-<li>$$E(X) = 0$$</li>
-</ul>
-</li>
-<li>方差：
-<ul>
-<li>$$D(X) = 0$$</li>
-</ul>
-</li>
-</ul>
-<h4 id="二两点分布">二、两点分布<a href="#%e4%ba%8c%e4%b8%a4%e7%82%b9%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<ul>
-<li>定义：
-<ul>
-<li>只有两个可能的取值</li>
-<li>$$P\{X=x_1\}=p,\quad P\{X=x_2\}=1-p,\quad 0<p<1,$$</li>
-<li>X 服从 a 处参数为 $x_1$, $x_2$ 的两点分布</li>
-</ul>
-</li>
-</ul>
-<h4 id="三均匀分布">三、均匀分布<a href="#%e4%b8%89%e5%9d%87%e5%8c%80%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<h4 id="四二项分布">四、二项分布<a href="#%e5%9b%9b%e4%ba%8c%e9%a1%b9%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<h4 id="五几何分布">五、几何分布<a href="#%e4%ba%94%e5%87%a0%e4%bd%95%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<h4 id="六超几何分布">六、超几何分布<a href="#%e5%85%ad%e8%b6%85%e5%87%a0%e4%bd%95%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<h4 id="七泊松分布">七、泊松分布<a href="#%e4%b8%83%e6%b3%8a%e6%9d%be%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<h3 id="24-常用的连续性分布">2.4 常用的连续性分布<a href="#24-%e5%b8%b8%e7%94%a8%e7%9a%84%e8%bf%9e%e7%bb%ad%e6%80%a7%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>django-admin startproject nrsm_project
+</span></span><span style="display:flex;"><span>cd nrsm_project
+</span></span><span style="display:flex;"><span>python manage.py startapp news
+</span></span><span style="display:flex;"><span>python manage.py startapp user
+</span></span><span style="display:flex;"><span>python manage.py startapp admin_panel
+</span></span></code></pre></div><p><del>再将之前book_project的<code>虚拟环境venv</code>和<code>.idea</code>文件复制过来，就不用重新配置虚拟环境了。</del>——这样会出现路径仍然指向book_project，因此后面直接在把代码搬到book_project中了（搬人不搬屋）</p>
+<p><img src="/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/image-5.png" alt="alt text"></p>
+<p>项目结构如下</p>
+<p><img src="/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/image-6.png" alt="alt text"></p>
+<h3 id="12-更改setting配置">1.2 更改setting配置<a href="#12-%e6%9b%b4%e6%94%b9setting%e9%85%8d%e7%bd%ae" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h3>
-<h4 id="一均匀分布">一、均匀分布<a href="#%e4%b8%80%e5%9d%87%e5%8c%80%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<h4 id="121-配置数据库">1.2.1 配置数据库<a href="#121-%e9%85%8d%e7%bd%ae%e6%95%b0%e6%8d%ae%e5%ba%93" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h4>
-<h4 id="二指数分布">二、指数分布<a href="#%e4%ba%8c%e6%8c%87%e6%95%b0%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<blockquote>
+<p>使用MYSQL</p></blockquote>
+<p><img src="/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/image-2.png" alt="alt text"></p>
+<p>下面和参考教程不一样，在之前的项目测试中，改为1,4,13才能运行，具体原因暂按下不管。</p>
+<p><img src="/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/image-3.png" alt="alt text"></p>
+<h4 id="122-添加应用">1.2.2 添加应用<a href="#122-%e6%b7%bb%e5%8a%a0%e5%ba%94%e7%94%a8" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h4>
-<h4 id="三正态分布">三、正态分布<a href="#%e4%b8%89%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<p>将创建的app加入到installed_apps里面</p>
+<p><img src="/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/image-4.png" alt="alt text"></p>
+<h4 id="123-创建model">1.2.3 创建model<a href="#123-%e5%88%9b%e5%bb%bamodel" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h4>
-<h3 id="25-随机变量函数的分布">2.5 随机变量函数的分布<a href="#25-%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h3>
-<h4 id="一随机变量的函数">一、随机变量的函数<a href="#%e4%b8%80%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e7%9a%84%e5%87%bd%e6%95%b0" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-<h4 id="二离散型随机变量函数的分布">二、离散型随机变量函数的分布<a href="#%e4%ba%8c%e7%a6%bb%e6%95%a3%e5%9e%8b%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<hr>
+<p>先到这一步吧，接下来是接口相关</p>
+<hr>
+<h4 id="124-接口">1.2.4 接口<a href="#124-%e6%8e%a5%e5%8f%a3" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h4>
-<h4 id="三连续性随机变量函数的分布">三、连续性随机变量函数的分布<a href="#%e4%b8%89%e8%bf%9e%e7%bb%ad%e6%80%a7%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h4>
-
+<p>先下载</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install djangorestframework
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pip install djangorestframework-simplejwt
+</span></span></code></pre></div><p>在 settings.py 中添加</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>INSTALLED_APPS  <span style="color:#f92672">+=</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;rest_framework&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;rest_framework_simplejwt&#39;</span>,
+</span></span><span style="display:flex;"><span>]
+</span></span></code></pre></div>
 			</div>
 			<div class="human posts"><a href="https://brainmade.org/" target="_blank" rel="external noreferrer noopener"><abbr title=""><svg fill="#fff" width="128" height="40" viewBox="0 0 128 40" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -330,21 +280,23 @@
          d="M20.186 29.111v-9.644c.059 0 .118.009.177.009 4.885-.006 8.525-4.506 7.511-9.284a1.19 1.19 0 0 0-.911-.911 7.67 7.67 0 0 0-9.049 5.67l-.033-.036a7.66 7.66 0 0 0-7.03-2.085 1.19 1.19 0 0 0-.911.91c-1.014 4.777 2.627 9.277 7.51 9.284.118 0 .246-.014.369-.02v6.106zm1.419-16.072a5.33 5.33 0 0 1 4.062-1.553 5.33 5.33 0 0 1-5.614 5.615 5.3 5.3 0 0 1 1.552-4.061zm-7.904 6.057a5.3 5.3 0 0 1-1.559-4.061 5.323 5.323 0 0 1 5.614 5.615 5.3 5.3 0 0 1-4.055-1.554m38.419-6.79q0 2.346-1.567 3.63-1.567 1.282-4.351 1.283h-7.669V0h7.016q2.807 0 4.242 1.1 1.446 1.087 1.446 3.226 0 1.467-.729 2.481-.718 1.002-2.197 1.357 1.86.244 2.828 1.32.979 1.063.979 2.823zm-4.112-7.491q0-1.161-.663-1.65-.652-.488-1.947-.488h-3.655v4.265h3.677q1.36 0 1.968-.525.62-.537.62-1.601m.892 7.209q0-2.42-3.089-2.42h-4.069v4.938h4.188q1.545 0 2.252-.624.718-.635.718-1.894m16.26 5.194-3.557-6.538h-3.764v6.538H54.63V0h7.658q2.741 0 4.231 1.332 1.49 1.32 1.49 3.8 0 1.808-.913 3.128-.914 1.308-2.47 1.723l4.144 7.235zm-.381-11.94q0-2.481-2.828-2.481h-4.112v5.083h4.199q1.349 0 2.045-.684.696-.685.696-1.919m16.785 11.94-1.36-4.399h-5.841l-1.359 4.399h-3.209L75.386 0h3.785l5.569 17.219zM77.278 2.651l-.066.269q-.109.44-.261 1.002c-.152.563-.725 2.436-1.871 6.184h4.405l-1.512-4.949-.468-1.662zm9.551 14.567V0h3.209v17.219zm15.53 0L95.681 3.959q.196 1.931.196 3.104v10.155h-2.849V0h3.666l6.777 13.37q-.196-1.846-.196-3.361V0h2.85v17.219zM52.63 39.375V28.331q.011-.351.115-3.015-.818 3.257-1.209 4.541l-2.925 9.518h-2.418l-2.925-9.518-1.232-4.541q.139 2.809.139 3.717v10.342h-3.017V22.313h4.548l2.902 9.543.253.92.553 2.289.725-2.736 2.983-10.015h4.526v17.063zm17.64 0-1.44-4.359h-6.184l-1.44 4.359h-3.397l5.919-17.063h4.007l5.896 17.063zm-4.537-14.434-.069.267q-.115.436-.277.993c-.162.557-.767 2.414-1.98 6.128h4.663l-1.601-4.905-.495-1.647zm24.577 5.776q0 2.64-.99 4.614-.979 1.961-2.787 3.003-1.796 1.042-4.122 1.042h-6.564V22.313h5.873q4.099 0 6.345 2.18 2.245 2.167 2.245 6.224m-3.42 0q0-2.748-1.359-4.19-1.359-1.453-3.881-1.453h-2.407v11.54h2.879q2.188 0 3.478-1.586t1.29-4.311m6 8.659V22.313h12.759v2.761h-9.362v4.287h8.66v2.761h-8.66v4.492h9.835v2.761zm15.75 0v-3.693h3.328v3.693zm12.445-12.149q2.082 0 3.662.781 1.58.78 2.422 2.235.833 1.454.833 3.393 0 2.98-1.845 4.676Q124.302 40 121.085 40q-3.208 0-5.005-1.688-1.798-1.688-1.798-4.695c0-3.007.606-3.57 1.817-4.694q1.817-1.696 4.986-1.696m0 2.702q-2.157 0-3.378.97-1.23.97-1.23 2.72 0 1.777 1.22 2.747 1.211.97 3.388.97 2.195 0 3.462-.988 1.258-.997 1.258-2.711 0-1.778-1.23-2.738-1.23-.97-3.491-.97m6.725-13.402-5.062 2.935v3.107h5.062v2.648h-13.331v-6.322q0-2.261 1.031-3.491 1.022-1.23 2.942-1.23 1.4 0 2.422.754 1.012.754 1.334 2.038l5.601-3.42zm-9.244.314q-1.92 0-1.921 2.334v3.393h3.936v-3.465q0-1.113-.53-1.688t-1.486-.575m7.249-10.915a6.5 6.5 0 0 0-.313-2.002q-.321-.969-.814-1.499h-1.845v3.088h-2.063V0h4.901q1.088 1.005 1.703 2.622a9.4 9.4 0 0 1 .615 3.375q0 3.088-1.798 4.748-1.808 1.661-5.119 1.661-3.292 0-5.043-1.67-1.76-1.67-1.76-4.803 0-4.452 3.473-5.664l.776 2.442q-1.012.395-1.533 1.238-.52.844-.52 1.984 0 1.867 1.192 2.837t3.416.97q2.261 0 3.501-.997 1.23-1.005 1.23-2.818z" />
    </svg></abbr></a></div>
 
+<div class="related-posts thin">
+	<h2></h2>
+	<ul>
+	
+	<li><a href="/posts/%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/">软件工程思路笔记</a></li>
+	
+	</ul>
+</div>
+
 		</article>
 		<div class="post-nav thin">
-			<a class="next-post" href="https://eSparkL.github.io/posts/%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/">
-				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left">
-      <line x1="19" y1="12" x2="5" y2="12"></line>
-      <polyline points="12 19 5 12 12 5"></polyline>
-   </svg>&nbsp;</span><br><span>概率论-第三章笔记</span>
-			</a>
-			<a class="prev-post" href="https://eSparkL.github.io/posts/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+			<a class="prev-post" href="https://eSparkL.github.io/posts/%E5%9C%A8%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E6%96%B9%E4%BE%BF%E7%94%A8%E7%AE%A1%E7%90%86%E5%91%98%E6%9D%83%E9%99%90%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E9%BB%91%E7%AA%97/">
 				<span class="post-nav-label">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
       <line x1="5" y1="12" x2="19" y2="12"></line>
       <polyline points="12 5 19 12 12 19"></polyline>
-   </svg></span><br><span>Hugo常用命令</span>
+   </svg></span><br><span>在指定目录方便用管理员权限打开命令黑窗</span>
 			</a>
 		</div>
 		<div id="comments" class="thin"></div>
