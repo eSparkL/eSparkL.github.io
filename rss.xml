@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Syek.com</title><link>https://eSparkL.github.io/</link><description>Recent content on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 27 May 2025 15:06:07 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>欢迎加入 Hugo NexT 组织！</title><link>https://eSparkL.github.io/post/02-external-link/</link><pubDate>Wed, 01 Jun 2022 15:59:41 +0800</pubDate><guid>https://eSparkL.github.io/post/02-external-link/</guid><description>&lt;p>欢迎来到 &lt;code>Hugo NexT&lt;/code> 文档站点！ 它是从 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Syek.com</title><link>https://eSparkL.github.io/</link><description>Recent content on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 23 May 2025 19:46:59 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>欢迎加入 Hugo NexT 组织！</title><link>https://eSparkL.github.io/post/02-external-link/</link><pubDate>Wed, 01 Jun 2022 15:59:41 +0800</pubDate><guid>https://eSparkL.github.io/post/02-external-link/</guid><description>&lt;p>欢迎来到 &lt;code>Hugo NexT&lt;/code> 文档站点！ 它是从 
 &lt;a href="https://theme-next.js.org/" title="Theme NexT" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  Theme NexT
  
@@ -22,7 +22,7 @@
  
  &lt;i class="fa fa-external-link-alt">&lt;/i>
  
-&lt;/a> 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。&lt;/p></description></item><item><title>Test</title><link>https://eSparkL.github.io/post/test/</link><pubDate>Tue, 27 May 2025 15:06:07 +0800</pubDate><guid>https://eSparkL.github.io/post/test/</guid><description>&lt;p>test&lt;/p></description></item><item><title>思科第四章小测 IP寻址</title><link>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</link><pubDate>Fri, 23 May 2025 19:46:59 +0800</pubDate><guid>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</guid><description/></item><item><title>软件工程5.21</title><link>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</link><pubDate>Wed, 21 May 2025 14:39:35 +0800</pubDate><guid>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</guid><description>&lt;h2 id="进程视图">进程视图
+&lt;/a> 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。&lt;/p></description></item><item><title>思科第四章小测 IP寻址</title><link>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</link><pubDate>Fri, 23 May 2025 19:46:59 +0800</pubDate><guid>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</guid><description/></item><item><title>软件工程5.21</title><link>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</link><pubDate>Wed, 21 May 2025 14:39:35 +0800</pubDate><guid>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</guid><description>&lt;h2 id="进程视图">进程视图
 &lt;a class="header-anchor" href="#%e8%bf%9b%e7%a8%8b%e8%a7%86%e5%9b%be">&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
@@ -55,79 +55,9 @@
  &lt;i class="fa fa-external-link-alt">&lt;/i>
  
 &lt;/a>&lt;/p>
- &lt;/blockquote>
-&lt;h1 id="常用命令汇总">常用命令汇总
-&lt;a class="header-anchor" href="#%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4%e6%b1%87%e6%80%bb">&lt;/a>
-&lt;/h1>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-3">&lt;a class="lnlinks" href="#hl-0-3"> 3&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-4">&lt;a class="lnlinks" href="#hl-0-4"> 4&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-5">&lt;a class="lnlinks" href="#hl-0-5"> 5&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-6">&lt;a class="lnlinks" href="#hl-0-6"> 6&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-7">&lt;a class="lnlinks" href="#hl-0-7"> 7&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-8">&lt;a class="lnlinks" href="#hl-0-8"> 8&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-9">&lt;a class="lnlinks" href="#hl-0-9"> 9&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-10">&lt;a class="lnlinks" href="#hl-0-10">10&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-11">&lt;a class="lnlinks" href="#hl-0-11">11&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-12">&lt;a class="lnlinks" href="#hl-0-12">12&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-13">&lt;a class="lnlinks" href="#hl-0-13">13&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-14">&lt;a class="lnlinks" href="#hl-0-14">14&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-15">&lt;a class="lnlinks" href="#hl-0-15">15&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-16">&lt;a class="lnlinks" href="#hl-0-16">16&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-17">&lt;a class="lnlinks" href="#hl-0-17">17&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-18">&lt;a class="lnlinks" href="#hl-0-18">18&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-19">&lt;a class="lnlinks" href="#hl-0-19">19&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-20">&lt;a class="lnlinks" href="#hl-0-20">20&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-21">&lt;a class="lnlinks" href="#hl-0-21">21&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-22">&lt;a class="lnlinks" href="#hl-0-22">22&lt;/a>
-&lt;/span>&lt;span class="lnt" id="hl-0-23">&lt;a class="lnlinks" href="#hl-0-23">23&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 创建Django项目&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">django-admin startproject project_name
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 创建Django应用&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py startapp app_name
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 生成数据库迁移文件&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py makemigrations &lt;span class="o">[&lt;/span>app_name&lt;span class="o">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 执行迁移文件&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py migrate &lt;span class="o">[&lt;/span>app_name&lt;span class="o">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 查看迁移状态（[ ] 表示未应用 [X] 表示已应用）&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py showmigrations &lt;span class="o">[&lt;/span>app_name&lt;span class="o">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 清除缓存&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py clearcache
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 测试用开发服务器&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py runserver
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 查看已注册路由&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py show_urls&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-
-&lt;p>开发接口尽可能遵循Restful规范：
-&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/p></description></item><item><title>概率论-第三章笔记</title><link>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 19 May 2025 23:42:02 +0800</pubDate><guid>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="第3章-随机向量">第3章 随机向量
+ &lt;/blockquote></description></item><item><title>概率论-第三章笔记</title><link>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 19 May 2025 23:42:02 +0800</pubDate><guid>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="第3章-随机向量">第3章 随机向量
 &lt;a class="header-anchor" href="#%e7%ac%ac3%e7%ab%a0-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f">&lt;/a>
-&lt;/h2>&lt;h2 id="31-随机向量的分布">3.1 随机向量的分布
-&lt;a class="header-anchor" href="#31-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f%e7%9a%84%e5%88%86%e5%b8%83">&lt;/a>
-&lt;/h2>&lt;h3 id="一随机向量分布及其分布函数">一、随机向量分布及其分布函数
-&lt;a class="header-anchor" href="#%e4%b8%80%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f%e5%88%86%e5%b8%83%e5%8f%8a%e5%85%b6%e5%88%86%e5%b8%83%e5%87%bd%e6%95%b0">&lt;/a>
-&lt;/h3>&lt;h4 id="">
-&lt;a class="header-anchor" href="#">&lt;/a>
-&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>出发点：一个事件的发生的概率受多种因素的共同作用。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>【定义3.1】
-n维随机向量$$(X_1, X_2, X_3, &amp;hellip;)∈(\Omega, P)$$，则称$(X_1, X_2, X_3, &amp;hellip;)$是在$(\Omega, P)$上的一个随机向量。&lt;/p></description></item><item><title>支持在Markdown文档中实现块信息强调标注</title><link>https://eSparkL.github.io/demo/hugo-blockquote.html</link><pubDate>Thu, 02 Jan 2025 16:08:02 +0800</pubDate><guid>https://eSparkL.github.io/demo/hugo-blockquote.html</guid><description>&lt;p>过去 &lt;code>HugoNexT&lt;/code> 主题都是通过自定义短语来实现块信息的标注，近期发现 &lt;code>Hugo&lt;/code> 从
+&lt;/h2></description></item><item><title>支持在Markdown文档中实现块信息强调标注</title><link>https://eSparkL.github.io/demo/hugo-blockquote.html</link><pubDate>Thu, 02 Jan 2025 16:08:02 +0800</pubDate><guid>https://eSparkL.github.io/demo/hugo-blockquote.html</guid><description>&lt;p>过去 &lt;code>HugoNexT&lt;/code> 主题都是通过自定义短语来实现块信息的标注，近期发现 &lt;code>Hugo&lt;/code> 从
 &lt;a href="https://github.com/gohugoio/hugo/releases/tag/v0.134.0" title="v0.134.0" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  v0.134.0
  
