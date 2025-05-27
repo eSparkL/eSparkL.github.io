@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guides on Syek.com</title><link>http://localhost:1313/en-us/guide/</link><description>Recent content in Guides on Syek.com</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 25 Jan 2025 21:18:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/en-us/guide/rss.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to the Hugo NexT organization</title><link>http://localhost:1313/en-us/guide/02-external-link/</link><pubDate>Sat, 25 Jan 2025 20:59:12 +0800</pubDate><guid>http://localhost:1313/en-us/guide/02-external-link/</guid><description>&lt;p>Welcome to the Hugo NexT documentation site! It is from 
+&lt;a href="https://theme-next.js.org/" title="Theme NexT" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Theme NexT
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a> The transplanted one is 
+&lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a> The high-quality and elegant theme created maintains its easy-to-use features and powerful functionality.&lt;/p>
+&lt;h2 id="user-guide">User Guide
+&lt;a class="header-anchor" href="#user-guide">&lt;/a>
+&lt;/h2>&lt;p>Setting up a NexT theme is easy. Simply follow the documentation to quickly create your personal website!&lt;/p>
+&lt;h2 id="feedback">Feedback
+&lt;a class="header-anchor" href="#feedback">&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Visit the Awesome NexT list to share plugins and tutorials with other users.&lt;/li>
+&lt;li>Join our Gitter chat.&lt;/li>
+&lt;li>Add or improve translations within seconds.&lt;/li>
+&lt;li>Report one in GitHub Issues &amp;#x1f41b; .&lt;/li>
+&lt;li>Apply for a new feature on GitHub.&lt;/li>
+&lt;li>Request a vote for the most popular feature.&lt;/li>
+&lt;/ul></description></item><item><title>Hello world</title><link>http://localhost:1313/en-us/demo/hello-world.html</link><pubDate>Sat, 25 Jan 2025 19:12:32 +0800</pubDate><guid>http://localhost:1313/en-us/demo/hello-world.html</guid><description>&lt;blockquote>
+ &lt;p>Use the keyword &lt;code>weight&lt;/code> to top the article.&lt;/p>
+ &lt;/blockquote>
+&lt;p>
+&lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>, It is currently the fastest website construction framework in the world and one of the most popular open-source static site generators. With its astonishing speed and flexibility, Hugo has once again made website construction interesting.&lt;/p></description></item><item><title>Support Emoji emojis</title><link>http://localhost:1313/en-us/demo/emoji-support.html</link><pubDate>Sat, 25 Jan 2025 21:18:52 +0800</pubDate><guid>http://localhost:1313/en-us/demo/emoji-support.html</guid><description>&lt;p>Emojis can be enabled in various ways in the Hugo project.&lt;/p>
+&lt;p>
+&lt;a href="https://gohugo.io/functions/emojify/" title="emojify" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ &lt;code>emojify&lt;/code>
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>The method can be called directly in the template, or use [Inline Shortcodes](
+&lt;a href="https://gohugo.io/templates/shortcode-templates#inline" title="https://gohugo.io/templates/shortcode-templates#inline" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://gohugo.io/templates/shortcode-templates#inline
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a> -shortcodes).&lt;/p>
+&lt;p>To use emojis globally, you need to 
+&lt;a href="https://gohugo.io/getting-started/configuration/" title="configure" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ configure
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a> them on your website set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code>,Then you can directly enter the emoji code in the article.&lt;/p></description></item><item><title>Article Catalog Navigation</title><link>http://localhost:1313/en-us/demo/table-of-content.html</link><pubDate>Sat, 25 Jan 2025 20:58:52 +0800</pubDate><guid>http://localhost:1313/en-us/demo/table-of-content.html</guid><description>&lt;p>General Patton once said, &amp;ldquo;The measure of a person&amp;rsquo;s success is not by standing at the peak, but by the rebound force after falling from the peak.&amp;rdquo; Chu Shijian&amp;rsquo;s life was like this: he became wealthy in middle age, gained both fame and fortune, and then fell to the bottom again. He started his own business at the age of 74, returned with Chu Cheng 10 years later, and made a comeback with billions of wealth. His development trajectory was a process of rebound.&lt;/p></description></item><item><title>Markdown Syntax Support</title><link>http://localhost:1313/en-us/demo/markdown-syntax.html</link><pubDate>Sat, 25 Jan 2025 20:52:18 +0800</pubDate><guid>http://localhost:1313/en-us/demo/markdown-syntax.html</guid><description>&lt;p>Only use this article to test whether the various syntax written in the content of the &lt;code>Markdown&lt;/code> file is supported when building a website using the &lt;code>Hugo&lt;/code> engine in the &lt;code>NexT&lt;/code> theme, and demonstrate the actual effect.&lt;/p></description></item></channel></rss>

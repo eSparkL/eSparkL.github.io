@@ -1,200 +1,119 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
+<!doctype html><html lang=zh-CN data-theme=dark><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="#222" media="(prefers-color-scheme: dark)"><meta name=generator content="Hugo 0.147.1"><link rel="shortcut icon" type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/png sizes=16x16 href=/imgs/icons/favicon_16x16_next.png><link rel=icon type=image/png sizes=32x32 href=/imgs/icons/favicon_32_32_next.png><link rel=apple-touch-icon sizes=180x180 href=/imgs/icons/apple_touch_icon_next.png><meta itemprop=name content="Posts"><meta itemprop=description content="保持简单的易用性和强大的功能。"><meta name=description content="保持简单的易用性和强大的功能。"><meta itemprop=image content="http://localhost:1313/imgs/hugo_next_avatar.png"><meta itemprop=keywords content="Hugo,NexT,主题,简单,强大"><meta property="og:type" content="website"><meta property="og:title" content="Posts"><meta property="og:description" content="保持简单的易用性和强大的功能。"><meta property="og:image" content="/imgs/hugo_next_avatar.png"><meta property="og:image:width" content="312"><meta property="og:image:height" content="312"><meta property="og:image:type" content="image/jpeg/png/svg/jpg"><meta property="og:url" content="http://localhost:1313/posts/"><meta property="og:site_name" content="Syek.com"><meta property="og:locale" content="zh-CN"><link type=text/css rel=stylesheet href=http://localhost:1313/js/3rd/font-awesome/6.7.2/css/all.min.css><link type=text/css rel=stylesheet href=http://localhost:1313/js/3rd/animate.css/3.1.1/animate.min.css><link type=text/css rel=stylesheet href=http://localhost:1313/js/3rd/viewerjs/1.11.6/viewer.min.css><link rel=stylesheet href="/css/main.css?=1747663303"><style type=text/css>.post-footer hr:after{content:"~ 我可是有底线的哟 ~"}.flinks-list-footer hr:after{content:"~ 我可是有底线的哟 ~"}</style><link rel=stylesheet type=text/css href="/css/custom_style.css?=1747663303"><script type=text/javascript>(function(){localDB={set:function(e,t,n){if(n===0)return;const s=new Date,o=n*864e5,i={value:t,expiry:s.getTime()+o};localStorage.setItem(e,JSON.stringify(i))},get:function(e){const t=localStorage.getItem(e);if(!t)return void 0;const n=JSON.parse(t),s=new Date;return s.getTime()>n.expiry?(localStorage.removeItem(e),void 0):n.value}},theme={active:function(){const e=localDB.get("theme");if(e==null)return;theme.toggle(e),window.matchMedia("(prefers-color-scheme: dark)").addListener(function(e){theme.toggle(e.matches?"dark":"light")})},toggle:function(e){document.documentElement.setAttribute("data-theme",e),localDB.set("theme",e,2);const t=document.querySelector("iframe.giscus-frame");if(t){const n={setConfig:{theme:e}};t.contentWindow.postMessage({giscus:n},"https://giscus.app")}}},theme.active()})(window)</script><script type=text/javascript>document.addEventListener("DOMContentLoaded",()=>{var e=document.createElement("script");e.charset="UTF-8",e.src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",e.async=!1,e.defer=!0,document.head.appendChild(e),e.onload=function(){NexT.utils.fmtBusuanzi()}})</script><title>posts - Syek.com</title><noscript><link rel=stylesheet href=/css/noscript.css></noscript></head><body itemscope itemtype=http://schema.org/WebPage class=use-motion><div class=headband></div><main class=main><header class=header itemscope itemtype=http://schema.org/WPHeader><div class=header-inner><div class=site-brand-container><div class=site-nav-toggle><div class=toggle aria-label role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div></div><div class=site-meta><a href=/ class=brand rel=start><i class=logo-line></i><h1 class=site-title>Syek.com</h1><i class=logo-line></i></a><p class=site-subtitle itemprop=description>为 Hugo 打造的主题</p></div><div class=site-nav-right><div class="toggle popup-trigger"><i class="fa fa-search fa-fw fa-lg"></i></div></div></div><nav class=site-nav><ul class="main-menu menu"><li class="menu-item menu-item-home"><a href=/ class=hvr-icon-pulse rel=section><i class="fa fa-home hvr-icon"></i>首页</a></li><li class="menu-item menu-item-about"><a href=/about.html class=hvr-icon-pulse rel=section><i class="fa fa-user hvr-icon"></i>关于</a></li><li class="menu-item menu-item-flinks"><a href=/flinks.html class=hvr-icon-pulse rel=section><i class="fa fa-thumbs-up hvr-icon"></i>友情链接</a></li><li class="menu-item menu-item-example"><a href=/ class="menus-parent hvr-icon-pulse" rel=section><i class="fa fa-angles-down hvr-icon"></i>语法示例
+<span class=menu-item-shrink-icon><i class="fa fa-angle-right"></i></span></a><ul class=menu-children><li class=menu-child-item><a href=/ class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>语法高亮</a></li><li class=menu-child-item><a href=/ class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>数学公式</a></li><li class=menu-child-item><a href=/ class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>流程图</a></li></ul></li><li class="menu-item menu-item-archives"><a href=/archives/ class=hvr-icon-pulse rel=section><i class="fa fa-archive hvr-icon"></i>归档
+<span class=badge>0</span></a></li><li class="menu-item menu-item-commonweal"><a href=/404.html class=hvr-icon-pulse rel=section><i class="fa fa-heartbeat hvr-icon"></i>公益 404</a></li><li class="menu-item menu-item-search"><a role=button class="popup-trigger hvr-icon-pulse"><i class="fa fa-search fa-fw hvr-icon"></i>搜索</a></li></ul></nav><div class=search-pop-overlay><div class="popup search-popup"><div class=search-header><span class=search-icon><i class="fa fa-search"></i></span><div class=search-input-container><input autocomplete=off autocapitalize=off maxlength=80 placeholder=搜索... spellcheck=false type=search class=search-input></div><span class=popup-btn-close role=button><i class="fa fa-times-circle"></i></span></div><div class="search-result-container no-result"><div class=search-result-icon><i class="fa fa-spinner fa-pulse fa-5x"></i></div></div></div></div></div><div class="toggle sidebar-toggle" role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div><aside class=sidebar><div class="sidebar-inner sidebar-overview-active"><ul class=sidebar-nav><li class=sidebar-nav-toc>文章目录</li><li class=sidebar-nav-overview>站点概览</li></ul><div class=sidebar-panel-container><div class="post-toc-wrap sidebar-panel"><div class="post-toc animated"><nav id=TableOfContents></nav></div></div><div class="site-overview-wrap sidebar-panel"><div class="site-author site-overview-item animated" itemprop=author itemscope itemtype=http://schema.org/Person><img class=site-author-image itemprop=image alt="NexT 主题" src=/imgs/img-lazy-loading.gif data-src=/imgs/hugo_next_avatar.png><p class=site-author-name itemprop=name>NexT 主题</p><div class=site-description itemprop=description>保持简单的易用性和强大的功能。</div></div><div class="site-state-wrap site-overview-item animated"><nav class=site-state><div class="site-state-item site-state-posts"><a href=/archives/><span class=site-state-item-count>0</span>
+<span class=site-state-item-name>日志</span></a></div><div class="site-state-item site-state-categories"><a href=/categories/><span class=site-state-item-count>7</span>
+<span class=site-state-item-name>分类</span></a></div><div class="site-state-item site-state-tags"><a href=/tags/><span class=site-state-item-count>27</span>
+<span class=site-state-item-name>标签</span></a></div></nav></div><div class="links-of-social site-overview-item animated"><span class=links-of-social-item><a href=https://github.com/elkan1788 title="Github → https://github.com/elkan1788" rel=noopener class=hvr-icon-pulse target=_blank><i class="fab fa-github fa-fw hvr-icon"></i>
+Github
+</a></span><span class=links-of-social-item><a href=https://www.zhihu.com/people/lisenhui title="知乎 → https://www.zhihu.com/people/lisenhui" rel=noopener class=hvr-icon-pulse target=_blank><i class="fa fa-book fa-fw hvr-icon"></i>
+知乎</a></span></div><div class="cc-license animated" itemprop=license><a href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans class=cc-opacity rel=noopener target=_blank title=共享知识><img src=/imgs/img-lazy-loading.gif data-src=/imgs/cc/big/by_nc_sa.svg alt=共享知识></a></div><div class="links-of-blogroll site-overview-item animated"><div class=links-of-blogroll-title><i class="fa fa-globe fa-fw"></i>
+友情链接</div><ul class=links-of-blogroll-list><li class=links-of-blogroll-item><a href=https://gitee.com/hugo-next/hugo-theme-next title=https://gitee.com/hugo-next/hugo-theme-next target=_blank>Hugo-NexT</a></li><li class=links-of-blogroll-item><a href=https://lisenhui.cn title=https://lisenhui.cn target=_blank>凡梦星尘空间站</a></li></ul></div><div class="mydefined animated" itemprop=custom><span>支持自定义CSS和Sidebar布局啦💄💄💄</span></div></div></div></div><div id=siteinfo-card-widget class=sidebar-card-widget><div class=item-headline><i class="fas fa-chart-line"></i>
+<span>网站资讯</span></div><div class=siteinfo><div class=siteinfo-item><div class=item-name><i class="fa-solid fa-calendar-check"></i>已运行：</div><div class=item-count id=runTimes data-publishdate></div></div><div class=siteinfo-item><div class=item-name><i class="fas fa fa-user"></i>总访客数：</div><div class=item-count id=busuanzi_value_site_uv><i class="fa fa-sync fa-spin"></i></div></div><div class=siteinfo-item><div class=item-name><i class="fas fa fa-eye"></i>页面浏览：</div><div class=item-count id=busuanzi_value_site_pv><i class="fa fa-sync fa-spin"></i></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-font"></i>总字数：</div><div class=item-count id=wordsCount data-count></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-mug-hot"></i>阅读约：</div><div class=item-count id=readTimes data-times></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-clock-rotate-left"></i>最后更新于：</div><div class=item-count id=last-push-date data-lastpushdate></div></div></div></div></aside><div class=sidebar-dimmer></div></header><div class=tool-buttons><div id=goto-i18n-translate class=button title=多语言翻译><i class="fas fa-globe"></i></div><div id=toggle-theme class=button title=深浅模式切换><i class="fas fa-adjust"></i></div><div class=back-to-top role=button title=返回顶部><i class="fa fa-arrow-up"></i>
+<span>0%</span></div></div><div class=reading-progress-bar></div><a role=button class="book-mark-link book-mark-link-fixed"></a><a href=https://github.com/hugo-next rel="noopener external nofollow noreferrer" target=_blank title="Follow me on GitHub" class="exturl github-corner"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0 0 115 115h15l12 27L250 250V0z"/><path d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2" fill="currentcolor" style="transform-origin:130px 106px" class="octo-arm"/><path d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4l13.9-13.8C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8z" fill="currentcolor" class="octo-body"/></svg>
+</a><script type=text/javascript src=//sidecar.gitter.im/dist/sidecar.v1.js async></script><script type=text/javascript>((window.gitter={}).chat={}).options={room:"hugo-next/community"}</script><noscript><div class=noscript-warning>Theme NexT works best with JavaScript enabled</div></noscript><div class="main-inner index posts-expand"><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/posts/02-external-link/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="欢迎加入 Hugo NexT 组织！"><meta itemprop=description content="Hugo NexT 是专门为 Hugo 引擎所打造的主题，保持简单易用和强大的功能！"></span><header class=post-header><h2 class=post-title itemprop="name headline"><span class=post-sticky-flag title=置顶><i class="fa fa-thumbtack"></i>
+</span><a href=https://gitee.com/hugo-next/hugo-theme-next/ rel="noopener external nofollow noreferrer" target=_blank class="exturl post-title-link post-title-link-external">欢迎加入 Hugo NexT 组织！
+<i class="fa fa-external-link-alt"></i></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-06-01 15:59:41 +08:00" itemprop="dateCreated datePublished" datetime="2022-06-01 15:59:41 +0800 CST">2022-06-01
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/ itemprop=url rel=index><span itemprop=name>示例文章</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>欢迎来到 <code>Hugo NexT</code> 文档站点！ 它是从
+<a href=https://theme-next.js.org/ title="Theme NexT" rel="noopener external nofollow noreferrer" target=_blank class=exturl>Theme NexT
+<i class="fa fa-external-link-alt"></i>
+</a>移植过来的为
+<a href=https://gohugo.io/ title=Hugo rel="noopener external nofollow noreferrer" target=_blank class=exturl>Hugo
+<i class="fa fa-external-link-alt"></i>
+</a>打造的高品质优雅主题，保持简单易用的特性和强大的功能。</p><h2 id=用户指南>用户指南
+<a class=header-anchor href=#%e7%94%a8%e6%88%b7%e6%8c%87%e5%8d%97></a></h2><p>设置 NexT 主题很容易。只需遵循文档，就可快速创建您的个人网站！</p><h2 id=反馈>反馈
+<a class=header-anchor href=#%e5%8f%8d%e9%a6%88></a></h2><ul><li>访问 Awesome NexT 列表，与其他用户分享插件和教程。</li><li>加入我们的 Gitter 聊天。</li><li>在几秒钟内添加或改进翻译。</li><li>在 GitHub Issues 中报告一个 &#x1f41b;。</li><li>在 GitHub 上申请一个新特性。</li><li>为最受欢迎的功能请求投票。</li></ul></div><footer class=post-footer><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/hello-world.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="世界，你好！"><meta itemprop=description content="快速的描述下有关于 Hugo 建站的基本用法。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><span class=post-sticky-flag title=置顶><i class="fa fa-thumbtack"></i>
+</span><a href=/demo/hello-world.html itemprop=url class=post-title-link>世界，你好！</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-06-02 11:52:03 +08:00" itemprop="dateCreated datePublished" datetime="2022-06-02 11:52:03 +0800 CST">2022-06-02
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar-check"></i>
+</span><span class=post-meta-item-text title=更新于>更新于：
+</span><time title="修改时间：2022-06-03 16:43:23 +08:00" itemprop="dateModified dateLastmod" datetime="2022-06-03 16:43:23 +0800 CST">2022-06-03
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E5%BC%80%E5%A7%8B%E5%BB%BA%E7%AB%99/ itemprop=url rel=index><span itemprop=name>开始建站</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><blockquote><p>“使用 <code>weight</code> 关键字置顶文章。”</p></blockquote><p><a href=https://gohugo.io/ title=Hugo rel="noopener external nofollow noreferrer" target=_blank class=exturl>Hugo
+<i class="fa fa-external-link-alt"></i>
+</a>是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/hello-world.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/hugo-blockquote.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="支持在Markdown文档中实现块信息强调标注"><meta itemprop=description content="在新版本Hugo框架中添加了对blockquote样式渲染，支持自定义样式设计，实现类似Github的警告风格样式。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/hugo-blockquote.html itemprop=url class=post-title-link>支持在Markdown文档中实现块信息强调标注</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2025-01-02 16:08:02 +08:00" itemprop="dateCreated datePublished" datetime="2025-01-02 16:08:02 +0800 CST">2025-01-02
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar-check"></i>
+</span><span class=post-meta-item-text title=更新于>更新于：
+</span><time title="修改时间：2025-01-02 19:08:02 +08:00" itemprop="dateModified dateLastmod" datetime="2025-01-02 19:08:02 +0800 CST">2025-01-02
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E8%AF%AD%E6%B3%95/ itemprop=url rel=index><span itemprop=name>示例文章/语法</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>过去 <code>HugoNexT</code> 主题都是通过自定义短语来实现块信息的标注，近期发现 <code>Hugo</code> 从
+<a href=https://github.com/gohugoio/hugo/releases/tag/v0.134.0 title=v0.134.0 rel="noopener external nofollow noreferrer" target=_blank class=exturl>v0.134.0
+<i class="fa fa-external-link-alt"></i>
+</a>版本开始便是可以支持通过hook方式渲染Markdown文档中的Blockquote样式（需要自己实现），实现类似Github的警告风格样式。于是便在 <code>HugoNexT</code> 主题中添加7种不同风格供用户可选择使用，还可以自定义图标与颜色配置。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/hugo-blockquote.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/image-viewer.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="图像浏览工具 "><meta itemprop=description content="默认会对文章内的图片， 进行图片浏览，点击图片可以查看大图，点击空白处可以关闭。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/image-viewer.html itemprop=url class=post-title-link>图像浏览工具</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2024-07-21 10:28:12 +08:00" itemprop="dateCreated datePublished" datetime="2024-07-21 10:28:12 +0800 CST">2024-07-21
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/ itemprop=url rel=index><span itemprop=name>示例文章</span></a></span></span></div></div></header><div class=post-body itemprop=articleBody><p>本主题自带图像浏览器功能，支持对文章区域内出现的图片进行浏览，点击图片可以查看大图，点击空白处可以关闭。不需要配置任何参数，只要在文章里面相应的位置添加图片信息即可 。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/image-viewer.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/no-header-title.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="没有H1-6标题头和评论的文章"><meta itemprop=description content="用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/no-header-title.html itemprop=url class=post-title-link>没有H1-6标题头和评论的文章</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-10-06 09:02:26 +08:00" itemprop="dateCreated datePublished" datetime="2022-10-06 09:02:26 +0800 CST">2022-10-06
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar-check"></i>
+</span><span class=post-meta-item-text title=更新于>更新于：
+</span><time title="修改时间：2022-10-30 21:03:16 +08:00" itemprop="dateModified dateLastmod" datetime="2022-10-30 21:03:16 +0800 CST">2022-10-30
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/ itemprop=url rel=index><span itemprop=name>示例文章</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>刘慈欣2018克拉克奖获奖感言（部分内容节选）。</p><div class=post-alert-info><div class=post-alert-title><i class="fa-solid fa-circle-info"></i>
+<span>信息</span></div><div class=post-alert-content><p>用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。</p></div></div></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/no-header-title.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/mermaid-charts.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="Mermaid支持流程图"><meta itemprop=description content="本主题已支持 Mermaid 实现以纯文本的方式绘制流程图、序列图、甘特图、状态图、关系图行等等，随着 Mermaid 也在逐步发展，后续还会有各种各样的图被引入进来，更多的类型及使用方式可关注其官方网站：
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['\\(', '\\)'], ['$', '$']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-    }
-  };
-</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
- <meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="robots" content="index, follow"><meta name="author" content="BLZR">
-<meta name="description" content="Continuing Hermit&#39;s legacy to be minimal and fast theme">
-<link rel="author" type="text/plain" href="/humans.txt">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileImage" content="/mstile-144x144.png">
-<meta name="theme-color" content="#494f5c">
-<meta name="msapplication-TileColor" content="#494f5c">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c">
-
-  <meta itemprop="name" content="Posts">
-  <meta itemprop="description" content="Continuing Hermit&#39;s legacy to be minimal and fast theme">
-  <meta itemprop="datePublished" content="2025-05-17T15:56:43+08:00">
-  <meta itemprop="dateModified" content="2025-05-17T15:56:43+08:00"><meta property="og:url" content="https://eSparkL.github.io/posts/">
-  <meta property="og:site_name" content="Syek.com">
-  <meta property="og:title" content="Posts">
-  <meta property="og:description" content="Continuing Hermit&#39;s legacy to be minimal and fast theme">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="website">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
-  <meta name="twitter:description" content="Continuing Hermit&#39;s legacy to be minimal and fast theme">
-<title>Posts</title>
-<link rel="alternate" type="application/rss+xml" href="https://eSparkL.github.io/posts/index.xml" title="Posts" />
-<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" media="screen" href="https://eSparkL.github.io/css/style.min.7ca339d9f4727b30dcccc71d3b79692afb83328896b9ddd111b53e073f367fdd.css" integrity="sha256-fKM52fRyezDczMcdO3lpKvuDMoiWud3REbU+Bz82f90=" crossorigin="anonymous"></head>
-<body id="page">
-	<header id="site-header">
-		<div class="hdr-wrapper section-inner">
-			<div class="hdr-left">
-				<div class="site-branding">
-					<a href="https://eSparkL.github.io/">Syek.com</a>
-				</div>
-				<nav class="site-nav hide-in-mobile"><a href="https://eSparkL.github.io/posts/">🖋️Posts</a><a href="https://eSparkL.github.io/spark/">🌟Spark</a><a href="https://eSparkL.github.io/about-hugo/">About Host</a></nav>
-			</div>
-			<div class="hdr-right hdr-icons">
-				<span class="hdr-links hide-in-mobile"><a href="https://github.com/eSparkL" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-   <path
-      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-   </path>
-</svg></a></span><button id="share-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2">
-      <circle cx="18" cy="5" r="3"></circle>
-      <circle cx="6" cy="12" r="3"></circle>
-      <circle cx="18" cy="19" r="3"></circle>
-      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
-   </svg></button>
- 
-<div id="share-links" class="animated fast">
+    https://mermaid-js.github.io/
     
     
     
-    
-    <ul>
-        <li>
-            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=https%3a%2f%2feSparkL.github.io%2fspark%2f&amp;text=Sparks" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-   <path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6" />
-</svg></a>
-        </li>
-        <li>
-            <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2feSparkL.github.io%2fspark%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-</svg></a>
-        </li>
-        <li>
-            <a href="mailto:?subject=Sparks&amp;body=https%3a%2f%2feSparkL.github.io%2fspark%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-   <polyline points="22,6 12,13 2,6"></polyline>
-</svg></a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2feSparkL.github.io%2fspark%2f&amp;source=https%3a%2f%2feSparkL.github.io%2f&amp;title=Sparks&amp;summary=Sparks%2c%20by%20BLZR%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-   <rect x="2" y="9" width="4" height="12"></rect>
-   <circle cx="4" cy="4" r="2"></circle>
-</svg></a>
-        </li>
-        <li>
-            <a href="#" onclick="linkShare(&#34;Sparks&#34;,&#34;https://eSparkL.github.io/spark/&#34;,&#34;Sparks, by BLZR\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy">
-      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-   </svg></a>
-        </li>
-    </ul>
-</div><button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
-      <line x1="3" y1="12" x2="21" y2="12"></line>
-      <line x1="3" y1="6" x2="21" y2="6"></line>
-      <line x1="3" y1="18" x2="21" y2="18"></line>
-   </svg></button>
-			</div>
-		</div>
-	</header>
-	<div id="mobile-menu" class="animated fast">
-		<ul>
-			<li><a href="https://eSparkL.github.io/posts/">🖋️Posts</a></li>
-			<li><a href="https://eSparkL.github.io/spark/">🌟Spark</a></li>
-			<li><a href="https://eSparkL.github.io/about-hugo/">About Host</a></li>
-		</ul>
-	</div>
-
-
-	<main class="site-main section-inner thin animated fadeIn faster"><h1>Posts</h1>
-			
-			<div class="posts-group">
-				<div class="post-year" id="2025">2025</div>
-				<ul class="posts-list">
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/">
-							<span class="post-title">新闻推荐系统后端记录</span>
-							<span class="post-day">May 17</span>
-						</a><div class="post-taxonomy"><span class="post-tags"><a href="https://eSparkL.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B" class="tag">软件工程</a></span></div></li>
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/%E5%9C%A8%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E6%96%B9%E4%BE%BF%E7%94%A8%E7%AE%A1%E7%90%86%E5%91%98%E6%9D%83%E9%99%90%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E9%BB%91%E7%AA%97/">
-							<span class="post-title">在指定目录方便用管理员权限打开命令黑窗</span>
-							<span class="post-day">May 16</span>
-						</a><div class="post-taxonomy"><span class="post-tags"><a href="https://eSparkL.github.io/tags/%E6%8A%80%E5%B7%A7" class="tag">技巧</a></span></div></li>
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/django%E7%9A%84%E5%88%9D%E4%BD%BF%E7%94%A8/">
-							<span class="post-title">Django的初使用</span>
-							<span class="post-day">May 16</span>
-						</a><div class="post-taxonomy"><span class="post-tags"><a href="https://eSparkL.github.io/tags/django" class="tag">Django</a></span></div></li>
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/">
-							<span class="post-title">概率论-第三章笔记</span>
-							<span class="post-day">May 13</span>
-						</a><div class="post-taxonomy"><span class="post-tags"><a href="https://eSparkL.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA" class="tag">概率论</a><a href="https://eSparkL.github.io/tags/%E8%AF%BE%E5%90%8E%E7%AC%94%E8%AE%B0" class="tag">课后笔记</a></span></div></li>
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%A4%8D%E4%B9%A0/">
-							<span class="post-title">概率论-第二章复习</span>
-							<span class="post-day">May 12</span>
-						</a><div class="post-taxonomy"><span class="post-tags"><a href="https://eSparkL.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA" class="tag">概率论</a><a href="https://eSparkL.github.io/tags/%E5%A4%8D%E4%B9%A0" class="tag">复习</a></span></div></li>
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
-							<span class="post-title">Hugo常用命令</span>
-							<span class="post-day">May 12</span>
-						</a><div class="post-taxonomy"><span class="post-tags"><a href="https://eSparkL.github.io/tags/%E6%8A%80%E8%83%BD" class="tag">技能</a></span></div></li>
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/">
-							<span class="post-title">软件工程思路笔记</span>
-							<span class="post-day">May 11</span>
-						</a><div class="post-taxonomy"><span class="post-tags"><a href="https://eSparkL.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B" class="tag">软件工程</a></span></div></li>
-					<li class="post-item">
-						<a href="https://eSparkL.github.io/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">
-							<span class="post-title">我的第一篇博客</span>
-							<span class="post-day">May 10</span>
-						</a><div class="post-taxonomy"></div></li>
-				</ul>
-			</div></main>
-<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-<p>
-	&copy; 2025 <a href="https://eSparkL.github.io/">Syek.com</a>
-	&#183;  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
-	&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>&#183; <a href="https://eSparkL.github.io/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-   stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss">
-   <path d="M4 11a9 9 0 0 1 9 9"></path>
-   <path d="M4 4a16 16 0 0 1 16 16"></path>
-   <circle cx="5" cy="19" r="1"></circle>
-</svg></a></p></footer>
-<script async src="https://eSparkL.github.io/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="https://eSparkL.github.io/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script><script id="MathJax-script" type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" crossorigin="anonymous"></script>
-<script type="text/javascript" id="MathJax-script-helper" async src="https://eSparkL.github.io/js/mathjax-assistant.min.ca29e9d446b2a6cb6c6e3eb0d47e9693f5c306c146eaccb43047afbf31b07a6f.js" integrity="sha256-yinp1Eaypstsbj6w1H6Wk/XDBsFG6sy0MEevvzGwem8=" crossorigin="anonymous"></script>
-
-
-
-	
-  	<script defer src="/js/gallery.min.2ecc1b89d4341e7bbf04b2248466631f9b7e73500facb6de51f60247b392281b.js" integrity="sha256-LswbidQ0Hnu/BLIkhGZjH5t+c1APrLbeUfYCR7OSKBs=" crossorigin="anonymous"></script>
-
-
-</body>
-</html>
+。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/mermaid-charts.html itemprop=url class=post-title-link>Mermaid支持流程图</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-09-18 20:58:13 +08:00" itemprop="dateCreated datePublished" datetime="2022-09-18 20:58:13 +0800 CST">2022-09-18
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E5%9B%BE%E5%BA%8F%E5%8A%9F%E8%83%BD/ itemprop=url rel=index><span itemprop=name>第三方引入/图序功能</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>本主题已支持 <code>Mermaid</code> 实现以纯文本的方式绘制流程图、序列图、甘特图、状态图、关系图行等等，随着 <code>Mermaid</code> 也在逐步发展，后续还会有各种各样的图被引入进来，更多的类型及使用方式可关注其官方网站：
+<a href=https://mermaid-js.github.io/ title=https://mermaid-js.github.io/ rel="noopener external nofollow noreferrer" target=_blank class=exturl>https://mermaid-js.github.io/
+<i class="fa fa-external-link-alt"></i>
+</a>。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/mermaid-charts.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/math-formula.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="数学公式渲染"><meta itemprop=description content="主题支持mathjs和katex两种不同插件的数学公式渲染方案。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/math-formula.html itemprop=url class=post-title-link>数学公式渲染</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-09-11 10:16:02 +08:00" itemprop="dateCreated datePublished" datetime="2022-09-11 10:16:02 +0800 CST">2022-09-11
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar-check"></i>
+</span><span class=post-meta-item-text title=更新于>更新于：
+</span><time title="修改时间：2024-12-12 18:48:32 +08:00" itemprop="dateModified dateLastmod" datetime="2024-12-12 18:48:32 +0800 CST">2024-12-12
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/ itemprop=url rel=index><span itemprop=name>第三方引入/数学公式</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>本主题支持 <code>mathjax</code> 和 <code>katex</code> 两种不的方案支持数学公式的渲染，可根据自已的需求进行选择。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/math-formula.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/custom-files.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="支持用户自定义设计"><meta itemprop=description content="用户可以通过自定义文件配置，实现对站点的样式和布局进行个性化的调整。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/custom-files.html itemprop=url class=post-title-link>支持用户自定义设计</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-09-10 21:02:32 +08:00" itemprop="dateCreated datePublished" datetime="2022-09-10 21:02:32 +0800 CST">2022-09-10
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/ itemprop=url rel=index><span itemprop=name>示例文章</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>对于熟悉前端开发的用户来说，可以通过自定义文件配置，实现对站点的样式和布局进行个性化的调整。其中布局方面主要是支持左侧边栏的站点概览部分，以及站点底部2个位置，但样式的重置可以是整个站点的任意位置。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/custom-files.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/shortcodes.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="自定义短语示例"><meta itemprop=description content="将常用的块引用、标签卡、按钮等信息设置成短代码，便于快速引用"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/shortcodes.html itemprop=url class=post-title-link>自定义短语示例</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-08-06 14:41:50 +08:00" itemprop="dateCreated datePublished" datetime="2022-08-06 14:41:50 +0800 CST">2022-08-06
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E8%AF%AD%E6%B3%95/ itemprop=url rel=index><span itemprop=name>示例文章/语法</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>虽然 <code>Markdown</code> 语法已经非常丰富能够满足我们写文章的绝大部分需求，但是为更好的对文章内容进行更友好的排版，为引设计一套自定义的短语，便于在使用时能够快速引用。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/shortcodes.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://localhost:1313/demo/table-of-content.html><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content="文章目录导航"><meta itemprop=description content="描述下 NexT 主题下的文章目录导航效果。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/demo/table-of-content.html itemprop=url class=post-title-link>文章目录导航</a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：2022-06-08 21:12:52 +08:00" itemprop="dateCreated datePublished" datetime="2022-06-08 21:12:52 +0800 CST">2022-06-08
+</time></span><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-folder-open"></i>
+</span><span class=post-meta-item-text title=分类于>分类于：
+</span><span itemprop=about itemscope itemtype=http://schema.org/Thing><a href=/categories/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0/ itemprop=url rel=index><span itemprop=name>示例文章</span></a></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><p>巴顿将军说过：“衡量一个人是否成功，不是看他站到顶峰，而是从顶峰跌落之后的反弹力”，褚时健的人生便是如此，中年发家致富，名利双收，之后又跌落到谷底，等到74岁再创业，10年后带着褚橙归来，东山再起收获亿万财富，他的发展轨迹就是反弹的过程。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/demo/table-of-content.html#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><nav class=pagination><span class="page-number current">1</span>
+<a class=page-number href=/posts/page/2/>2</a>
+<a class="extend next" rel=next href=/posts/page/2/><i class="fa fa-angle-right"></i></a></nav></div></main><footer class=footer><div class=footer-inner><div id=i18n-translate class=i18n-translate><i class="fa fa-language"></i><div id=lang-select class=lang-select><div id=lang-selected class=selected-option><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=selected-language>简体中文</span>
+<i class="fa fa-chevron-down"></i></div><div id=lang-options class=lang-options><div class=lang-option lang-code=zh-cn lang-name=简体中文 lang-url=/posts/><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=lang-name>简体中文</span></div><div class=lang-option lang-code=en-us lang-name=English lang-url=/en-us/posts/><span class="flag-icon flag-icon-en-us"></span>
+<span class=lang-name>English</span></div></div></div></div><div class=copyright>&copy;
+<span itemprop=copyrightYear>2010 - 2025
+</span><span class=with-love><i class="fa fa-heart"></i>
+</span><span class=author itemprop=copyrightHolder>NexT 主题</span></div><div class=powered-by>由 <a href=https://gohugo.io title=0.147.1 target=_blank>Hugo</a> & <a href=https://github.com/hugo-next/hugo-theme-next title=4.7.3 target=_blank>Hugo NexT.Gemini</a> 强力驱动</div><div class=beian><a href=https://beian.miit.gov.cn target=_blank>粤ICP备 18047355-1 号</a>
+<img src=/imgs/gongan.png alt=沪公网安备>
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011402009770" target=_blank>沪公网安备 31011402009770 号</a></div><div class=vendors-list><a target=_blank href=https://vercel.com title=Vercel><img src=/imgs/img-lazy-loading.gif data-src=/imgs/vendors/vercel.svg alt=Vercel>
+</a><a target=_blank href=https://upyun.com title=又拍云><img src=/imgs/img-lazy-loading.gif data-src=/imgs/vendors/upyun.png alt=又拍云>
+</a><a target=_blank href=https://github.com title=Github><img src=/imgs/img-lazy-loading.gif data-src=/imgs/vendors/github.svg alt=Github>
+</a><span>提供CDN/云资源支持</span></div><div class=custom-footer>Website source code <a href=https://github.com/hugo-next/hugo-theme-next/blob/develop/exampleSite/layouts/partials/custom_footer.html target=_blank>here</a></div></div></footer><script class=next-config data-name=page type=application/json>{"comments":false,"expired":false,"isHome":false,"isPage":false,"path":"posts","permalink":"http://localhost:1313/posts/","title":"Posts","toc":true,"waline":{"commentcnt":{"alias":"@waline/client","alias_name":"waline","file":"dist/comment.js","name":"comment","version":"2.15.8"}}}</script><script type=text/javascript src=http://localhost:1313/js/3rd/animejs/3.2.2/anime.min.js crossorigin=anonymous defer></script><script type=text/javascript src=http://localhost:1313/js/3rd/viewerjs/1.11.6/viewer.min.js crossorigin=anonymous defer></script><script class=next-config data-name=main type=application/json>{"bookmark":{"color":"#222","enable":true,"save":"manual"},"copybtn":true,"darkmode":true,"giscus":{"cfg":{"category":"Comments","categoryid":null,"emit":false,"inputposition":"top","mapping":"title","reactions":false,"repo":"username/repo-name","repoid":null,"theme":"preferred_color_scheme"},"js":"https://giscus.app/client.js"},"hostname":"http://localhost:1313/","i18n":{"ds_day":" 天前","ds_days":" 天 ","ds_hour":" 小时前","ds_hours":" 小时 ","ds_just":"刚刚","ds_min":" 分钟前","ds_mins":" 分钟","ds_month":" 个月前","ds_years":" 年 ","empty":"没有找到任何搜索结果：${query}","hits":"找到 ${hits} 个搜索结果","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","placeholder":"搜索..."},"isMultiLang":true,"lang":"zh-CN","lazyload":false,"localSearch":{"enable":true,"limit":1e3,"path":"/searchindexes.xml","preload":false,"topnperarticle":-1,"trigger":"auto","unescape":false},"motion":{"async":true,"enable":true,"transition":{"collheader":"slideInRight","postblock":"fadeIn","postbody":"fadeInDown","postheader":"fadeInDown","sidebar":"fadeInUp"}},"postmeta":{"comments":{"enable":true,"plugin":"waline"},"views":{"enable":true,"plugin":"busuanzi"}},"root":"/","scheme":"Gemini","share":{"addtoany":{"js":"https://static.addtoany.com/menu/page.js","locale":"zh-CN","num":8},"enable":true},"sidebar":{"display":"post","offset":12,"padding":18,"position":"left","width":256},"twikoo":{"cfg":{"envid":"http://192.168.31.50:8080","region":"ap-guangzhou"},"js":{"file":"dist/twikoo.all.min.js","name":"twikoo","version":"1.6.41"}},"vendor":{"plugins":"local","router":{"name":"local","type":"modern","url":"http://localhost:1313/js/3rd"}},"version":"4.7.3","waline":{"cfg":{"emoji":false,"imguploader":false,"placeholder":"请文明发言哟 ヾ(≧▽≦*)o","reaction":true,"reactiontext":["点赞","踩一下","得意","不屑","尴尬","睡觉"],"reactiontitle":"你认为这篇文章怎么样？","requiredmeta":["nick","mail"],"serverurl":null,"sofa":"快来发表你的意见吧 (≧∀≦)ゞ","wordlimit":200},"css":{"alias":"@waline/client","file":"dist/waline.css","name":"waline","version":"2.15.8"},"js":{"alias":"@waline/client","file":"dist/waline.js","name":"waline","version":"2.15.8"}}}</script><script type=text/javascript src="/js/main.js?=1747663303" defer></script></body></html>

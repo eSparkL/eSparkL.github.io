@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Syek.com</title><link>https://eSparkL.github.io/</link><description>Recent content on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 27 May 2025 15:06:07 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>欢迎加入 Hugo NexT 组织！</title><link>https://eSparkL.github.io/post/02-external-link/</link><pubDate>Wed, 01 Jun 2022 15:59:41 +0800</pubDate><guid>https://eSparkL.github.io/post/02-external-link/</guid><description>&lt;p>欢迎来到 &lt;code>Hugo NexT&lt;/code> 文档站点！ 它是从 
+&lt;a href="https://theme-next.js.org/" title="Theme NexT" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Theme NexT
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a> 移植过来的为 
+&lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>打造的高品质优雅主题，保持简单易用的特性和强大的功能。&lt;/p>
+&lt;h2 id="用户指南">用户指南
+&lt;a class="header-anchor" href="#%e7%94%a8%e6%88%b7%e6%8c%87%e5%8d%97">&lt;/a>
+&lt;/h2>&lt;p>设置 NexT 主题很容易。只需遵循文档，就可快速创建您的个人网站！&lt;/p></description></item><item><title>世界，你好！</title><link>https://eSparkL.github.io/demo/hello-world.html</link><pubDate>Thu, 02 Jun 2022 11:52:03 +0800</pubDate><guid>https://eSparkL.github.io/demo/hello-world.html</guid><description>&lt;blockquote>
+ &lt;p>“使用 &lt;code>weight&lt;/code> 关键字置顶文章。”&lt;/p>
+ &lt;/blockquote>
+&lt;p>
+&lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a> 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。&lt;/p></description></item><item><title>Test</title><link>https://eSparkL.github.io/post/test/</link><pubDate>Tue, 27 May 2025 15:06:07 +0800</pubDate><guid>https://eSparkL.github.io/post/test/</guid><description>&lt;p>test&lt;/p></description></item><item><title>思科第四章小测 IP寻址</title><link>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</link><pubDate>Fri, 23 May 2025 19:46:59 +0800</pubDate><guid>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</guid><description/></item><item><title>软件工程5.21</title><link>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</link><pubDate>Wed, 21 May 2025 14:39:35 +0800</pubDate><guid>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</guid><description>&lt;h2 id="进程视图">进程视图
+&lt;a class="header-anchor" href="#%e8%bf%9b%e7%a8%8b%e8%a7%86%e5%9b%be">&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>面向系统架构师和开发人员&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>适用于多进程多视图，关注系统的并发性、分布性、性能和资源分配&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>形式&lt;/p>
+&lt;ul>
+&lt;li>UML类图&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>进程间的交互&lt;/p>
+&lt;ul>
+&lt;li>进程间的交互可以用时序图表示&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>单线程的Web服务器&lt;/p></description></item><item><title>报错小仓库（持续更新）</title><link>https://eSparkL.github.io/post/16-%E6%8A%A5%E9%94%99%E5%B0%8F%E4%BB%93%E5%BA%93/</link><pubDate>Wed, 21 May 2025 13:29:48 +0800</pubDate><guid>https://eSparkL.github.io/post/16-%E6%8A%A5%E9%94%99%E5%B0%8F%E4%BB%93%E5%BA%93/</guid><description>&lt;p>(venv) D:\administrator\College\课后笔记\SE-软工\newsAPI_project&amp;gt;vue ui
+(node:23504) [DEP0040] DeprecationWarning: The &lt;code>punycode&lt;/code> module is deprecated. Please use a userland alternative instead.
+(Use &lt;code>node --trace-deprecation ...&lt;/code> to show where the warning was created)&lt;/p></description></item><item><title>新闻推荐系统后端</title><link>https://eSparkL.github.io/post/15-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/</link><pubDate>Wed, 21 May 2025 00:10:45 +0800</pubDate><guid>https://eSparkL.github.io/post/15-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/</guid><description>&lt;blockquote>
+ &lt;p>后端：Django&lt;/p>
+&lt;p>参考：
+&lt;a href="https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;amp;p=2" title="https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;p=2" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;p=2
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+ &lt;/blockquote>
+&lt;h1 id="常用命令汇总">常用命令汇总
+&lt;a class="header-anchor" href="#%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4%e6%b1%87%e6%80%bb">&lt;/a>
+&lt;/h1>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-3">&lt;a class="lnlinks" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-4">&lt;a class="lnlinks" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-5">&lt;a class="lnlinks" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-6">&lt;a class="lnlinks" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-7">&lt;a class="lnlinks" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-8">&lt;a class="lnlinks" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-9">&lt;a class="lnlinks" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-10">&lt;a class="lnlinks" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-11">&lt;a class="lnlinks" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-12">&lt;a class="lnlinks" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-13">&lt;a class="lnlinks" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-14">&lt;a class="lnlinks" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-15">&lt;a class="lnlinks" href="#hl-0-15">15&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-16">&lt;a class="lnlinks" href="#hl-0-16">16&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-17">&lt;a class="lnlinks" href="#hl-0-17">17&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-18">&lt;a class="lnlinks" href="#hl-0-18">18&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-19">&lt;a class="lnlinks" href="#hl-0-19">19&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-20">&lt;a class="lnlinks" href="#hl-0-20">20&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-21">&lt;a class="lnlinks" href="#hl-0-21">21&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-22">&lt;a class="lnlinks" href="#hl-0-22">22&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-23">&lt;a class="lnlinks" href="#hl-0-23">23&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 创建Django项目&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">django-admin startproject project_name
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 创建Django应用&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py startapp app_name
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 生成数据库迁移文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py makemigrations &lt;span class="o">[&lt;/span>app_name&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 执行迁移文件&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py migrate &lt;span class="o">[&lt;/span>app_name&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 查看迁移状态（[ ] 表示未应用 [X] 表示已应用）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py showmigrations &lt;span class="o">[&lt;/span>app_name&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 清除缓存&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py clearcache
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 测试用开发服务器&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py runserver
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 查看已注册路由&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py show_urls&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;p>开发接口尽可能遵循Restful规范：
+&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/p></description></item><item><title>概率论-第三章笔记</title><link>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 19 May 2025 23:42:02 +0800</pubDate><guid>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="第3章-随机向量">第3章 随机向量
+&lt;a class="header-anchor" href="#%e7%ac%ac3%e7%ab%a0-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f">&lt;/a>
+&lt;/h2>&lt;h2 id="31-随机向量的分布">3.1 随机向量的分布
+&lt;a class="header-anchor" href="#31-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f%e7%9a%84%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h2>&lt;h3 id="一随机向量分布及其分布函数">一、随机向量分布及其分布函数
+&lt;a class="header-anchor" href="#%e4%b8%80%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f%e5%88%86%e5%b8%83%e5%8f%8a%e5%85%b6%e5%88%86%e5%b8%83%e5%87%bd%e6%95%b0">&lt;/a>
+&lt;/h3>&lt;h4 id="">
+&lt;a class="header-anchor" href="#">&lt;/a>
+&lt;/h4>&lt;ul>
+&lt;li>
+&lt;p>出发点：一个事件的发生的概率受多种因素的共同作用。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>【定义3.1】
+n维随机向量$$(X_1, X_2, X_3, &amp;hellip;)∈(\Omega, P)$$，则称$(X_1, X_2, X_3, &amp;hellip;)$是在$(\Omega, P)$上的一个随机向量。&lt;/p></description></item><item><title>支持在Markdown文档中实现块信息强调标注</title><link>https://eSparkL.github.io/demo/hugo-blockquote.html</link><pubDate>Thu, 02 Jan 2025 16:08:02 +0800</pubDate><guid>https://eSparkL.github.io/demo/hugo-blockquote.html</guid><description>&lt;p>过去 &lt;code>HugoNexT&lt;/code> 主题都是通过自定义短语来实现块信息的标注，近期发现 &lt;code>Hugo&lt;/code> 从
+&lt;a href="https://github.com/gohugoio/hugo/releases/tag/v0.134.0" title="v0.134.0" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ v0.134.0
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>版本开始便是可以支持通过hook方式渲染Markdown文档中的Blockquote样式（需要自己实现），实现类似Github的警告风格样式。于是便在 &lt;code>HugoNexT&lt;/code> 主题中添加7种不同风格供用户可选择使用，还可以自定义图标与颜色配置。&lt;/p></description></item><item><title>图像浏览工具</title><link>https://eSparkL.github.io/demo/image-viewer.html</link><pubDate>Sun, 21 Jul 2024 10:28:12 +0800</pubDate><guid>https://eSparkL.github.io/demo/image-viewer.html</guid><description>&lt;p>本主题自带图像浏览器功能，支持对文章区域内出现的图片进行浏览，点击图片可以查看大图，点击空白处可以关闭。不需要配置任何参数，只要在文章里面相应的位置添加图片信息即可 。&lt;/p></description></item><item><title>没有H1-6标题头和评论的文章</title><link>https://eSparkL.github.io/demo/no-header-title.html</link><pubDate>Thu, 06 Oct 2022 09:02:26 +0800</pubDate><guid>https://eSparkL.github.io/demo/no-header-title.html</guid><description>&lt;p>刘慈欣2018克拉克奖获奖感言（部分内容节选）。&lt;/p>
+
+
+
+ &lt;div class="post-alert-info">
+ &lt;div class="post-alert-title">
+ &lt;i class="fa-solid fa-circle-info">&lt;/i>
+ &lt;span>
+ 
+ 信息
+ 
+ &lt;/span>
+ &lt;/div>
+ &lt;div class="post-alert-content">
+ &lt;p>用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。&lt;/p>
+ &lt;/div>
+ &lt;/div></description></item><item><title>Mermaid支持流程图</title><link>https://eSparkL.github.io/demo/mermaid-charts.html</link><pubDate>Sun, 18 Sep 2022 20:58:13 +0800</pubDate><guid>https://eSparkL.github.io/demo/mermaid-charts.html</guid><description>&lt;p>本主题已支持 &lt;code>Mermaid&lt;/code> 实现以纯文本的方式绘制流程图、序列图、甘特图、状态图、关系图行等等，随着 &lt;code>Mermaid&lt;/code> 也在逐步发展，后续还会有各种各样的图被引入进来，更多的类型及使用方式可关注其官方网站：
+&lt;a href="https://mermaid-js.github.io/" title="https://mermaid-js.github.io/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://mermaid-js.github.io/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>。&lt;/p></description></item><item><title>数学公式渲染</title><link>https://eSparkL.github.io/demo/math-formula.html</link><pubDate>Sun, 11 Sep 2022 10:16:02 +0800</pubDate><guid>https://eSparkL.github.io/demo/math-formula.html</guid><description>&lt;p>本主题支持 &lt;code>mathjax&lt;/code> 和 &lt;code>katex&lt;/code> 两种不的方案支持数学公式的渲染，可根据自已的需求进行选择。&lt;/p></description></item><item><title>支持用户自定义设计</title><link>https://eSparkL.github.io/demo/custom-files.html</link><pubDate>Sat, 10 Sep 2022 21:02:32 +0800</pubDate><guid>https://eSparkL.github.io/demo/custom-files.html</guid><description>&lt;p>对于熟悉前端开发的用户来说，可以通过自定义文件配置，实现对站点的样式和布局进行个性化的调整。其中布局方面主要是支持左侧边栏的站点概览部分，以及站点底部2个位置，但样式的重置可以是整个站点的任意位置。&lt;/p></description></item><item><title>自定义短语示例</title><link>https://eSparkL.github.io/demo/shortcodes.html</link><pubDate>Sat, 06 Aug 2022 14:41:50 +0800</pubDate><guid>https://eSparkL.github.io/demo/shortcodes.html</guid><description>&lt;p>虽然 &lt;code>Markdown&lt;/code> 语法已经非常丰富能够满足我们写文章的绝大部分需求，但是为更好的对文章内容进行更友好的排版，为引设计一套自定义的短语，便于在使用时能够快速引用。&lt;/p></description></item><item><title>关于 Hugo NexT 组织</title><link>https://eSparkL.github.io/about.html</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://eSparkL.github.io/about.html</guid><description>&lt;p>&lt;code>Hugo NexT&lt;/code> 组织是由众多喜爱 &lt;code>NexT&lt;/code> 主题及风格的世界各地友人共同组建而成，为的就是让这个主题继续在 &lt;code>Hugo&lt;/code> 引擎中也能得到发扬光大，在此也欢迎你的加入！&lt;/p>
+&lt;h1 id="我们的愿景">我们的愿景
+&lt;a class="header-anchor" href="#%e6%88%91%e4%bb%ac%e7%9a%84%e6%84%bf%e6%99%af">&lt;/a>
+&lt;/h1>&lt;p>延续 &lt;code>NexT&lt;/code> 经典的黑白调搭配，保持简单的易用性及强大的功能。&lt;/p></description></item><item><title>文章目录导航</title><link>https://eSparkL.github.io/demo/table-of-content.html</link><pubDate>Wed, 08 Jun 2022 21:12:52 +0800</pubDate><guid>https://eSparkL.github.io/demo/table-of-content.html</guid><description>&lt;p>巴顿将军说过：“衡量一个人是否成功，不是看他站到顶峰，而是从顶峰跌落之后的反弹力”，褚时健的人生便是如此，中年发家致富，名利双收，之后又跌落到谷底，等到74岁再创业，10年后带着褚橙归来，东山再起收获亿万财富，他的发展轨迹就是反弹的过程。&lt;/p></description></item><item><title>Hugo 内置的 Chroma 语法高亮</title><link>https://eSparkL.github.io/demo/syntax-highlighting.html</link><pubDate>Tue, 07 Jun 2022 19:09:52 +0800</pubDate><guid>https://eSparkL.github.io/demo/syntax-highlighting.html</guid><description>&lt;p>Hugo 通过 Chroma 提供非常快速的语法高亮显示，现 Hugo 中使用 Chroma 作为代码块高亮支持，它内置在 Go 语言当中，速度是真的非常、非常快，而且最为重要的是它也兼容之前我们使用的 Pygments 方式。&lt;/p>
+&lt;p>以下通过 Hugo 内置短代码 &lt;code>highlight&lt;/code> 和 &lt;code>Markdown&lt;/code> 代码块方式分别验证不同语言的代码块渲染效果并能正确高亮显示，有关优化语法突出显示的更多信息，请参阅 
+&lt;a href="https://gohugo.io/getting-started/configuration-markup#highlight" title="Hugo 文档" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ Hugo 文档
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>。&lt;/p></description></item><item><title>支持 Emoji 表情</title><link>https://eSparkL.github.io/demo/emoji-support.html</link><pubDate>Sat, 04 Jun 2022 19:46:45 +0800</pubDate><guid>https://eSparkL.github.io/demo/emoji-support.html</guid><description>&lt;p>Emoji 可以通过多种方式在 Hugo 项目中启用。&lt;/p>
+&lt;p>
+&lt;a href="https://gohugo.io/functions/emojify/" title="emojify" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ &lt;code>emojify&lt;/code>
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a> 方法可以直接在模板中调用, 或者使用
+&lt;a href="https://gohugo.io/templates/shortcode-templates#inline-shortcodes" title="行内 Shortcodes" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ 行内 Shortcodes
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>.&lt;/p>
+&lt;p>要全局使用 emoji, 需要在你的
+&lt;a href="https://gohugo.io/getting-started/configuration/" title="网站配置" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ 网站配置
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>中设置 &lt;code>enableEmoji&lt;/code> 为 &lt;code>true&lt;/code>，
+然后你就可以直接在文章中输入 emoji 的代码。&lt;/p></description></item><item><title>Markdown 语法支持</title><link>https://eSparkL.github.io/demo/markdown-syntax.html</link><pubDate>Fri, 03 Jun 2022 11:52:18 +0800</pubDate><guid>https://eSparkL.github.io/demo/markdown-syntax.html</guid><description>&lt;p>仅以此篇文章来测试下在 &lt;code>NexT&lt;/code> 主题中在通过 &lt;code>Hugo&lt;/code> 引擎来建站时，是否支持 &lt;code>Markdown&lt;/code> 文件内容中所写的各种语法，并展示下实际的效果。&lt;/p></description></item></channel></rss>
