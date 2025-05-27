@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Syek.com</title><link>https://eSparkL.github.io/post/</link><description>Recent content in Posts on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 23 May 2025 19:46:59 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>欢迎加入 Hugo NexT 组织！</title><link>https://eSparkL.github.io/post/02-external-link/</link><pubDate>Wed, 01 Jun 2022 15:59:41 +0800</pubDate><guid>https://eSparkL.github.io/post/02-external-link/</guid><description>&lt;p>欢迎来到 &lt;code>Hugo NexT&lt;/code> 文档站点！ 它是从 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Syek.com</title><link>https://eSparkL.github.io/post/</link><description>Recent content in Posts on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 02 Jan 2025 19:08:02 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>欢迎加入 Hugo NexT 组织！</title><link>https://eSparkL.github.io/post/02-external-link/</link><pubDate>Wed, 01 Jun 2022 15:59:41 +0800</pubDate><guid>https://eSparkL.github.io/post/02-external-link/</guid><description>&lt;p>欢迎来到 &lt;code>Hugo NexT&lt;/code> 文档站点！ 它是从 
 &lt;a href="https://theme-next.js.org/" title="Theme NexT" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  Theme NexT
  
@@ -22,42 +22,7 @@
  
  &lt;i class="fa fa-external-link-alt">&lt;/i>
  
-&lt;/a> 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。&lt;/p></description></item><item><title>思科第四章小测 IP寻址</title><link>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</link><pubDate>Fri, 23 May 2025 19:46:59 +0800</pubDate><guid>https://eSparkL.github.io/post/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</guid><description/></item><item><title>软件工程5.21</title><link>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</link><pubDate>Wed, 21 May 2025 14:39:35 +0800</pubDate><guid>https://eSparkL.github.io/post/17-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</guid><description>&lt;h2 id="进程视图">进程视图
-&lt;a class="header-anchor" href="#%e8%bf%9b%e7%a8%8b%e8%a7%86%e5%9b%be">&lt;/a>
-&lt;/h2>&lt;ul>
-&lt;li>
-&lt;p>面向系统架构师和开发人员&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>适用于多进程多视图，关注系统的并发性、分布性、性能和资源分配&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>形式&lt;/p>
-&lt;ul>
-&lt;li>UML类图&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>进程间的交互&lt;/p>
-&lt;ul>
-&lt;li>进程间的交互可以用时序图表示&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>单线程的Web服务器&lt;/p></description></item><item><title>报错小仓库（持续更新）</title><link>https://eSparkL.github.io/post/16-%E6%8A%A5%E9%94%99%E5%B0%8F%E4%BB%93%E5%BA%93/</link><pubDate>Wed, 21 May 2025 13:29:48 +0800</pubDate><guid>https://eSparkL.github.io/post/16-%E6%8A%A5%E9%94%99%E5%B0%8F%E4%BB%93%E5%BA%93/</guid><description>&lt;p>(venv) D:\administrator\College\课后笔记\SE-软工\newsAPI_project&amp;gt;vue ui
-(node:23504) [DEP0040] DeprecationWarning: The &lt;code>punycode&lt;/code> module is deprecated. Please use a userland alternative instead.
-(Use &lt;code>node --trace-deprecation ...&lt;/code> to show where the warning was created)&lt;/p></description></item><item><title>新闻推荐系统后端</title><link>https://eSparkL.github.io/post/15-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/</link><pubDate>Wed, 21 May 2025 00:10:45 +0800</pubDate><guid>https://eSparkL.github.io/post/15-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/</guid><description>&lt;blockquote>
- &lt;p>后端：Django&lt;/p>
-&lt;p>参考：
-&lt;a href="https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;amp;p=2" title="https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;p=2" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;p=2
- 
- &lt;i class="fa fa-external-link-alt">&lt;/i>
- 
-&lt;/a>&lt;/p>
- &lt;/blockquote></description></item><item><title>概率论-第三章笔记</title><link>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 19 May 2025 23:42:02 +0800</pubDate><guid>https://eSparkL.github.io/post/14-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="第3章-随机向量">第3章 随机向量
-&lt;a class="header-anchor" href="#%e7%ac%ac3%e7%ab%a0-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f">&lt;/a>
-&lt;/h2></description></item><item><title>支持在Markdown文档中实现块信息强调标注</title><link>https://eSparkL.github.io/demo/hugo-blockquote.html</link><pubDate>Thu, 02 Jan 2025 16:08:02 +0800</pubDate><guid>https://eSparkL.github.io/demo/hugo-blockquote.html</guid><description>&lt;p>过去 &lt;code>HugoNexT&lt;/code> 主题都是通过自定义短语来实现块信息的标注，近期发现 &lt;code>Hugo&lt;/code> 从
+&lt;/a> 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。&lt;/p></description></item><item><title>支持在Markdown文档中实现块信息强调标注</title><link>https://eSparkL.github.io/demo/hugo-blockquote.html</link><pubDate>Thu, 02 Jan 2025 16:08:02 +0800</pubDate><guid>https://eSparkL.github.io/demo/hugo-blockquote.html</guid><description>&lt;p>过去 &lt;code>HugoNexT&lt;/code> 主题都是通过自定义短语来实现块信息的标注，近期发现 &lt;code>Hugo&lt;/code> 从
 &lt;a href="https://github.com/gohugoio/hugo/releases/tag/v0.134.0" title="v0.134.0" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  v0.134.0
  

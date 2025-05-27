@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Syek.com</title>
+    <link>https://eSparkL.github.io/tags/</link>
+    <description>Recent content in Tags on Syek.com</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 17 May 2025 15:56:43 +0800</lastBuildDate>
+    <atom:link href="https://eSparkL.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>软件工程</title>
+      <link>https://eSparkL.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Sat, 17 May 2025 15:56:43 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技巧</title>
+      <link>https://eSparkL.github.io/tags/%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Fri, 16 May 2025 23:40:00 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/%E6%8A%80%E5%B7%A7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>讲座</title>
+      <link>https://eSparkL.github.io/tags/%E8%AE%B2%E5%BA%A7/</link>
+      <pubDate>Fri, 16 May 2025 19:16:23 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/%E8%AE%B2%E5%BA%A7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Django</title>
+      <link>https://eSparkL.github.io/tags/django/</link>
+      <pubDate>Fri, 16 May 2025 13:14:54 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>概率论</title>
+      <link>https://eSparkL.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/</link>
+      <pubDate>Tue, 13 May 2025 22:53:54 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>课后笔记</title>
+      <link>https://eSparkL.github.io/tags/%E8%AF%BE%E5%90%8E%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 13 May 2025 22:53:54 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/%E8%AF%BE%E5%90%8E%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>复习</title>
+      <link>https://eSparkL.github.io/tags/%E5%A4%8D%E4%B9%A0/</link>
+      <pubDate>Mon, 12 May 2025 23:52:10 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/%E5%A4%8D%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技能</title>
+      <link>https://eSparkL.github.io/tags/%E6%8A%80%E8%83%BD/</link>
+      <pubDate>Mon, 12 May 2025 23:20:40 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/%E6%8A%80%E8%83%BD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Untagged</title>
+      <link>https://eSparkL.github.io/tags/untagged/</link>
+      <pubDate>Mon, 12 May 2025 19:18:17 +0800</pubDate>
+      <guid>https://eSparkL.github.io/tags/untagged/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

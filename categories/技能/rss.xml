@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技能 on Syek.com</title><link>https://eSparkL.github.io/categories/%E6%8A%80%E8%83%BD/</link><description>Recent content in 技能 on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 12 May 2025 23:20:40 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/categories/%E6%8A%80%E8%83%BD/rss.xml" rel="self" type="application/rss+xml"/><item><title>Hugo常用命令</title><link>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link><pubDate>Mon, 12 May 2025 23:20:40 +0800</pubDate><guid>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid><description>&lt;!-- ---
+title: "Hugo常用命令"
+description: "Hugo常用命令"
+keywords: "Hugo常用命令"
+
+date: 2025-05-12T23:20:40+08:00
+lastmod: 2025-05-12T23:20:40+08:00
+
+categories:
+ - 技能
+tags:
+--- -->
+
+ &lt;blockquote>
+ &lt;p>当前欠缺：&lt;/p>
+&lt;ul>
+&lt;li>无法渲染数学公式如 $a$, $x^2$&lt;/li>
+&lt;li>代码没有显示所用语言&lt;/li>
+&lt;/ul>
+ &lt;/blockquote>
+&lt;h1 id="基础命令">基础命令
+&lt;a class="header-anchor" href="#%e5%9f%ba%e7%a1%80%e5%91%bd%e4%bb%a4">&lt;/a>
+&lt;/h1>&lt;ol>
+&lt;li>修改设置后重新构建网站：&lt;/li>
+&lt;/ol>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">hugo server --cleanDestinationDir&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;ol start="2">
+&lt;li>创建新内容&lt;/li>
+&lt;/ol>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-1-1">&lt;a class="lnlinks" href="#hl-1-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">hugo new posts/new_posts/index.md&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

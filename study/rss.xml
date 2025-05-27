@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Studies on Syek.com</title><link>https://eSparkL.github.io/study/</link><description>Recent content in Studies on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 27 May 2025 17:55:22 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/study/rss.xml" rel="self" type="application/rss+xml"/><item><title>Test</title><link>https://eSparkL.github.io/study/test/</link><pubDate>Tue, 27 May 2025 17:55:22 +0800</pubDate><guid>https://eSparkL.github.io/study/test/</guid><description>&lt;p>this is a test for a new file&lt;/p></description></item><item><title>思科第四章小测 IP寻址</title><link>https://eSparkL.github.io/study/13-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</link><pubDate>Fri, 23 May 2025 19:46:59 +0800</pubDate><guid>https://eSparkL.github.io/study/13-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</guid><description/></item><item><title>软件工程5.21</title><link>https://eSparkL.github.io/study/12-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</link><pubDate>Wed, 21 May 2025 14:39:35 +0800</pubDate><guid>https://eSparkL.github.io/study/12-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</guid><description>&lt;h2 id="进程视图">进程视图
+&lt;a class="header-anchor" href="#%e8%bf%9b%e7%a8%8b%e8%a7%86%e5%9b%be">&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>面向系统架构师和开发人员&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>适用于多进程多视图，关注系统的并发性、分布性、性能和资源分配&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>形式&lt;/p>
+&lt;ul>
+&lt;li>UML类图&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>进程间的交互&lt;/p>
+&lt;ul>
+&lt;li>进程间的交互可以用时序图表示&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>单线程的Web服务器&lt;/p></description></item><item><title>报错小仓库（持续更新）</title><link>https://eSparkL.github.io/study/11-%E6%8A%A5%E9%94%99%E5%B0%8F%E4%BB%93%E5%BA%93/</link><pubDate>Wed, 21 May 2025 13:29:48 +0800</pubDate><guid>https://eSparkL.github.io/study/11-%E6%8A%A5%E9%94%99%E5%B0%8F%E4%BB%93%E5%BA%93/</guid><description>&lt;p>(venv) D:\administrator\College\课后笔记\SE-软工\newsAPI_project&amp;gt;vue ui
+(node:23504) [DEP0040] DeprecationWarning: The &lt;code>punycode&lt;/code> module is deprecated. Please use a userland alternative instead.
+(Use &lt;code>node --trace-deprecation ...&lt;/code> to show where the warning was created)&lt;/p></description></item><item><title>新闻推荐系统后端</title><link>https://eSparkL.github.io/study/10-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/</link><pubDate>Wed, 21 May 2025 00:10:45 +0800</pubDate><guid>https://eSparkL.github.io/study/10-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF/</guid><description>&lt;blockquote>
+ &lt;p>后端：Django&lt;/p>
+&lt;p>参考：
+&lt;a href="https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;amp;p=2" title="https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;p=2" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://www.bilibili.com/video/BV19spseGE9Y?spm_id_from=333.788.videopod.episodes&amp;vd_source=ae5b8f4c462b3f90ff8881691bdf718b&amp;p=2
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+ &lt;/blockquote></description></item><item><title>概率论-第三章笔记</title><link>https://eSparkL.github.io/study/9-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 19 May 2025 23:42:02 +0800</pubDate><guid>https://eSparkL.github.io/study/9-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="第3章-随机向量">第3章 随机向量
+&lt;a class="header-anchor" href="#%e7%ac%ac3%e7%ab%a0-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f">&lt;/a>
+&lt;/h2></description></item><item><title>新闻推荐系统后端记录</title><link>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 17 May 2025 15:56:43 +0800</pubDate><guid>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote>
+ &lt;p>在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。&lt;/p>
+ &lt;/blockquote>
+&lt;h2 id="一django结构">一、Django结构
+&lt;a class="header-anchor" href="#%e4%b8%80django%e7%bb%93%e6%9e%84">&lt;/a>
+&lt;/h2>&lt;h3 id="11-创建新django项目">1.1 创建新Django项目
+&lt;a class="header-anchor" href="#11-%e5%88%9b%e5%bb%ba%e6%96%b0django%e9%a1%b9%e7%9b%ae">&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2">2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-3">&lt;a class="lnlinks" href="#hl-0-3">3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-4">&lt;a class="lnlinks" href="#hl-0-4">4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-5">&lt;a class="lnlinks" href="#hl-0-5">5&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">django-admin startproject nrsm_project
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> nrsm_project
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py startapp news
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py startapp user
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py startapp admin_panel&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;p>&lt;del>再将之前book_project的&lt;code>虚拟环境venv&lt;/code>和&lt;code>.idea&lt;/code>文件复制过来，就不用重新配置虚拟环境了。&lt;/del>——这样会出现路径仍然指向book_project，因此后面直接在把代码搬到book_project中了（搬人不搬屋）&lt;/p></description></item><item><title>在指定目录方便用管理员权限打开命令黑窗</title><link>https://eSparkL.github.io/study/8-%E5%9C%A8%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E6%96%B9%E4%BE%BF%E7%94%A8%E7%AE%A1%E7%90%86%E5%91%98%E6%9D%83%E9%99%90%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E9%BB%91%E7%AA%97/</link><pubDate>Fri, 16 May 2025 23:40:00 +0800</pubDate><guid>https://eSparkL.github.io/study/8-%E5%9C%A8%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E6%96%B9%E4%BE%BF%E7%94%A8%E7%AE%A1%E7%90%86%E5%91%98%E6%9D%83%E9%99%90%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E9%BB%91%E7%AA%97/</guid><description>&lt;!-- more -->
+
+ &lt;blockquote>
+ &lt;p>
+&lt;a href="https://www.cnblogs.com/Wayou/p/3359993.html#:~:text=%E5%90%8C%E6%A0%B7%E5%9C%B0%EF%BC%8C%E6%88%91%E4%BB%AC%E4%B9%9F%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E4%BC%A0%E7%BB%9F%E7%9A%84%E6%96%B9%E6%B3%95%E6%89%93%E5%BC%80%E4%B8%80%E4%B8%AA%E4%BB%A5%E7%AE%A1%E7%90%86%E5%91%98%E8%BA%AB%E4%BB%BD%E8%BF%90%E8%A1%8C%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%AA%97%E5%8F%A3%EF%BC%8C%E6%96%B9%E6%B3%95%E5%B0%B1%E6%98%AF%E5%9C%A8%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E9%87%8C%E6%89%BE%E5%88%B0%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%AA%97%E5%8F%A3%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%20C%3AWindowsSystem32%20%E6%89%BE%E5%88%B0,cmd.exe%20%E5%8F%B3%E9%94%AE%E9%80%89%E6%8B%A9%22%E4%BB%A5%E7%AE%A1%E7%90%86%E5%91%98%E8%BA%AB%E4%BB%BD%E8%BF%90%E8%A1%8C%22%EF%BC%8C%E7%84%B6%E5%90%8E%E5%86%8D%E6%89%8B%E5%8A%A8%E5%AE%9A%E4%BD%8D%E5%88%B0%E9%9C%80%E8%A6%81%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9%E3%80%82%20%E8%BF%99%E9%87%8C%E8%A6%81%E4%BB%8B%E7%BB%8D%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E9%87%8C%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AA%E8%8F%9C%E5%8D%95%E9%80%89%E9%A1%B9%E8%AE%A9%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9%E9%87%8C%E7%9B%B4%E6%8E%A5%E5%8F%B3%E5%87%BB%E9%BC%A0%E6%A0%87%E4%BE%BF%E5%8F%AF%E4%BB%A5%E7%AE%A1%E7%90%86%E5%91%98%E8%BA%AB%E4%BB%BD%E6%89%93%E5%BC%80%E4%B8%80%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%AA%97%E5%8F%A3%EF%BC%8C%E9%82%A3%E6%A0%B7%E7%9A%84%E8%AF%9D%E5%B0%86%E4%BC%9A%E8%AE%A9%E5%B7%A5%E4%BD%9C%E5%8F%98%E5%BE%97%E9%9D%9E%E5%B8%B8%E8%BD%BB%E6%9D%BE%E3%80%82," title="我是参考博客" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ 我是参考博客
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+ &lt;/blockquote>
+&lt;ol>
+&lt;li>将以下代码复制到一个文本文件，然后保存成 cmd.reg，注意文件后缀是reg，注册表文件。&lt;/li>
+&lt;/ol>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-3">&lt;a class="lnlinks" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-4">&lt;a class="lnlinks" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-5">&lt;a class="lnlinks" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-6">&lt;a class="lnlinks" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-7">&lt;a class="lnlinks" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-8">&lt;a class="lnlinks" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-9">&lt;a class="lnlinks" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-10">&lt;a class="lnlinks" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-11">&lt;a class="lnlinks" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-12">&lt;a class="lnlinks" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-13">&lt;a class="lnlinks" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-14">&lt;a class="lnlinks" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-15">&lt;a class="lnlinks" href="#hl-0-15">15&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-16">&lt;a class="lnlinks" href="#hl-0-16">16&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-17">&lt;a class="lnlinks" href="#hl-0-17">17&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-18">&lt;a class="lnlinks" href="#hl-0-18">18&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-19">&lt;a class="lnlinks" href="#hl-0-19">19&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-20">&lt;a class="lnlinks" href="#hl-0-20">20&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-21">&lt;a class="lnlinks" href="#hl-0-21">21&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-22">&lt;a class="lnlinks" href="#hl-0-22">22&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-23">&lt;a class="lnlinks" href="#hl-0-23">23&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-24">&lt;a class="lnlinks" href="#hl-0-24">24&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-25">&lt;a class="lnlinks" href="#hl-0-25">25&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-26">&lt;a class="lnlinks" href="#hl-0-26">26&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-27">&lt;a class="lnlinks" href="#hl-0-27">27&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-28">&lt;a class="lnlinks" href="#hl-0-28">28&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-29">&lt;a class="lnlinks" href="#hl-0-29">29&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-30">&lt;a class="lnlinks" href="#hl-0-30">30&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-31">&lt;a class="lnlinks" href="#hl-0-31">31&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-32">&lt;a class="lnlinks" href="#hl-0-32">32&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-33">&lt;a class="lnlinks" href="#hl-0-33">33&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-34">&lt;a class="lnlinks" href="#hl-0-34">34&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-35">&lt;a class="lnlinks" href="#hl-0-35">35&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-36">&lt;a class="lnlinks" href="#hl-0-36">36&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-37">&lt;a class="lnlinks" href="#hl-0-37">37&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-38">&lt;a class="lnlinks" href="#hl-0-38">38&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-39">&lt;a class="lnlinks" href="#hl-0-39">39&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-40">&lt;a class="lnlinks" href="#hl-0-40">40&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-41">&lt;a class="lnlinks" href="#hl-0-41">41&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-42">&lt;a class="lnlinks" href="#hl-0-42">42&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-43">&lt;a class="lnlinks" href="#hl-0-43">43&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">Windows Registry Editor Version 5.00
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> Created by: Shawn Brink
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> http://www.sevenforums.com
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> Tutorial: http://www.sevenforums.com/tutorials/47415-open-command-window-here-administrator.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>-HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Open cmd here as Admin&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;HasLUAShield&amp;#34;&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="se">\c&lt;/span>ommand&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;cmd.exe /s /k pushd \&amp;#34;%V\&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>-HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\B&lt;/span>ackground&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\B&lt;/span>ackground&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Open cmd here as Admin&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;HasLUAShield&amp;#34;&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\B&lt;/span>ackground&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="se">\c&lt;/span>ommand&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;cmd.exe /s /k pushd \&amp;#34;%V\&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>-HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>rive&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>rive&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Open cmd here as Admin&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;HasLUAShield&amp;#34;&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>rive&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="se">\c&lt;/span>ommand&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">@&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;cmd.exe /s /k pushd \&amp;#34;%V\&amp;#34;&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;ol start="2">
+&lt;li>哪天你不想要这个新加的选项了，请把下面的代码复制，同样保存到一个文本文件然后存为remove.reg，双击运行之。选项就会消失，菜单恢复正常。&lt;/li>
+&lt;/ol>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-1-1">&lt;a class="lnlinks" href="#hl-1-1"> 1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-2">&lt;a class="lnlinks" href="#hl-1-2"> 2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-3">&lt;a class="lnlinks" href="#hl-1-3"> 3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-4">&lt;a class="lnlinks" href="#hl-1-4"> 4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-5">&lt;a class="lnlinks" href="#hl-1-5"> 5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-6">&lt;a class="lnlinks" href="#hl-1-6"> 6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-7">&lt;a class="lnlinks" href="#hl-1-7"> 7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-8">&lt;a class="lnlinks" href="#hl-1-8"> 8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-9">&lt;a class="lnlinks" href="#hl-1-9"> 9&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-10">&lt;a class="lnlinks" href="#hl-1-10">10&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-11">&lt;a class="lnlinks" href="#hl-1-11">11&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-12">&lt;a class="lnlinks" href="#hl-1-12">12&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-1-13">&lt;a class="lnlinks" href="#hl-1-13">13&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">Windows Registry Editor Version 5.00
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> Created by: Shawn Brink
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> http://www.sevenforums.com
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> Tutorial: http://www.sevenforums.com/tutorials/47415-open-command-window-here-administrator.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>-HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>-HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>irectory&lt;span class="se">\B&lt;/span>ackground&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>-HKEY_CLASSES_ROOT&lt;span class="se">\D&lt;/span>rive&lt;span class="se">\s&lt;/span>hell&lt;span class="se">\r&lt;/span>unas&lt;span class="o">]&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>概率论-第二章复习</title><link>https://eSparkL.github.io/study/3-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%A4%8D%E4%B9%A0/</link><pubDate>Mon, 12 May 2025 23:52:10 +0800</pubDate><guid>https://eSparkL.github.io/study/3-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%A4%8D%E4%B9%A0/</guid><description>&lt;h1 id="">
+&lt;a class="header-anchor" href="#">&lt;/a>
+&lt;/h1>&lt;h2 id="第二章复习">第二章复习
+&lt;a class="header-anchor" href="#%e7%ac%ac%e4%ba%8c%e7%ab%a0%e5%a4%8d%e4%b9%a0">&lt;/a>
+&lt;/h2>&lt;h3 id="23-常用的离散型分布">2.3 常用的离散型分布
+&lt;a class="header-anchor" href="#23-%e5%b8%b8%e7%94%a8%e7%9a%84%e7%a6%bb%e6%95%a3%e5%9e%8b%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h3>&lt;h4 id="一退化分布">一、退化分布
+&lt;a class="header-anchor" href="#%e4%b8%80%e9%80%80%e5%8c%96%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;ul>
+&lt;li>定义：
+&lt;ul>
+&lt;li>$$P{X=a} = 1$$&lt;/li>
+&lt;li>X 服从 a 处的退化分布。也就是永远取一个确定的常数 a&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>期望：
+&lt;ul>
+&lt;li>$$E(X) = 0$$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>方差：
+&lt;ul>
+&lt;li>$$D(X) = 0$$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="二两点分布">二、两点分布
+&lt;a class="header-anchor" href="#%e4%ba%8c%e4%b8%a4%e7%82%b9%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;ul>
+&lt;li>定义：
+&lt;ul>
+&lt;li>只有两个可能的取值&lt;/li>
+&lt;li>$$P{X=x_1}=p,\quad P{X=x_2}=1-p,\quad 0&amp;lt;p&amp;lt;1,$$&lt;/li>
+&lt;li>X 服从 a 处参数为 $x_1$, $x_2$ 的两点分布&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="三均匀分布">三、均匀分布
+&lt;a class="header-anchor" href="#%e4%b8%89%e5%9d%87%e5%8c%80%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h4 id="四二项分布">四、二项分布
+&lt;a class="header-anchor" href="#%e5%9b%9b%e4%ba%8c%e9%a1%b9%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h4 id="五几何分布">五、几何分布
+&lt;a class="header-anchor" href="#%e4%ba%94%e5%87%a0%e4%bd%95%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h4 id="六超几何分布">六、超几何分布
+&lt;a class="header-anchor" href="#%e5%85%ad%e8%b6%85%e5%87%a0%e4%bd%95%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h4 id="七泊松分布">七、泊松分布
+&lt;a class="header-anchor" href="#%e4%b8%83%e6%b3%8a%e6%9d%be%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h3 id="24-常用的连续性分布">2.4 常用的连续性分布
+&lt;a class="header-anchor" href="#24-%e5%b8%b8%e7%94%a8%e7%9a%84%e8%bf%9e%e7%bb%ad%e6%80%a7%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h3>&lt;h4 id="一均匀分布">一、均匀分布
+&lt;a class="header-anchor" href="#%e4%b8%80%e5%9d%87%e5%8c%80%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h4 id="二指数分布">二、指数分布
+&lt;a class="header-anchor" href="#%e4%ba%8c%e6%8c%87%e6%95%b0%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h4 id="三正态分布">三、正态分布
+&lt;a class="header-anchor" href="#%e4%b8%89%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h3 id="25-随机变量函数的分布">2.5 随机变量函数的分布
+&lt;a class="header-anchor" href="#25-%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h3>&lt;h4 id="一随机变量的函数">一、随机变量的函数
+&lt;a class="header-anchor" href="#%e4%b8%80%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e7%9a%84%e5%87%bd%e6%95%b0">&lt;/a>
+&lt;/h4>&lt;h4 id="二离散型随机变量函数的分布">二、离散型随机变量函数的分布
+&lt;a class="header-anchor" href="#%e4%ba%8c%e7%a6%bb%e6%95%a3%e5%9e%8b%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4>&lt;h4 id="三连续性随机变量函数的分布">三、连续性随机变量函数的分布
+&lt;a class="header-anchor" href="#%e4%b8%89%e8%bf%9e%e7%bb%ad%e6%80%a7%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83">&lt;/a>
+&lt;/h4></description></item><item><title>Hugo常用命令</title><link>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link><pubDate>Mon, 12 May 2025 23:20:40 +0800</pubDate><guid>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid><description>&lt;!-- ---
+title: "Hugo常用命令"
+description: "Hugo常用命令"
+keywords: "Hugo常用命令"
+
+date: 2025-05-12T23:20:40+08:00
+lastmod: 2025-05-12T23:20:40+08:00
+
+categories:
+ - 技能
+tags:
+--- -->
+
+ &lt;blockquote>
+ &lt;p>当前欠缺：&lt;/p>
+&lt;ul>
+&lt;li>无法渲染数学公式如 $a$, $x^2$&lt;/li>
+&lt;li>代码没有显示所用语言&lt;/li>
+&lt;/ul>
+ &lt;/blockquote>
+&lt;h1 id="基础命令">基础命令
+&lt;a class="header-anchor" href="#%e5%9f%ba%e7%a1%80%e5%91%bd%e4%bb%a4">&lt;/a>
+&lt;/h1>&lt;ol>
+&lt;li>修改设置后重新构建网站：&lt;/li>
+&lt;/ol>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">hugo server --cleanDestinationDir&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;ol start="2">
+&lt;li>创建新内容&lt;/li>
+&lt;/ol>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-1-1">&lt;a class="lnlinks" href="#hl-1-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">hugo new posts/new_posts/index.md&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>软件工程思路笔记</title><link>https://eSparkL.github.io/study/4-%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/</link><pubDate>Sun, 11 May 2025 19:24:08 +0800</pubDate><guid>https://eSparkL.github.io/study/4-%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>tags:
+[TOC]&lt;/p>
+&lt;h1 id="">
+&lt;a class="header-anchor" href="#">&lt;/a>
+&lt;/h1>&lt;h2 id="需求工程">需求工程
+&lt;a class="header-anchor" href="#%e9%9c%80%e6%b1%82%e5%b7%a5%e7%a8%8b">&lt;/a>
+&lt;/h2>&lt;h3 id="用例规约">用例规约
+&lt;a class="header-anchor" href="#%e7%94%a8%e4%be%8b%e8%a7%84%e7%ba%a6">&lt;/a>
+&lt;/h3>&lt;h4 id="1-画出use-case">1. 画出Use Case
+&lt;a class="header-anchor" href="#1-%e7%94%bb%e5%87%bause-case">&lt;/a>
+&lt;/h4>&lt;h4 id="2-编写用例规约">2. 编写用例规约
+&lt;a class="header-anchor" href="#2-%e7%bc%96%e5%86%99%e7%94%a8%e4%be%8b%e8%a7%84%e7%ba%a6">&lt;/a>
+&lt;/h4>&lt;h5 id="1-可选需求">1. 可选需求
+&lt;a class="header-anchor" href="#1-%e5%8f%af%e9%80%89%e9%9c%80%e6%b1%82">&lt;/a>
+&lt;/h5>&lt;h5 id="2-非功能需求">2. 非功能需求
+&lt;a class="header-anchor" href="#2-%e9%9d%9e%e5%8a%9f%e8%83%bd%e9%9c%80%e6%b1%82">&lt;/a>
+&lt;/h5>&lt;h5 id="3-黑盒用例规约-和-白盒用例规约">3. 黑盒用例规约 和 白盒用例规约
+&lt;a class="header-anchor" href="#3-%e9%bb%91%e7%9b%92%e7%94%a8%e4%be%8b%e8%a7%84%e7%ba%a6-%e5%92%8c-%e7%99%bd%e7%9b%92%e7%94%a8%e4%be%8b%e8%a7%84%e7%ba%a6">&lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>随着开发的过程要不断添加细节
+&lt;ul>
+&lt;li>1.识别用例：有哪些时间、actor&lt;/li>
+&lt;li>2.用例分布提纲：+前置条件 +后置条件&lt;/li>
+&lt;li>3.（非技术甲方）黑盒规约：+完整的事件流&lt;/li>
+&lt;li>4.（技术人员）白盒规约：+系统内部行为的细节描述&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>可以采用双列（用户视图 | 系统视图）&lt;/li>
+&lt;/ul>
+&lt;h4 id="3-用例图优化">3. 用例图优化
+&lt;a class="header-anchor" href="#3-%e7%94%a8%e4%be%8b%e5%9b%be%e4%bc%98%e5%8c%96">&lt;/a>
+&lt;/h4>&lt;ul>
+&lt;li>符号：
+&lt;ul>
+&lt;li>Include包含&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />
+&lt;ul>
+&lt;li>从基本用例→包含用例，包含用例为基本用例提供功能&lt;/li>
+&lt;li>&amp;lt;&amp;gt;衍型&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Extend扩展&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-1.png" alt="alt text" />&lt;/li>
+&lt;li>Generalization泛化（类似类中的继承关系）&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Include关系
+&lt;ul>
+&lt;li>基数&lt;/li>
+&lt;li>Include中，不需要处理条件，&lt;/li>
+&lt;li>分离非主要行为，突出用例的核心价值&lt;/li>
+&lt;li>提出多个用例存在一段共有的行为，可以提取出来反复使用&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Extend关系（见图）
+&lt;ul>
+&lt;li>Extension扩展用例——Base基本用例&lt;/li>
+&lt;li>基数&lt;/li>
+&lt;li>扩展关系符号是&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Generalization泛化，&lt;/li>
+&lt;/ul>
+&lt;h4 id="建立概念模型conceptual-class">建立概念模型Conceptual Class
+&lt;a class="header-anchor" href="#%e5%bb%ba%e7%ab%8b%e6%a6%82%e5%bf%b5%e6%a8%a1%e5%9e%8bconceptual-class">&lt;/a>
+&lt;/h4>&lt;h5 id="识别conceptual-class">识别Conceptual Class
+&lt;a class="header-anchor" href="#%e8%af%86%e5%88%abconceptual-class">&lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>分类法
+&lt;ul>
+&lt;li>物理实体&lt;/li>
+&lt;li>逻辑实体&lt;/li>
+&lt;li>组织实体&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>名词提取法
+&lt;ul>
+&lt;li>1.从规约中提取所有名词，可重复&lt;/li>
+&lt;li>2.去掉：冗余、执行者和系统本身、边界类（菜单、链接）、类的属性&lt;/li>
+&lt;li>3.得到基本概念类&lt;/li>
+&lt;li>易错：类的实体当做属性被删掉（e.g.型号）
+&lt;ul>
+&lt;li>属性特征：数字，文本&lt;/li>
+&lt;li>因此如果一个东西不能简单用数字或文本描述，应该为类而非属性&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="建立conceptual-class之间的关系">建立Conceptual Class之间的关系
+&lt;a class="header-anchor" href="#%e5%bb%ba%e7%ab%8bconceptual-class%e4%b9%8b%e9%97%b4%e7%9a%84%e5%85%b3%e7%b3%bb">&lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>类图：类 + 类之间的关系&lt;/li>
+&lt;li>类是结构，结构是&lt;strong>静态&lt;/strong>的&lt;/li>
+&lt;li>UML&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-5.png" alt="alt text" />
+&lt;ul>
+&lt;li>类名 | 属性 | 操作&lt;/li>
+&lt;li>可见性Visibility
+&lt;ul>
+&lt;li>+公共可见性&lt;/li>
+&lt;li>#受保护&lt;/li>
+&lt;li>-私有&lt;/li>
+&lt;li>~包可见&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>多重性Multiplicity
+&lt;ul>
+&lt;li>描述关联
+&lt;ul>
+&lt;li>*无限多个&lt;/li>
+&lt;li>1， 2， 0， 正好1，2，0个&lt;/li>
+&lt;li>{1 or 2&amp;hellip;4}离散值&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>vs
+&lt;ul>
+&lt;li>基数：整个关系&lt;/li>
+&lt;li>多重性：某一端，“从这边看过去，能连几个那边”&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>关联关系Relationship：Association
+&lt;ul>
+&lt;li>“一个类知道另一个类”
+&lt;ul>
+&lt;li>无箭头实线：彼此都知道
+&lt;ul>
+&lt;li>↑耦合性&lt;/li>
+&lt;li>但更灵活&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>单向实线：A知道B，A→B，订单→支付方式
+&lt;ul>
+&lt;li>符合封装原则，↓耦合&lt;/li>
+&lt;li>但导航性可能会比较麻烦，比如反向查询不方便
+&lt;ul>
+&lt;li>导航性：一个类能否通过关联访问另一个类
+&lt;ul>
+&lt;li>决定哪个类负责持有或访问数据&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>需求分析阶段&lt;/li>
+&lt;li>设计阶段&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>聚合关系Relationship：Aggregation
+&lt;ul>
+&lt;li>整体-部分&lt;/li>
+&lt;li>空菱形实线箭头，菱形在整体&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>组合关系Relationship：Composition
+&lt;ul>
+&lt;li>生命周期，部分和组合一起消亡，强关联&lt;/li>
+&lt;li>实菱形实线箭头&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>泛化关系Relationship：Generalization
+&lt;ul>
+&lt;li>空心实线箭头，空心箭头在父类&lt;/li>
+&lt;li>尽量避免用多重继承
+&lt;ul>
+&lt;li>重复继承问题，&lt;code>“钻石问题”&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>优化：
+&lt;ul>
+&lt;li>Liskov替换准则LSP&lt;/li>
+&lt;li>继承是is a kind of关系，即子类应该能替换基类型&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-3.png" alt="alt text" />&lt;/li>
+&lt;li>区分：泛化 vs 聚合
+&lt;ul>
+&lt;li>带滚动条的窗口
+&lt;ul>
+&lt;li>带滚动条的窗口 是 窗口；带滚动条的窗口 包含了 滚动条&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>依赖关系Relationship：Dependency
+&lt;ul>
+&lt;li>虚线带箭头，依赖类型&amp;laquo;自定义&amp;raquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>接口
+&lt;ul>
+&lt;li>一组操作的集合（不包含属性）&lt;/li>
+&lt;li>表示方法&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-6.png" alt="alt text" />
+&lt;ul>
+&lt;li>&amp;lt;&amp;gt;&lt;/li>
+&lt;li>圆圈表示&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>分类
+&lt;ul>
+&lt;li>供给接口
+&lt;ul>
+&lt;li>提供的服务&lt;/li>
+&lt;li>圆圈&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>需求接口
+&lt;ul>
+&lt;li>需要得到的服务&lt;/li>
+&lt;li>半圆&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>增加属性，类的属性（先）比操作（后）更重要&lt;/li>
+&lt;li>状态机图
+&lt;ul>
+&lt;li>类的行为性特征&lt;/li>
+&lt;li>分类
+&lt;ul>
+&lt;li>行为状态机
+&lt;ul>
+&lt;li>内部&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>协议状态机
+&lt;ul>
+&lt;li>外部&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>核心元素
+&lt;ul>
+&lt;li>初始状态：实心圆⚫&lt;/li>
+&lt;li>终止状态：圆圈包围⚫&lt;/li>
+&lt;li>其他状态：圆角矩形，内部显示状态名&lt;/li>
+&lt;li>状态转移：
+&lt;ul>
+&lt;li>箭头&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>事件：状态机中事件触发迁移
+&lt;ul>
+&lt;li>转移上的标号表示&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>entry-do-exit-event？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>为什么要用状态机图
+&lt;ul>
+&lt;li>1.对象的职责或行为变化显著&lt;/li>
+&lt;li>2.系统或对象的用例涉及复杂的逻辑，且这些逻辑由状态驱动时&lt;/li>
+&lt;li>×：
+&lt;ul>
+&lt;li>对象的逻辑简单明了，不需要额外的状态机抽象&lt;/li>
+&lt;li>对象的行为不依赖状态变化&lt;/li>
+&lt;li>对象单一状态&lt;/li>
+&lt;li>总结：不存在复杂的状态变化&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="用例实现ucr">用例实现UCR
+&lt;a class="header-anchor" href="#%e7%94%a8%e4%be%8b%e5%ae%9e%e7%8e%b0ucr">&lt;/a>
+&lt;/h4>&lt;h4 id="">
+&lt;a class="header-anchor" href="#">&lt;/a>
+&lt;/h4>&lt;ul>
+&lt;li>需求和设计之间的桥梁&lt;/li>
+&lt;li>用例中的每一个用力，在分析模型和设计模型中至少有一个用例实现与对应&lt;/li>
+&lt;li>分类
+&lt;ul>
+&lt;li>动态交互图&lt;/li>
+&lt;li>类图，静态视图&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="识别分析类">识别分析类
+&lt;a class="header-anchor" href="#%e8%af%86%e5%88%ab%e5%88%86%e6%9e%90%e7%b1%bb">&lt;/a>
+&lt;/h5>&lt;ul>
+&lt;li>分析类：描述每个角色的职责&lt;/li>
+&lt;li>设计阶段：角色赋与台词和动作，变成实际的系统组件&lt;/li>
+&lt;li>分析类：
+&lt;ul>
+&lt;li>平台无关模型，与实现无关（可能做不出来）&lt;/li>
+&lt;li>MVC模型-视图-控制器
+&lt;ul>
+&lt;li>实体类
+&lt;ul>
+&lt;li>描述存储的信息，及信息相关的行为&lt;/li>
+&lt;li>反映逻辑数据结构&lt;/li>
+&lt;li>实体类不是某个用力实现所特有的&lt;/li>
+&lt;li>识别：名词过滤&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>边界类
+&lt;ul>
+&lt;li>分类
+&lt;ul>
+&lt;li>用户界面类&lt;/li>
+&lt;li>系统接口类&lt;/li>
+&lt;li>设备接口类&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>识别规则actor和用例之间的一条通信关联对应一个边界类，actor是什么类型对应对应的边界类&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>控制类
+&lt;ul>
+&lt;li>每一个用例一定会有一个控制类&lt;/li>
+&lt;li>关注流程逻辑，是事件流的抽象&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="构建分析模型">构建分析模型
+&lt;a class="header-anchor" href="#%e6%9e%84%e5%bb%ba%e5%88%86%e6%9e%90%e6%a8%a1%e5%9e%8b">&lt;/a>
+&lt;/h4>&lt;ul>
+&lt;li>交互图
+&lt;ul>
+&lt;li>
+&lt;p>顺序图/时序图&lt;/p></description></item><item><title>Django的初使用</title><link>https://eSparkL.github.io/study/1-django%E7%9A%84%E5%88%9D%E4%BD%BF%E7%94%A8/</link><pubDate>Sun, 11 May 2025 13:14:54 +0800</pubDate><guid>https://eSparkL.github.io/study/1-django%E7%9A%84%E5%88%9D%E4%BD%BF%E7%94%A8/</guid><description>&lt;blockquote>
+ &lt;p>参考博客：
+&lt;a href="https://www.cnblogs.com/zhangxue521/p/12957816.html" title="https://www.cnblogs.com/zhangxue521/p/12957816.html" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://www.cnblogs.com/zhangxue521/p/12957816.html
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+ &lt;/blockquote>
+&lt;h2 id="django的安装">Django的安装
+&lt;a class="header-anchor" href="#django%e7%9a%84%e5%ae%89%e8%a3%85">&lt;/a>
+&lt;/h2>&lt;h3 id="前提">前提
+&lt;a class="header-anchor" href="#%e5%89%8d%e6%8f%90">&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>pycharm&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/li>
+&lt;li>Python 3.9.6&lt;/li>
+&lt;/ul>
+&lt;h3 id="cmd命令">cmd命令
+&lt;a class="header-anchor" href="#cmd%e5%91%bd%e4%bb%a4">&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pip install &lt;span class="nv">Django&lt;/span>&lt;span class="o">==&lt;/span>3.2 -i https://pypi.tuna.tsinghua.edu.cn/simple&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+
+ &lt;blockquote>
+ &lt;p>版本兼容参考：
+&lt;a href="https://blog.csdn.net/qq_28770757/article/details/123415364" title="https://blog.csdn.net/qq_28770757/article/details/123415364" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://blog.csdn.net/qq_28770757/article/details/123415364
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+ &lt;/blockquote>
+&lt;p>检查是否安装成功:&lt;/p>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-1-1">&lt;a class="lnlinks" href="#hl-1-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">python&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">m&lt;/span> &lt;span class="n">django&lt;/span> &lt;span class="o">--&lt;/span>&lt;span class="n">version&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;hr>
+&lt;h2 id="新建django项目">新建Django项目
+&lt;a class="header-anchor" href="#%e6%96%b0%e5%bb%badjango%e9%a1%b9%e7%9b%ae">&lt;/a>
+&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-2-1">&lt;a class="lnlinks" href="#hl-2-1">1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-2">&lt;a class="lnlinks" href="#hl-2-2">2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-3">&lt;a class="lnlinks" href="#hl-2-3">3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-4">&lt;a class="lnlinks" href="#hl-2-4">4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-5">&lt;a class="lnlinks" href="#hl-2-5">5&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">django-admin startproject book_project &lt;span class="c1"># 新建项目&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> book_project &lt;span class="c1"># 进入项目根目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">python manage.py startapp book &lt;span class="c1"># 新建app&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;p>&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />&lt;/p></description></item><item><title>我的第一篇博客</title><link>https://eSparkL.github.io/study/6-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link><pubDate>Sat, 10 May 2025 19:24:08 +0800</pubDate><guid>https://eSparkL.github.io/study/6-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid><description>&lt;h1 id="标题一">标题一
+&lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e4%b8%80">&lt;/a>
+&lt;/h1>&lt;h2 id="标题二">标题二
+&lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e4%ba%8c">&lt;/a>
+&lt;/h2>&lt;h3 id="标题三">标题三
+&lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e4%b8%89">&lt;/a>
+&lt;/h3>&lt;h4 id="标题四">标题四
+&lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e5%9b%9b">&lt;/a>
+&lt;/h4>&lt;p>==我是高亮==&lt;/p>
+&lt;p>&lt;span style="color: red;">红色&lt;/span>&lt;/p>
+&lt;p>&lt;code>上引号&lt;/code>&lt;/p>
+&lt;p>&lt;del>删除&lt;/del>&lt;/p>
+
+ &lt;blockquote>
+ &lt;p>应用
+应用&lt;/p>
+ &lt;/blockquote>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-3">&lt;a class="lnlinks" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-4">&lt;a class="lnlinks" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-5">&lt;a class="lnlinks" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-6">&lt;a class="lnlinks" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-7">&lt;a class="lnlinks" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-8">&lt;a class="lnlinks" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-9">&lt;a class="lnlinks" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-10">&lt;a class="lnlinks" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-11">&lt;a class="lnlinks" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-12">&lt;a class="lnlinks" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-13">&lt;a class="lnlinks" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-14">&lt;a class="lnlinks" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-0-15">&lt;a class="lnlinks" href="#hl-0-15">15&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nn">java.util.Scanner&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">class&lt;/span> &lt;span class="nc">HelloWorld&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kd">public&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kd">static&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kt">void&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">main&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="o">[]&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c1">// 创建一个 Scanner 对象，用于获取用户输入&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">Scanner&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">scanner&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">new&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Scanner&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">System&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="na">in&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c1">// 提示用户输入名字&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">System&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="na">out&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="na">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;请输入你的名字：&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">String&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">scanner&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="na">nextLine&lt;/span>&lt;span class="p">();&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c1">// 输出欢迎消息&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">System&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="na">out&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="na">println&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;你好，&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;！欢迎使用 Java！&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+
+&lt;ol>
+&lt;li>序号o&lt;/li>
+&lt;li>辅导费&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ol></description></item></channel></rss>
