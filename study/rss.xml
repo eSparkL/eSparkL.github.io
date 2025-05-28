@@ -33,7 +33,7 @@
 &lt;/a>&lt;/p>
  &lt;/blockquote></description></item><item><title>概率论-第三章笔记</title><link>https://eSparkL.github.io/study/9-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 19 May 2025 23:42:02 +0800</pubDate><guid>https://eSparkL.github.io/study/9-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="第3章-随机向量">第3章 随机向量
 &lt;a class="header-anchor" href="#%e7%ac%ac3%e7%ab%a0-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f">&lt;/a>
-&lt;/h2></description></item><item><title>Django后端项目模仿</title><link>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 17 May 2025 15:56:43 +0800</pubDate><guid>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote>
+&lt;/h2></description></item><item><title>Django后端项目模仿</title><link>https://eSparkL.github.io/study/7-django%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E6%A8%A1%E4%BB%BF/</link><pubDate>Sat, 17 May 2025 15:56:43 +0800</pubDate><guid>https://eSparkL.github.io/study/7-django%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E6%A8%A1%E4%BB%BF/</guid><description>&lt;blockquote>
  &lt;p>在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。&lt;/p>
  &lt;/blockquote>
 &lt;h2 id="一django结构">一、Django结构
@@ -264,29 +264,16 @@
 &lt;a class="header-anchor" href="#%e4%ba%8c%e7%a6%bb%e6%95%a3%e5%9e%8b%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83">&lt;/a>
 &lt;/h4>&lt;h4 id="三连续性随机变量函数的分布">三、连续性随机变量函数的分布
 &lt;a class="header-anchor" href="#%e4%b8%89%e8%bf%9e%e7%bb%ad%e6%80%a7%e9%9a%8f%e6%9c%ba%e5%8f%98%e9%87%8f%e5%87%bd%e6%95%b0%e7%9a%84%e5%88%86%e5%b8%83">&lt;/a>
-&lt;/h4></description></item><item><title>Hugo常用命令</title><link>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link><pubDate>Mon, 12 May 2025 23:20:40 +0800</pubDate><guid>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid><description>&lt;!-- ---
-title: "Hugo常用命令"
-description: "Hugo常用命令"
-keywords: "Hugo常用命令"
-
-date: 2025-05-12T23:20:40+08:00
-lastmod: 2025-05-12T23:20:40+08:00
-
-categories:
- - 技能
-tags:
---- -->
-
- &lt;blockquote>
+&lt;/h4></description></item><item><title>Hugo常用命令</title><link>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link><pubDate>Mon, 12 May 2025 23:20:40 +0800</pubDate><guid>https://eSparkL.github.io/study/2-hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid><description>&lt;blockquote>
  &lt;p>当前欠缺：&lt;/p>
 &lt;ul>
 &lt;li>无法渲染数学公式如 $a$, $x^2$&lt;/li>
 &lt;li>代码没有显示所用语言&lt;/li>
 &lt;/ul>
  &lt;/blockquote>
-&lt;h1 id="基础命令">基础命令
+&lt;h2 id="基础命令">基础命令
 &lt;a class="header-anchor" href="#%e5%9f%ba%e7%a1%80%e5%91%bd%e4%bb%a4">&lt;/a>
-&lt;/h1>&lt;ol>
+&lt;/h2>&lt;ol>
 &lt;li>修改设置后重新构建网站：&lt;/li>
 &lt;/ol>
 
@@ -716,15 +703,15 @@ tags:
 &lt;/div>
 &lt;/div>
 
-&lt;p>&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />&lt;/p></description></item><item><title>我的第一篇博客</title><link>https://eSparkL.github.io/study/6-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link><pubDate>Sat, 10 May 2025 19:24:08 +0800</pubDate><guid>https://eSparkL.github.io/study/6-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid><description>&lt;h1 id="标题一">标题一
-&lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e4%b8%80">&lt;/a>
-&lt;/h1>&lt;h2 id="标题二">标题二
+&lt;p>&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />&lt;/p></description></item><item><title>我的第一篇博客</title><link>https://eSparkL.github.io/study/6-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link><pubDate>Sat, 10 May 2025 19:24:08 +0800</pubDate><guid>https://eSparkL.github.io/study/6-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid><description>&lt;h2 id="标题一两个">标题一（两个##）
+&lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e4%b8%80%e4%b8%a4%e4%b8%aa">&lt;/a>
+&lt;/h2>&lt;h3 id="标题二">标题二
 &lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e4%ba%8c">&lt;/a>
-&lt;/h2>&lt;h3 id="标题三">标题三
+&lt;/h3>&lt;h4 id="标题三">标题三
 &lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e4%b8%89">&lt;/a>
-&lt;/h3>&lt;h4 id="标题四">标题四
+&lt;/h4>&lt;h5 id="标题四">标题四
 &lt;a class="header-anchor" href="#%e6%a0%87%e9%a2%98%e5%9b%9b">&lt;/a>
-&lt;/h4>&lt;p>==我是高亮==&lt;/p>
+&lt;/h5>&lt;p>==我是高亮==&lt;/p>
 &lt;p>&lt;span style="color: red;">红色&lt;/span>&lt;/p>
 &lt;p>&lt;code>上引号&lt;/code>&lt;/p>
 &lt;p>&lt;del>删除&lt;/del>&lt;/p>
