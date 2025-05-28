@@ -33,7 +33,7 @@
 &lt;/a>&lt;/p>
  &lt;/blockquote></description></item><item><title>概率论-第三章笔记</title><link>https://eSparkL.github.io/study/9-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 19 May 2025 23:42:02 +0800</pubDate><guid>https://eSparkL.github.io/study/9-%E6%A6%82%E7%8E%87%E8%AE%BA-%E7%AC%AC%E4%B8%89%E7%AB%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="第3章-随机向量">第3章 随机向量
 &lt;a class="header-anchor" href="#%e7%ac%ac3%e7%ab%a0-%e9%9a%8f%e6%9c%ba%e5%90%91%e9%87%8f">&lt;/a>
-&lt;/h2></description></item><item><title>新闻推荐系统后端记录</title><link>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 17 May 2025 15:56:43 +0800</pubDate><guid>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote>
+&lt;/h2></description></item><item><title>Django后端项目模仿</title><link>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 17 May 2025 15:56:43 +0800</pubDate><guid>https://eSparkL.github.io/study/7-%E6%96%B0%E9%97%BB%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%AB%AF%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote>
  &lt;p>在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。&lt;/p>
  &lt;/blockquote>
 &lt;h2 id="一django结构">一、Django结构
