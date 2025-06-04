@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Syek.com</title><link>http://localhost:1313/en-us/tags/hugo/</link><description>Recent content in Hugo on Syek.com</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 29 Jan 2025 21:24:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/en-us/tags/hugo/rss.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to the Hugo NexT organization</title><link>http://localhost:1313/en-us/post/02-external-link/</link><pubDate>Sat, 25 Jan 2025 20:59:12 +0800</pubDate><guid>http://localhost:1313/en-us/post/02-external-link/</guid><description>&lt;p>Welcome to the Hugo NexT documentation site! It is from 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Syek.com</title><link>https://eSparkL.github.io/en-us/tags/hugo/</link><description>Recent content in Hugo on Syek.com</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 29 Jan 2025 21:24:02 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/en-us/tags/hugo/rss.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to the Hugo NexT organization</title><link>https://eSparkL.github.io/en-us/post/02-external-link/</link><pubDate>Sat, 25 Jan 2025 20:59:12 +0800</pubDate><guid>https://eSparkL.github.io/en-us/post/02-external-link/</guid><description>&lt;p>Welcome to the Hugo NexT documentation site! It is from 
 &lt;a href="https://theme-next.js.org/" title="Theme NexT" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  Theme NexT
  
@@ -23,7 +23,7 @@
 &lt;li>Report one in GitHub Issues &amp;#x1f41b; .&lt;/li>
 &lt;li>Apply for a new feature on GitHub.&lt;/li>
 &lt;li>Request a vote for the most popular feature.&lt;/li>
-&lt;/ul></description></item><item><title>Hello world</title><link>http://localhost:1313/en-us/demo/hello-world.html</link><pubDate>Sat, 25 Jan 2025 19:12:32 +0800</pubDate><guid>http://localhost:1313/en-us/demo/hello-world.html</guid><description>&lt;blockquote>
+&lt;/ul></description></item><item><title>Hello world</title><link>https://eSparkL.github.io/en-us/demo/hello-world.html</link><pubDate>Sat, 25 Jan 2025 19:12:32 +0800</pubDate><guid>https://eSparkL.github.io/en-us/demo/hello-world.html</guid><description>&lt;blockquote>
  &lt;p>Use the keyword &lt;code>weight&lt;/code> to top the article.&lt;/p>
  &lt;/blockquote>
 &lt;p>
@@ -32,7 +32,7 @@
  
  &lt;i class="fa fa-external-link-alt">&lt;/i>
  
-&lt;/a>, It is currently the fastest website construction framework in the world and one of the most popular open-source static site generators. With its astonishing speed and flexibility, Hugo has once again made website construction interesting.&lt;/p></description></item><item><title>Support block information emphasis annotation in Markdown documents</title><link>http://localhost:1313/en-us/demo/hugo-blockquote.html</link><pubDate>Wed, 29 Jan 2025 21:24:02 +0800</pubDate><guid>http://localhost:1313/en-us/demo/hugo-blockquote.html</guid><description>&lt;p>In the past, the &lt;code>Hugo NexT&lt;/code> theme used to annotate block information through custom phrases. Recently, it has been discovered that &lt;code>Hugo&lt;/code> has been updated from 
+&lt;/a>, It is currently the fastest website construction framework in the world and one of the most popular open-source static site generators. With its astonishing speed and flexibility, Hugo has once again made website construction interesting.&lt;/p></description></item><item><title>Support block information emphasis annotation in Markdown documents</title><link>https://eSparkL.github.io/en-us/demo/hugo-blockquote.html</link><pubDate>Wed, 29 Jan 2025 21:24:02 +0800</pubDate><guid>https://eSparkL.github.io/en-us/demo/hugo-blockquote.html</guid><description>&lt;p>In the past, the &lt;code>Hugo NexT&lt;/code> theme used to annotate block information through custom phrases. Recently, it has been discovered that &lt;code>Hugo&lt;/code> has been updated from 
 &lt;a href="https://github.com/gohugoio/hugo/releases/tag/v0.134.0" title="v0.134.0" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  v0.134.0
  
