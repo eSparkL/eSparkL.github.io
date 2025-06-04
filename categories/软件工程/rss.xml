@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件工程 on Syek.com</title><link>https://eSparkL.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</link><description>Recent content in 软件工程 on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 11 May 2025 19:24:08 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/rss.xml" rel="self" type="application/rss+xml"/><item><title>软件工程思路笔记</title><link>https://eSparkL.github.io/study/4-%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/</link><pubDate>Sun, 11 May 2025 19:24:08 +0800</pubDate><guid>https://eSparkL.github.io/study/4-%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>tags:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>软件工程 on Syek.com</title><link>http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</link><description>Recent content in 软件工程 on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 11 May 2025 19:24:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/rss.xml" rel="self" type="application/rss+xml"/><item><title>软件工程思路笔记</title><link>http://localhost:1313/study/4-%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/</link><pubDate>Sun, 11 May 2025 19:24:08 +0800</pubDate><guid>http://localhost:1313/study/4-%E8%BD%AF%E5%B7%A5%E8%AF%BE%E5%A0%82%E6%80%9D%E8%B7%AF%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>tags:
 [TOC]&lt;/p>
 &lt;h2 id="需求工程">需求工程
 &lt;a class="header-anchor" href="#%e9%9c%80%e6%b1%82%e5%b7%a5%e7%a8%8b">&lt;/a>
@@ -30,14 +30,14 @@
 &lt;/h4>&lt;ul>
 &lt;li>符号：
 &lt;ul>
-&lt;li>Include包含&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />
+&lt;li>Include包含&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />
 &lt;ul>
 &lt;li>从基本用例→包含用例，包含用例为基本用例提供功能&lt;/li>
 &lt;li>&amp;lt;&amp;gt;衍型&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Extend扩展&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-1.png" alt="alt text" />&lt;/li>
-&lt;li>Generalization泛化（类似类中的继承关系）&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/li>
+&lt;li>Extend扩展&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image-1.png" alt="alt text" />&lt;/li>
+&lt;li>Generalization泛化（类似类中的继承关系）&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Include关系
@@ -88,7 +88,7 @@
 &lt;/h5>&lt;ul>
 &lt;li>类图：类 + 类之间的关系&lt;/li>
 &lt;li>类是结构，结构是&lt;strong>静态&lt;/strong>的&lt;/li>
-&lt;li>UML&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-5.png" alt="alt text" />
+&lt;li>UML&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image-5.png" alt="alt text" />
 &lt;ul>
 &lt;li>类名 | 属性 | 操作&lt;/li>
 &lt;li>可见性Visibility
@@ -169,7 +169,7 @@
 &lt;li>优化：
 &lt;ul>
 &lt;li>Liskov替换准则LSP&lt;/li>
-&lt;li>继承是is a kind of关系，即子类应该能替换基类型&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-3.png" alt="alt text" />&lt;/li>
+&lt;li>继承是is a kind of关系，即子类应该能替换基类型&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image-3.png" alt="alt text" />&lt;/li>
 &lt;li>区分：泛化 vs 聚合
 &lt;ul>
 &lt;li>带滚动条的窗口
@@ -191,7 +191,7 @@
 &lt;li>接口
 &lt;ul>
 &lt;li>一组操作的集合（不包含属性）&lt;/li>
-&lt;li>表示方法&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-6.png" alt="alt text" />
+&lt;li>表示方法&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image-6.png" alt="alt text" />
 &lt;ul>
 &lt;li>&amp;lt;&amp;gt;&lt;/li>
 &lt;li>圆圈表示&lt;/li>

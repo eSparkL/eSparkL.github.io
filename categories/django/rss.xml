@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Django on Syek.com</title><link>https://eSparkL.github.io/categories/django/</link><description>Recent content in Django on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 16 May 2025 13:14:54 +0800</lastBuildDate><atom:link href="https://eSparkL.github.io/categories/django/rss.xml" rel="self" type="application/rss+xml"/><item><title>Django的初使用</title><link>https://eSparkL.github.io/study/1-django%E7%9A%84%E5%88%9D%E4%BD%BF%E7%94%A8/</link><pubDate>Sun, 11 May 2025 13:14:54 +0800</pubDate><guid>https://eSparkL.github.io/study/1-django%E7%9A%84%E5%88%9D%E4%BD%BF%E7%94%A8/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Django on Syek.com</title><link>http://localhost:1313/categories/django/</link><description>Recent content in Django on Syek.com</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 16 May 2025 13:14:54 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/django/rss.xml" rel="self" type="application/rss+xml"/><item><title>Django的初使用</title><link>http://localhost:1313/study/1-django%E7%9A%84%E5%88%9D%E4%BD%BF%E7%94%A8/</link><pubDate>Sun, 11 May 2025 13:14:54 +0800</pubDate><guid>http://localhost:1313/study/1-django%E7%9A%84%E5%88%9D%E4%BD%BF%E7%94%A8/</guid><description>&lt;blockquote>
  &lt;p>参考博客：
 &lt;a href="https://www.cnblogs.com/zhangxue521/p/12957816.html" title="https://www.cnblogs.com/zhangxue521/p/12957816.html" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  https://www.cnblogs.com/zhangxue521/p/12957816.html
@@ -12,7 +12,7 @@
 &lt;/h2>&lt;h3 id="前提">前提
 &lt;a class="header-anchor" href="#%e5%89%8d%e6%8f%90">&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>pycharm&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/li>
+&lt;li>pycharm&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image.png" alt="alt text" />&lt;/li>
 &lt;li>Python 3.9.6&lt;/li>
 &lt;/ul>
 &lt;h3 id="cmd命令">cmd命令
@@ -69,4 +69,4 @@
 &lt;/div>
 &lt;/div>
 
-&lt;p>&lt;img src="https://eSparkL.github.io/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="http://localhost:1313/imgs/img-lazy-loading.gif" data-src="image-2.png" alt="alt text" />&lt;/p></description></item></channel></rss>
