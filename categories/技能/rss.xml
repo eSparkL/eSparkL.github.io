@@ -31,4 +31,33 @@
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">hugo new posts/new_posts/index.md&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
+&lt;/div>
+
+&lt;ol start="3">
+&lt;li>推送到GitHub Page&lt;/li>
+&lt;/ol>
+
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-2-1">&lt;a class="lnlinks" href="#hl-2-1">1&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-2">&lt;a class="lnlinks" href="#hl-2-2">2&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-3">&lt;a class="lnlinks" href="#hl-2-3">3&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-4">&lt;a class="lnlinks" href="#hl-2-4">4&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-5">&lt;a class="lnlinks" href="#hl-2-5">5&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-6">&lt;a class="lnlinks" href="#hl-2-6">6&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-7">&lt;a class="lnlinks" href="#hl-2-7">7&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-8">&lt;a class="lnlinks" href="#hl-2-8">8&lt;/a>
+&lt;/span>&lt;span class="lnt" id="hl-2-9">&lt;a class="lnlinks" href="#hl-2-9">9&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">hugo
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">cd&lt;/span> public
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git add .
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git commit -m &lt;span class="s2">&amp;#34;更新时间&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git push&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
 &lt;/div></description></item></channel></rss>
