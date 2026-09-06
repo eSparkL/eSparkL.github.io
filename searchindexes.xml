@@ -3,25 +3,38 @@
 反馈 访问 Awesome NexT 列表，与其他用户分享插件和教程。 加入我们的 Gitter 聊天。 在几秒钟内添加或改进翻译。 在 GitHub Issues 中报告一个 &amp;#x1f41b;。 在 GitHub 上申请一个新特性。 为最受欢迎的功能请求投票。   </content></entry><entry><title>世界，你好！</title><url>/demo/hello-world.html</url><categories><category>开始建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html">   “使用 weight 关键字置顶文章。”
 Hugo 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。
 快速开始 发表新文章 1 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 1 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 1 $ hugo 更多信息： Hugo 建站 部署到服务器 1 $ hugo deploy 更多信息： Hugo 发布 祝你好运，相信你会喜欢上 Hugo 建站的旅程！
-  </content></entry><entry><title>31 互联网程序设计</title><url>/study/31-%E4%BA%92%E8%81%94%E7%BD%91%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</url><categories/><tags><tag>大三</tag><tag>课程</tag></tags><content type="html">  31-互联网程序设计
+  </content></entry><entry><title>33 Pytorch</title><url>/study/33-pytorch/</url><categories/><tags><tag><no value=/><tag><no value=/></tags><content type="html">  33-Pytorch
+Resource you may look frequently during the course:
+GitHub - mrdbourke/pytorch-deep-learning: Materials for the Learn PyTorch for Deep Learning: Zero to Mastery course. · GitHub google colab quick key:
+ctrl + M M: code to markdown
+ctrl + M Y: markdown to code
+homework:
+read the web torch.Tensor — PyTorch 2.12 documentation for 10 minutes to get a better understanding of how to use torch.tensor
+  </content></entry><entry><title>Test</title><url>/study/32-ai4research/</url><categories><category>测试</category></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html">  this is a test for a new file
+科研写作评估
+idea生成
+科研图表解读/生成
+科研结论生成
+2026 Xiaoyu Xiong, Yuqi Ren, and Deyi Xiong. 2026. EvoSci: A Bio-Inspired Multi-Agent Framework for the Evolution of Scientific Discovery. In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 9846–9878, San Diego, California, United States. Association for Computational Linguistics. URL https://aclanthology.org/2026.acl-long.447/ 大语言模型（LLM）在科学发现中展现出巨大潜力，但现有方法在科研工作流设计和多角色协作机制方面仍面临重大挑战。为缓解这些问题，我们提出了EvoSci，一种融合生物启发式进化与知识图谱建模的多智能体科学协作框架。EvoSci通过集成导师、研究员和审稿人等基于角色的多个智能体，迭代生成、评估并优化研究思路。结合协同推理、共享记忆和进化反馈机制，EvoSci显著提升了科学探索的一致性与创造性。在真实科研主题上的实验表明，EvoSci在基于LLM的结构化同行评审和比较排序评估中明显优于现有强基线模型，取得了最高的整体同行评审得分（ICLR 4.90）和最佳排名（Top-10 = 54）。这些结果表明，EvoSci在科学思想生成和持续发现方面均具有卓越优势。 Choi, J., Park, S., Song, S., &amp;amp;amp; Shim, H. (2026, July). Posterforest: Hierarchical multi-agent collaboration for scientific poster generation. In Proceedings of the 64th Annual Meeting of the Association …  </content></entry><entry><title>Test</title><url>/study/test/</url><categories><category>测试</category></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html">  this is a test for a new file
+2026 Sinhahajari, S., Majumder, N., &amp;amp;amp; Poria, S. (2026). On the Limits of LLM-as-Judge for Scientific Novelty Assessment. arXiv preprint arXiv:2606.12071. 大语言模型（LLM）在生成和评估科学想法方面正被越来越多地使用，这使得新颖性评估成为一个核心问题。完整的想法评估较为困难，因为它通常需要判断方法的可行性及其实证潜力。因此，我们研究一个更清晰的上游对象：研究问题（RQ）。RQ的生成是科学创新的前提，且可以与真实论文中所探讨的问题进行比较。我们提出了RQ-Bench，这是一个基于近期arXiv论文构建的基准。对于每篇论文，我们从其引用的背景、研究空白和贡献中重构出作者锚定的研究问题。这些RQ并非针对同一背景的唯一有效问题，而是作为测试新颖性判断的作者锚定参考点。我们通过独立LLM判断、对比LLM判断以及人类专家评估来评价模型生成的RQ。LLM评判者始终将模型生成的RQ评为高度新颖，从而产生一种“新颖性幻觉”；而在对比评估中，这种偏好更加明显。然而，领域专家得出了相反的结论，他们更倾向于选择作者锚定的参考问题。我们进一步发现，许多生成的研究问题（RQs）范围狭窄或局限于特定来源，而这一点往往是大语言模型（LLM）评判者在未被明确测试的情况下容易忽略的维度。总体而言，LLM评判者与人类专家之间对新颖性评估结果的矛盾，引发了人们对使用大语言模型来评估研究问题科学新颖性的可靠性的严重担忧。 2025 Yilun Zhao, Chengye Wang, Chuhan Li, and Arman Cohan. Can multimodal foundation models understand schematic diagrams? an empirical study on information-seeking QA over scientific papers. In Findings of the Association for Computational Linguistics: ACL 2025, pages 18598–18631, 2025.
+ …  </content></entry><entry><title>31 互联网程序设计</title><url>/study/31-%E4%BA%92%E8%81%94%E7%BD%91%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</url><categories/><tags><tag>大三</tag><tag>课程</tag></tags><content type="html">  31-互联网程序设计
 先搞懂练习，需结合自己的代码
 有时间再梳理其他内容
-考试时打包完整的NetworkAPP（防止缺少依赖）
-第 1 讲 Java 图形窗口程序设计 创建窗体UI
-第 2 讲 网络对话程序设计（最最基础版TCP） 知识点 套接字类有两个基本的方法可以获得两个通信管道：
+考试时打包完整的 NetworkAPP（防止缺少依赖）
+第 1 讲 Java 图形窗口程序设计 创建窗体 UI
+第 2 讲 网络对话程序设计（最最基础版 TCP） 知识点 套接字类有两个基本的方法可以获得两个通信管道：
 socket.getInputStream()方法可获得输入字节流的入口； socket.getOutputStream()方法可获得输出字节流的出口；
-课程任务 用TCPClientFX.java连接教师服务器； 发送你的学号、姓名、密码及时间戳信息，之间不要留空格，用#隔开，例如：20170000007#程旭元#你的密码#时间戳 代码注释 客户端程序 1：TCPClient.java 具有网络接收和发送能力的程序。 客户端程序 2：TCPClientFX.java 为界面模块。 服务器程序：TCPServer.java 用于监听客户端的连接，具有网络接收和发送
+课程任务 用 TCPClientFX.java 连接教师服务器； 发送你的学号、姓名、密码及时间戳信息，之间不要留空格，用#隔开，例如：20170000007#程旭元#你的密码#时间戳 代码注释 客户端程序 1：TCPClient.java 具有网络接收和发送能力的程序。 客户端程序 2：TCPClientFX.java 为界面模块。 服务器程序：TCPServer.java 用于监听客户端的连接，具有网络接收和发送
 时间戳是通过 System.currentTimeMillis()获得的毫秒数
-第 3 讲 多线程程序设计技术 知识点 在第2讲的基础上进行改进，引入多线程
-关于接收并显示服务端信息的代码都必须删除，否则→阻塞/乱序
+⭐ 第 3 讲 多线程程序设计技术 知识点 在第 2 讲的基础上进行改进，引入多线程
+关于接收并显示服务端信息的代码都必须删除，否则 → 阻塞/乱序
 匿名内部类或 lambda 表达式中，不能访问外部类方法中的非 final 类型的局部变量。可使用临时常量，或者将定义为类中的成员变量
 课程任务 制作登录查看平时成绩程序
 代码注释 TCPClientThreadFX.java：多线程接收客户端；
 LookUpScore.java：同 TCPClient.java；
 LookUpScoreFX.java：同 TCPClientThreadFX.java，只将窗体 title 为“登录查成绩”
 第 4 讲 网络文件传输程序设计 知识点 文件传输协议规定（RFC 959），网络文件传输中用两个 TCP 端口来实现: ⚫ 一个端口（21 号）用来对话，传递控制信息，总是开启； ⚫ 一个端口（20 号）实现文件数据传递服务，有数据传输服务时开启。
-本讲实现一个简单的远程文件传输系统，我们用 2021 端口实现对话服务，如身份验证、文件列表信息浏览等，用 2020 端口传递数据文件（即文件下载）。
-课程任务 启动客户端 FileClientFX.java 程序， …  </content></entry><entry><title>30 Docker</title><url>/study/30-docker/</url><categories/><tags><tag><no value=/><tag><no value=/></tags><content type="html"><![CDATA[  将 Docker Desktop 安装到其他盘
+本讲实现一个简单的远程文件传输系统，我们用 2021 端口实现对话服务，如身份验证、文件列表信息浏览等，用 2020 端口传递数据文件（即文件下载）。 …  </content></entry><entry><title>30 Docker</title><url>/study/30-docker/</url><categories/><tags><tag><no value=/><tag><no value=/></tags><content type="html"><![CDATA[  将 Docker Desktop 安装到其他盘
 从官网下载 Docker Desktop 的安装链接.exe 后，不要直接点击！！！使用命令行安装，指定安装目录和数据目录。
 1. 创建目录 1 2 mkdir D:\develop\docker mkdir D:\develop\docker\data 2. 执行安装 管理员身份打开 CMD，运行：
 1 start /w &#34;&#34; &#34;Docker Desktop Installer.exe&#34; install -accept-license --installation-dir=D:\develop\docker --wsl-default-data-root=D:\develop\docker\data 参数说明：
@@ -58,8 +71,7 @@ dd
 下列哪种方法被认为是缓解蠕虫攻击的最有效方法？ 在哪两个接口或端口上可以通过配置执行超时设置来提高安全性？（请选择两项。） 技术人员要记录一所大学中所有网络设备的当前配置，包括校园外的建筑物中的设备。为了安全地访问网络设备，最好使用哪一项协议？ 必须在路由器上配置哪个命令才能完成 SSH 配置？ 以下对 ping 和 tracert 命令的描述哪一项是正确的？ 在路由器上配置 SSH 以实施安全的网络管理时，网络工程师已发出 login local 和 transport input ssh vty 线路命令。要完成 SSH 配置，必须执行下列哪三项额外的配置操作？（选择三项。） 将信息安全威胁类型与场景配对。 （并非所有选项都会用到） 在哪种类型的攻击中，攻击者会试图收集关于网络的信息来识别漏洞? 病毒与蠕虫之间的区别是什么？ 当应用到路由器时，下列哪个命令可以缓解对路由器的暴力密码攻击？ 哪种攻击涉及两个端点之间发生的数据泄露？ 把缺陷和例子进行匹配。（并非全部选项都要用到）。 某用户正在为一家小公司重新设计网络，并希望以合理的价格确保安全性。该用户在 ISP 连接上部署具有入侵检测功能的新应用感知防火墙。该用户还安装了第二个防火墙，以将公司网络与公共网络分离。此外，该用户还在公司的内部网络上安装了 IPS。该用户实施的是哪种方法？ IPS 的作用是什么？ 把描述与防火墙过滤的类型进行匹配。（并非全部选项都要用到）。 哪种防火墙功能用于确保传入网络的数据包是对内部主机所发出请求的合法响应？ 相较于 Telnet，使用 SSH 有什么优势？ 管理员决定使用 “WhatAreyouwaiting4&amp;amp;quot; 作为新安装的路由器上的密码。哪种叙述适用于密码选择？ 从路由器 R1 到直接相连的路由器 R2 执行 ping 操作失败。网络管理员随即发出 show cdp neighbors 命令。网络管理员为什么要在两台路由器之间 ping 操作失败后发出此命令？ 哪项网络服务自动为网络上的设备分配 IP 地址？ 网络工程师正在分析来自最近实施的网络基线的报告。 以下哪种情况描述了可能的延时问题？ 请参见图示。一家小公司的基线文档显示出，在主机 H1 和 H3 之间 ping 往返时间统计信息为 36/97/132。今天， …  </content></entry><entry><title>思科第五章小测 传输层</title><url>/study/18-%E6%80%9D%E7%A7%91%E7%AC%AC%E4%BA%94%E7%AB%A0%E5%B0%8F%E6%B5%8B-%E4%BC%A0%E8%BE%93%E5%B1%82/</url><categories><category>大二</category><category>计网</category></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html">  18-思科第五章小测-传输层
 TCP 报头中的哪个字段表示三次握手过程的状态？ 下列哪三项陈述说明了 UDP 的特征? （选择三项。） 下列哪三个字段在 UDP 数据段报头中使用？（请选择三项。） UDP 具有哪项特点？ TCP/IP 封装过程中如何使用端口号？ 当客户端需要发送 UDP 数据报时，会执行什么操作？ 在哪两种情况下，UDP 协议优于 TCP 协议，用作首选的传输协议？（选择两项。） TCP/IP 传输层报头中会添加什么重要信息，以确保与远程网络设备的通信和连接？ TCP 使用什么信息来重组和重新排序收到的数据段？ 以下哪两个特征与 UDP 会话相关？（选择两项。） 哪两种类型的应用程序最适合 UDP？（选择两项。） 哪个因素决定 TCP 窗口大小？ 下列哪三项是传输层的职责？（选择三项。） 一台 PC 从服务器下载一个大文件。TCP 窗口大小为 1000 字节。服务器使用 100 字节的数据段发送文件。服务器发送多少个数据段后会要求 PC 确认？ 客户端创建了要发送到服务器的数据包。客户端正在请求 SMTP 服务。发送数据包中的目的端口号是什么？ 与 Web 服务器通信的 PC 在发送数据时使用 6000 字节的 TCP 窗口大小和 1500 字节的数据包大小。当 Web 服务器收到来自 PC 的三个数据包后，它会确认哪个字节的信息? OSI 模型的哪三层提供类似于 TCP/IP 模型的应用层提供的网络服务？（请选择三项。） 下列哪种场景描述了传输层提供的功能？ 有关服务器消息块协议的说法哪项正确？ 哪些应用程序或服务允许主机同时充当客户端和服务器？ 哪个应用层协议使用 GET、PUT 和 POST 等消息类型？ 哪三种协议在 TCP/IP 模型的应用层工作？（选择三项。） 当一位作者将包含一章内容的文档上传到某图书出版商的文件服务器时，使用哪种网络模型？ IOS 哪一层为用于通信的应用程序和用于消息传输的底层网络提供接口？ TCP/IP 模型的应用层执行的功能与 OSI 模型的哪三层执行的功能相同？ （选择三项。） 对等网络模型的关键特征是什么？ 下列哪三项正确描述了 DHCP 发现报文？（请选择三项。） HTTP GET 消息的作用是什么？ 设备在发送邮件的应用过程中可能会使用哪两种协议？（选择两项。） 在什么样的网络模型中使用 eDonKey、eMule、BitTorrent、比特币和 LionShare？ 下列哪项是采用客户端-服务器模型的网络通信示例？ 客户端使用哪种协议来与 Web 服务器进行安全通信？   </content></entry><entry><title>14 数据库第8章</title><url>/study/14-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%AC8%E7%AB%A0/</url><categories><category>大二</category><category>数据库</category></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html">  关系数据库的设计
 以思维导图的方式进行梳理。 这章主要是概念和理念类的东西很多（和软工一样），需要自己多练习和推导。 ps. 课上实在是太困了，没有跟上思路（不预习的恶果QAQ）
-好的关系设计的特点 没有数据冗余 使用函数依赖进行分解 函数依赖 分解 有损分解 无损分解 定义 ？？？？ 自己理解：拆分后再通过自然连接等方式进行合并后，不会存在信息丢失。 范式 BC范式 ? 什么是BC范式 在函数依赖领域最为严格的 第三范式 BC范式虽然非常规范，但是有时候存在以下问题 不能保留原来的依赖关系 函数依赖理论 像离散数学一样，有些普遍适用的推论 使用函数依赖的分解算法（还没讲） 数据库设计过程（还没讲）   </content></entry><entry><title>Test</title><url>/study/test/</url><categories><category>测试</category></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html">  this is a test for a new file
-  </content></entry><entry><title>思科第四章小测 IP寻址</title><url>/study/13-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</url><categories><category>大二</category><category>计网</category></categories><tags><tag><no value=/></tags><content type="html">  在跟踪从 PC1 到 PC2 的路由时，显示的三个 IPv6 地址是什么? （选择三项。） 请将每个描述与相应的 IP 地址进行配对。（并非全部选项都要用到）。 子网掩码 255.255.255.224 的前缀长度记法如何表示？ 下列哪个地址是 IP 地址3FFE:1044:0000:0000:00AB:0000:0000:0057 最短的缩写？ 哪一项是 IPv6 地址 fe80:0000:0000:0000:0220:0b3f:f0e0:0029 的简写格式？ 被坑啦！
+好的关系设计的特点 没有数据冗余 使用函数依赖进行分解 函数依赖 分解 有损分解 无损分解 定义 ？？？？ 自己理解：拆分后再通过自然连接等方式进行合并后，不会存在信息丢失。 范式 BC范式 ? 什么是BC范式 在函数依赖领域最为严格的 第三范式 BC范式虽然非常规范，但是有时候存在以下问题 不能保留原来的依赖关系 函数依赖理论 像离散数学一样，有些普遍适用的推论 使用函数依赖的分解算法（还没讲） 数据库设计过程（还没讲）   </content></entry><entry><title>思科第四章小测 IP寻址</title><url>/study/13-%E6%80%9D%E7%A7%91%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%B0%8F%E6%B5%8B-ip%E5%AF%BB%E5%9D%80/</url><categories><category>大二</category><category>计网</category></categories><tags><tag><no value=/></tags><content type="html">  在跟踪从 PC1 到 PC2 的路由时，显示的三个 IPv6 地址是什么? （选择三项。） 请将每个描述与相应的 IP 地址进行配对。（并非全部选项都要用到）。 子网掩码 255.255.255.224 的前缀长度记法如何表示？ 下列哪个地址是 IP 地址3FFE:1044:0000:0000:00AB:0000:0000:0057 最短的缩写？ 哪一项是 IPv6 地址 fe80:0000:0000:0000:0220:0b3f:f0e0:0029 的简写格式？ 被坑啦！
   </content></entry><entry><title>软件工程5.21</title><url>/study/12-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B5.21/</url><categories><category>大二</category></categories><tags><tag><no value=/></tags><content type="html">  进程视图 面向系统架构师和开发人员
 适用于多进程多视图，关注系统的并发性、分布性、性能和资源分配
 形式
@@ -224,4 +236,56 @@ Xn + Yn = Zn
 按X获胜。或按CTRL+ALT+F显示 FPS 计数器。
 比特作为信息论中的信息单位，也被称为 shannon ，以信息论领域的创始人 Claude shannon 的名字命名。
 参考：
-来自 Mainroad 主题的 Basic Elements 内容   ]]></content></entry></search>
+来自 Mainroad 主题的 Basic Elements 内容   ]]></content></entry><entry><title/><url>/study/%E7%AC%AC1%E4%B8%AA%E6%9C%88%E5%BB%BA%E7%AB%8Bpytorch%E4%BD%93%E7%B3%BB/</url><categories/><tags/><content type="html">  可以，而且我会根据你的实际情况重新设计，而不是照搬“AI应用开发工程师”的路线。
+你的情况比较特殊：
+已有：
+Python基础 sklearn接触过 ML/DL理论基础 数学建模经验 Kaggle经验 Dify/Coze经验 Django基础 Docker/FastAPI接触过 缺少：
+PyTorch体系化能力 独立复现模型能力 完整AI项目经验 部署与工程化能力 论文复现经验 因此未来3个月最合理的是：
+主线：PyTorch + 模型能力
+副线：FastAPI + Docker
+输出：一个完整AI项目
+第1个月：建立PyTorch体系 目标：
+从
+看得懂
+变成
+自己写得出来
+Week 1 PyTorch基础 学习内容：
+Tensor Autograd GPU Dataset DataLoader 每天：
+1 2 1h 理论 1h 代码 练习：
+自己写：
+1 2 Dataset DataLoader 不要复制教程。
+成果：
+实现：
+1 MNIST数据读取 Week 2 神经网络基础 学习：
+1 2 3 4 5 6 7 nn.Module Linear ReLU Dropout 理解：
+1 2 3 4 forward loss backward optimizer 项目：
+MNIST分类
+要求：
+不看代码自己重写。
+成果：
+GitHub项目1
+Week 3 CNN 学习：
+1 2 3 Conv2D Pooling BatchNorm 项目：
+CIFAR10分类
+同时开始：
+阅读第一篇论文
+建议：
+ResNet
+不要求完全看懂。
+Week 4 Transformer入门 学习：
+1 2 3 4 5 Attention Self-Attention Multi-Head Attention 实现：
+简化版Transformer
+不用追求复杂。
+成果：
+你应该已经能回答：
+1 PyTorch如何训练模型？ 而不是只会调用。
+第2个月：科研能力 + 工程能力并行 Week 5 sklearn强化 目标：
+脱离教程。
+项目：
+Titanic
+自己完成：
+1 2 3 4 5 6 7 EDA 特征工程 训练 评估 成果：
+完整Notebook。
+Week 6 FastAPI 学习：
+1 2 3 4 5 6 GET POST Pydantic Router 项目：
+1 学生成绩预 …  </content></entry></search>
