@@ -36,9 +36,9 @@ centerLogo = false
 codeMaxLines = 15
 codeLineNumbers = false
 
-# 数学公式渲染（KaTeX）。文章里要用公式时，把这里或文章 front matter 的
-# enableMathNotation 设为 true
-enableMathNotation = false
+# 数学公式渲染（KaTeX）。开启后首页、栏目页、文章页都会加载 KaTeX，
+# 并支持 $...$ 与 $$...$$ 两种写法；单篇文章可用 front matter 里的 enableMathNotation = false 关掉。
+enableMathNotation = true
 
 # 图片是否显示 “Figure 1” 编号
 figurePositionShow = false

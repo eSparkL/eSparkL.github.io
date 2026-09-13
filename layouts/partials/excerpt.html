@@ -20,16 +20,20 @@
       <div class="excerpt_footer">
         {{- end }}
         <div class="pale">
+          {{- /* 正文里写了 more 注释短代码时，卡片只显示它前面的内容 */}}
           {{- $summary := truncate 320  (htmlUnescape .Plain) }}
+          {{- if findRE `<!--\s*more\s*-->` .RawContent }}
+            {{- $summary = .Summary }}
+          {{- end }}
           {{- if .Params.summary }}
             {{- $summary = .Params.summary }}
           {{- else if .Params.abstract }}
             {{ $summary = .Params.abstract }}
           {{- end }}
           {{ if not ( strings.Contains $summary "<p>" ) }}
-            <p>{{ $summary | markdownify }}</p>
+            <p>{{ $summary | safeHTML }}</p>
           {{ else }}
-            {{ $summary | markdownify }}
+            {{ $summary | safeHTML }}
           {{ end }}
           <br>
           {{- $r := T "read_more" }}

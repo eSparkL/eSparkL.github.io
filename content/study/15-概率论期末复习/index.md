@@ -7,7 +7,6 @@ lastmod: 2025-06-07T15:28:42+08:00
 categories:
   - 概率论
 tags:
-  - 
 # 原文作者
 # Post's origin author name
 #author:

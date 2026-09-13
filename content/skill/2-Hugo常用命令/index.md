@@ -23,15 +23,15 @@ tags:
 2. 创建新内容
 
   ```cmd
-  hugo new posts/new_posts/index.md
+  hugo new content -k post 'job/new_posts/index.md'
   ```
+
+> 废弃：hugo new posts/new_posts/index.md # Syrella.com
 
 3. 推送到GitHub Page
 
   ```cmd
   hugo
-
-  cd public
 
   git add .
 
