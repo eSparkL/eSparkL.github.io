@@ -8,7 +8,6 @@ categories:
   - Django
   - 项目
 tags:
-  - 
 ---
 > 在前面已经跑通book_project的基础上，针对本项目的服务需求进行修改和完善。
 

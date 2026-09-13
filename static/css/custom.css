@@ -34,3 +34,38 @@
 .section_categories_empty {
   padding: 1rem 0;
 }
+
+/* ============ 侧边栏头像：圆形 + 阴影 ============ */
+.author_header {
+  --avatar-size: 4.25rem;        /* ← 想改头像大小只改这一行 */
+  grid-template-columns: var(--avatar-size) 1fr;
+  grid-gap: 0.9rem;
+  align-items: center;
+}
+
+.author_header img {
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  margin: 0;                 /* 覆盖主题 img 的 margin: 1rem auto */
+  padding: 3px;              /* 图片与描边之间留一点白 */
+  object-fit: cover;
+  border-radius: 50%;        /* 圆形 */
+  background: var(--light);  /* 3px 的浅色描边 */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.20), 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
+}
+
+.author_header img:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.26), 0 2px 6px rgba(0, 0, 0, 0.14);
+}
+
+/* 深色模式下阴影要重一些，描边换成深色 */
+[data-mode="dim"] .author_header img {
+  background: var(--code-bg);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+[data-mode="dim"] .author_header img:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.12);
+}

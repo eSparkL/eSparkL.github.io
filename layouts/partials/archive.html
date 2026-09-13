@@ -1,0 +1,27 @@
+{{/* 覆盖主题的 archive 模板，显式按「日期倒序」排列。
+     主题默认用的是 Hugo 的页面默认排序（weight → date → linktitle），
+     一旦某篇文章写了 weight 就会跑到最前面。这里强制只看日期。 */}}
+{{ $pages := .Pages.ByDate.Reverse }}
+{{ if .IsHome }}
+  {{ $pages = site.RegularPages.ByDate.Reverse }}
+{{ end }}
+
+{{ if eq site.Params.pinFeatured true }}
+  {{ $featured := default 8 site.Params.numberOfPinnedPosts }}
+  {{ $featuredPosts := first $featured (where $pages "Params.featured" true) }}
+  {{ $normalPosts := $pages | symdiff $featuredPosts }}
+  {{ $pages = $featuredPosts | append $normalPosts }}
+{{ end }}
+<div class="grid-inverse wrap content">
+  <div>
+    <ul class="posts" id="posts">
+      {{- range (.Paginate $pages).Pages }}
+        {{ partial "excerpt" . }}
+      {{- end }}
+      <li>
+        {{- template "_internal/pagination.html" . }}
+      </li>
+    </ul>
+  </div>
+  {{- partial "sidebar" . }}
+</div>

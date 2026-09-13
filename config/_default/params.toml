@@ -10,6 +10,7 @@ introDescription = """
 见证成长的地方
 
 stay hungry, stay humble
+
 致力做一个知识厨子
 """
 
@@ -41,9 +42,6 @@ codeLineNumbers = false
 # 数学公式渲染（KaTeX）。文章里要用公式时，把这里或文章 front matter 的
 # enableMathNotation 设为 true
 enableMathNotation = false
-
-# 首页与归档页面展示哪些目录下的文章
-mainSections = ["study"]
 
 # 图片是否显示 “Figure 1” 编号
 figurePositionShow = false
