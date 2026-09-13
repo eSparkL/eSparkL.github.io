@@ -103,3 +103,14 @@ Remove-Item -Recurse -Force themes/hugo-clarity/.git
 ```
 
 注意：升级主题后先用 `hugo` 本地构建一次，确认没有报错再提交。
+
+## 已知坑
+
+1. **不要把图片以 base64 内联粘进 Markdown**。编辑器（VSCode 的粘贴插件、Typora 等）有时会把截图存成
+   `![](data:image/png;base64,iVBOR...)`，这种写法在 Linux 构建环境里会因为“文件名超长”直接让
+   Actions 构建失败，而 Windows 本地反而不报错，很容易踩。正确做法是把图片存成文件放在文章目录里，
+   再写 `![](图片名.png)`。
+   （2026-09 迁移时就有一处这种写法，已还原成 `content/study/31-互联网程序设计/inline-image-1.png`。）
+2. `content/study/4-软工课堂思路笔记/index.md` 第 244 行引用了 `144794092b95c6f3374bf8e129c1466.jpg`，
+   这个文件在仓库和旧站里都找不到，页面上会显示破图。需要补图或删掉那一行。
+3. `content/study/test.md` 里有两处图片引用写在缩进代码块中（第 53、82 行），是示例文本，不会渲染成图片。
