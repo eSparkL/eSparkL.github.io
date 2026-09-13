@@ -1,0 +1,18 @@
+{{/* 归档页：把全部文章按时间倒序列出来，保留原来的 /archives/ 地址 */}}
+{{ define "main" }}
+  {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{- $pages = $pages.ByDate.Reverse }}
+  <div class="grid-inverse wrap content">
+    <div>
+      <ul class="posts" id="posts">
+        {{- range (.Paginate $pages).Pages }}
+          {{ partial "excerpt" . }}
+        {{- end }}
+        <li>
+          {{- template "_internal/pagination.html" . }}
+        </li>
+      </ul>
+    </div>
+    {{- partial "sidebar" . }}
+  </div>
+{{ end }}

@@ -1,0 +1,53 @@
+# ===============================================================
+# 站点基础配置
+# 说明：本站使用 hugo-clarity 主题，需要 Hugo Extended >= 0.156
+# ===============================================================
+
+# 站点根地址（必须与实际访问域名一致，结尾要带斜杠）
+# 该域名已在 GitHub Pages 的 Custom domain 中配置
+baseURL = "https://eSparkL.top/"
+
+# 主题名（主题以 vendor 方式放在 themes/hugo-clarity）
+theme = "hugo-clarity"
+
+# 默认语言
+defaultContentLanguage = "zh-cn"
+locale = "zh-CN"
+timeZone = "Asia/Shanghai"
+
+# 中文站点推荐开启
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+enableInlineShortcodes = true
+timeout = 60000
+
+# 文章摘要长度（首页卡片用）
+summaryLength = 70
+
+# 分类法
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# 首页同时输出 JSON 搜索索引（clarity 的搜索依赖它）
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 列表分页大小
+[pagination]
+  pagerSize = 10
+
+# 第三方嵌入的隐私增强
+[privacy]
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true

@@ -1,0 +1,7 @@
+# 目前只有中文站。
+# 以后要加英文站，照下面格式增加 [en-us] 段，并给文章加 xxx.en-us.md 同名文件即可。
+[zh-cn]
+  label = "简体中文"
+  title = "Syek.com"
+  weight = 1
+  locale = "zh-CN"

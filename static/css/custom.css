@@ -1,0 +1,16 @@
+/* 自定义样式：会覆盖在主题样式之后加载 */
+
+.custom-head5 {
+  font-size: 1.2em;
+  color: #ed6c24;
+  font-weight: bold;
+}
+
+.custom-footer {
+  color: #ed6c24;
+}
+
+.mydefined {
+  font-size: 0.65em;
+  color: #ed6c24;
+}

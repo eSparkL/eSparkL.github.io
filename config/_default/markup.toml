@@ -1,0 +1,21 @@
+[goldmark]
+  [goldmark.renderer]
+    hardWraps = false
+    unsafe = true        # 允许正文里写原始 HTML（你的文章里有 <img> 等标签，必须为 true）
+    xhtml = false
+  [goldmark.extensions]
+    typographer = false
+  [goldmark.parser]
+    autoHeadingID = true
+  [highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true       # 必须是 true，否则主题的“行号”按钮无效
+    lineNumbersInTable = false
+    noClasses = false
+    tabWidth = 2
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 4

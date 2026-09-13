@@ -1,0 +1,37 @@
+{{/* 友情链接页：数据来自 data/flinks.yaml */}}
+{{ define "main" }}
+  {{- $groups := hugo.Data.flinks }}
+  <div class="grid-inverse wrap content">
+    <article class="post_content">
+      <h1 class="post_title">{{ .Title }}</h1>
+      <div class="post_body">
+        {{ .Content }}
+        {{- range $groups }}
+          <h2>{{ .FLinksTitle }}</h2>
+          {{- with .FLinksDesc }}
+          <p class="pale">{{ . }}</p>
+          {{- end }}
+          <ul class="posts">
+            {{- range .FLinksList }}
+              {{- if .visible }}
+              <li class="post_item">
+                <div class="excerpt">
+                  <div class="excerpt_header">
+                    <h3 class="post_link">
+                      <a href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a>
+                    </h3>
+                    {{- with .desc }}
+                    <p class="pale">{{ . }}</p>
+                    {{- end }}
+                  </div>
+                </div>
+              </li>
+              {{- end }}
+            {{- end }}
+          </ul>
+        {{- end }}
+      </div>
+    </article>
+    {{- partial "sidebar" . }}
+  </div>
+{{ end }}

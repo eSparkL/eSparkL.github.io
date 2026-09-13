@@ -1,0 +1,92 @@
+# ===============================================================
+# hugo-clarity 主题参数
+# ===============================================================
+
+# 顶部搜索（首页 / 文章页右上角的搜索框）
+enableSearch = true
+
+# 侧边栏简介（支持 Markdown）
+introDescription = """
+见证成长的地方
+
+stay hungry, stay humble
+致力做一个知识厨子
+"""
+
+# 侧边栏“阅读更多”按钮跳转地址；设为 false 可隐藏按钮
+introURL = "about/"
+
+# 侧边栏默认展示多少个标签/分类
+numberOfTagsShown = 14
+
+# ★ 关键：你的文章都是「文件夹 + index.md + 同目录图片」的页面包（leaf bundle）
+# 设为 true 后，正文里写 ![](image.png) 就能自动指向同目录的图片
+usePageBundles = true
+
+# 资源目录约定（相对 static/）
+imagesDir = "images/"
+iconsDir = "icons/"
+fontsDir = "fonts/"
+
+# 社交分享时的默认大图，以及左上角 Logo。
+# logo 留空则直接显示站点标题文字（当前配置）。
+fallBackOgImage = "images/thumbnail.png"
+# logo = "logos/logo.png"
+centerLogo = false
+
+# 代码块：超过多少行折叠；是否默认显示行号
+codeMaxLines = 15
+codeLineNumbers = false
+
+# 数学公式渲染（KaTeX）。文章里要用公式时，把这里或文章 front matter 的
+# enableMathNotation 设为 true
+enableMathNotation = false
+
+# 首页与归档页面展示哪些目录下的文章
+mainSections = ["study"]
+
+# 图片是否显示 “Figure 1” 编号
+figurePositionShow = false
+
+# 手机端菜单从哪一侧滑出：left / right
+mobileNavigation = "left"
+
+# 日期显示格式
+dateFormat = "2006-01-02"
+
+# 页脚版权起始年份
+since = 2025
+
+# 是否显示分享按钮（也可在文章 front matter 里单独覆盖）
+showShare = true
+
+# 每页最多显示多少篇文章卡片
+numberOfRecentPosts = 8
+
+# 自定义 CSS（文件放在 static/css/ 下；这是数组，可以加多个）
+customCSS = ["css/custom.css"]
+
+# 文章正文下方的评论区，先保持关闭。
+# 要启用 Giscus 的话：打开 comments，再填下面 4 项（到 giscus.app 生成）
+comments = false
+# giscus = true
+# giscusRepo = "eSparkL/eSparkL.github.io"
+# giscusRepoId = "R_xxxxxxx"
+# giscusCategory = "Announcements"
+# giscusCategoryId = "DIC_kwDOxxxxxxx"
+# giscusMapping = "pathname"
+# giscusReactionsEnabled = "1"
+# giscusTheme = "preferred_color_scheme"
+# giscusLang = "zh-CN"
+
+# 用于生成文章结构化数据（ld+json）
+blogDir = "study"
+
+# 站点作者信息（侧边栏头像）
+[author]
+  name = "eSparkL"
+  photo = "images/Sherry.jpg"
+
+# 统计脚本占位：按需取消注释
+# ga_analytics = "G-XXXXXXXXXX"
+# baidu_analytics = "XXXXXXXX"
