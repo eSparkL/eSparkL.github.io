@@ -1,13 +1,13 @@
 ---
-title: "21 数据挖掘网课 7.12"
-description: "21-数据挖掘网课-7.12"
-keywords: "数据挖掘"
-date: 2025-07-12T20:07:33+08:00
-lastmod: 2025-07-12T20:07:33+08:00
+title: "22 科研 策略梯度算法（强化学习）"
+description: "22-科研-策略梯度算法（强化学习）"
+keywords: "22,科研,策略梯度算法（强化学习）"
+date: 2025-09-13T16:44:23+08:00
+lastmod: 2025-09-13T16:44:23+08:00
 categories:
-  - 数挖
+  - 论文阅读
 tags:
-  - 
+  - 强化学习
 # 原文作者
 # Post's origin author name
 #author:
@@ -32,7 +32,7 @@ tags:
 #toc: false
 # 绝对访问路径
 # Absolute link for visit
-#url: "21-数据挖掘网课-7.12.html"
+#url: "22-科研-策略梯度算法（强化学习）.html"
 # 开启文章置顶，数字越小越靠前
 # Sticky post set-top in home page and the smaller nubmer will more forward.
 #weight: 1
@@ -43,8 +43,11 @@ tags:
 # Enable chart render, such as: flow, sequence, classes etc
 #mermaid: true
 ---
-7.12 b 站预习数据挖掘网课记录
+阅读CEAES: Bidirectional Reinforcement Learning Optimization for Consistent and Explainable Essay Assessment的补充
 
 <!--more-->
 
-## 
+之前在吴恩达机器学习网课中学习的应该是基于价值的（Value-Based）的强化学习方法，即DQN。它是通过学习价值函数V（s）来间接地获得策略。
+
+而基于策略（Policy-Based）的方法则直接参数化并优化策略本身。为此设计了一个用参数$\theta$控制的函数函数$\pi_{\theta}(a|s)$。目的是找到最优的参数$\theta^*$，使策略$\pi_{\theta^*}$积累的回报最大化。
+

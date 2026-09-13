@@ -1,13 +1,12 @@
 ---
-title: "21 数据挖掘网课 7.12"
-description: "21-数据挖掘网课-7.12"
-keywords: "数据挖掘"
-date: 2025-07-12T20:07:33+08:00
-lastmod: 2025-07-12T20:07:33+08:00
+title: "27 Windows系统使用"
+description: "27-Windows系统使用"
+keywords: "27,Windows"
+date: 2025-10-27T10:53:10+08:00
+lastmod: 2025-10-27T10:53:10+08:00
 categories:
-  - 数挖
+  - Hugo
 tags:
-  - 
 # 原文作者
 # Post's origin author name
 #author:
@@ -32,7 +31,7 @@ tags:
 #toc: false
 # 绝对访问路径
 # Absolute link for visit
-#url: "21-数据挖掘网课-7.12.html"
+#url: "27-windows系统使用.html"
 # 开启文章置顶，数字越小越靠前
 # Sticky post set-top in home page and the smaller nubmer will more forward.
 #weight: 1
@@ -43,8 +42,16 @@ tags:
 # Enable chart render, such as: flow, sequence, classes etc
 #mermaid: true
 ---
-7.12 b 站预习数据挖掘网课记录
+27-Windows系统使用
 
 <!--more-->
 
-## 
+## win + R : 快捷打开程序
+
+常用：
+cmd ： 打开命令行窗口
+%temp% : 清理C盘
+sysdm.cpl : 配置环境变量
+shell:startup ： 开机启动
+
+conda

@@ -5,19 +5,29 @@
   weight = -110
 
 [[main]]
-  name = "归档"
-  url = "archives/"
+  name = "科研"
+  url = "research/"
   weight = -109
 
 [[main]]
-  name = "友情链接"
-  url = "flinks/"
+  name = "课程笔记"
+  url = "study/"
   weight = -108
+
+[[main]]
+  name = "各项技能"
+  url = "skill/"
+  weight = -107
+
+[[main]]
+  name = "实习就业"
+  url = "job/"
+  weight = -106
 
 [[main]]
   name = "关于"
   url = "about/"
-  weight = -107
+  weight = -105
 
 # 右下角 / 顶部右侧的社交图标
 # 主题只内置这些图标：github / gitlab / codeberg / twitter / x / mastodon / bluesky /

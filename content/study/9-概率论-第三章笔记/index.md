@@ -7,8 +7,7 @@ lastmod: 2025-01-02T19:08:02+08:00
 categories:
   - 概率论
 tags:
-  - 概率论
-  - 课后笔记
+  - 
 # url: "demo/hugo-blockquote.html"
 toc: true
 ---

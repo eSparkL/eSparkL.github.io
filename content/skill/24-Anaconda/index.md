@@ -1,11 +1,11 @@
 ---
-title: "21 数据挖掘网课 7.12"
-description: "21-数据挖掘网课-7.12"
-keywords: "数据挖掘"
-date: 2025-07-12T20:07:33+08:00
-lastmod: 2025-07-12T20:07:33+08:00
+title: "24 Anaconda"
+description: "24-Anaconda"
+keywords: "24,Anaconda"
+date: 2025-10-25T20:53:21+08:00
+lastmod: 2025-10-25T20:53:21+08:00
 categories:
-  - 数挖
+  - Anaconda
 tags:
   - 
 # 原文作者
@@ -32,7 +32,7 @@ tags:
 #toc: false
 # 绝对访问路径
 # Absolute link for visit
-#url: "21-数据挖掘网课-7.12.html"
+#url: "24-anaconda.html"
 # 开启文章置顶，数字越小越靠前
 # Sticky post set-top in home page and the smaller nubmer will more forward.
 #weight: 1
@@ -43,8 +43,32 @@ tags:
 # Enable chart render, such as: flow, sequence, classes etc
 #mermaid: true
 ---
-7.12 b 站预习数据挖掘网课记录
+24-Anaconda
 
 <!--more-->
 
-## 
+## 环境创建、激活、退出
+
+```bash
+# 创建环境
+conda create -n [环境名] python=3.9
+
+# 激活环境
+conda activate [环境名]
+
+# 退出环境
+conda deactivate
+```
+
+## 包下载
+
+```bash
+# 下载百度飞桨
+conda install -c paddlepaddle paddlepaddle=2.6.4
+```
+
+## 查看命令
+
+```bash
+
+```

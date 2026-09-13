@@ -1,13 +1,14 @@
 ---
-title: "21 数据挖掘网课 7.12"
-description: "21-数据挖掘网课-7.12"
-keywords: "数据挖掘"
-date: 2025-07-12T20:07:33+08:00
-lastmod: 2025-07-12T20:07:33+08:00
+title: "28 英语小镇项目"
+description: "28-英语小镇项目"
+keywords: "28,英语小镇项目"
+date: 2025-10-27T11:12:01+08:00
+lastmod: 2025-10-27T11:12:01+08:00
 categories:
-  - 数挖
+  - 项目
 tags:
-  - 
+  - 智能体
+  - AI+教育
 # 原文作者
 # Post's origin author name
 #author:
@@ -32,7 +33,7 @@ tags:
 #toc: false
 # 绝对访问路径
 # Absolute link for visit
-#url: "21-数据挖掘网课-7.12.html"
+#url: "28-英语小镇项目.html"
 # 开启文章置顶，数字越小越靠前
 # Sticky post set-top in home page and the smaller nubmer will more forward.
 #weight: 1
@@ -43,8 +44,34 @@ tags:
 # Enable chart render, such as: flow, sequence, classes etc
 #mermaid: true
 ---
-7.12 b 站预习数据挖掘网课记录
+28-英语小镇项目
 
 <!--more-->
 
-## 
+## 复现项目
+
+### chatdev
+
+按照GitHub页面操作安装
+
+```bash
+yarn install
+
+yarn build
+```
+
+`yarn install`：出现sharp无权限以及找不到python环境的问题。
+
+解决办法：用管理员权限打开cmd，因为python环境我统一用annaconda管理，所以在系统环境变量里配置了annaconda的路径。
+![alt text](image.png)
+
+`yarn build`：无法找到 minimatch 的类型定义文件
+error TS2688: Cannot find type definition file for 'minimatch'.
+  The file is in the program because:
+    Entry point for implicit type library 'minimatch'
+
+解决办法：
+
+```bash
+yarn add @types/minimatch --dev
+```

@@ -5,9 +5,9 @@ keywords: "15,概率论期末复习"
 date: 2025-06-07T15:28:42+08:00
 lastmod: 2025-06-07T15:28:42+08:00
 categories:
-  - 大二
   - 概率论
-  - 期末
+tags:
+  - 
 tags:
 # 原文作者
 # Post's origin author name

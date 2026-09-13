@@ -14,3 +14,23 @@
   font-size: 0.65em;
   color: #ed6c24;
 }
+
+/* 栏目页左上角的分类导航（配色与侧边栏 Categories 一致） */
+.section_categories {
+  margin-bottom: 1.5rem;
+}
+.section_categories .taxonomy {
+  margin-bottom: 0.5rem;
+}
+.section_categories .post_tag.is-active {
+  background-color: var(--theme);
+  color: var(--light);
+  border-color: var(--theme);
+}
+.section_categories .post_tag.is-active .button_tally {
+  background-color: var(--light);
+  color: var(--theme);
+}
+.section_categories_empty {
+  padding: 1rem 0;
+}

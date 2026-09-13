@@ -1,13 +1,12 @@
 ---
-title: "21 数据挖掘网课 7.12"
-description: "21-数据挖掘网课-7.12"
-keywords: "数据挖掘"
-date: 2025-07-12T20:07:33+08:00
-lastmod: 2025-07-12T20:07:33+08:00
+title: "29 LangChain"
+description: "29-LangChain"
+keywords: "29,LangChain"
+date: 2025-11-19T10:10:18+08:00
+lastmod: 2025-11-19T10:10:18+08:00
 categories:
-  - 数挖
+  - LangChain
 tags:
-  - 
 # 原文作者
 # Post's origin author name
 #author:
@@ -32,7 +31,7 @@ tags:
 #toc: false
 # 绝对访问路径
 # Absolute link for visit
-#url: "21-数据挖掘网课-7.12.html"
+#url: "29-langchain.html"
 # 开启文章置顶，数字越小越靠前
 # Sticky post set-top in home page and the smaller nubmer will more forward.
 #weight: 1
@@ -43,8 +42,21 @@ tags:
 # Enable chart render, such as: flow, sequence, classes etc
 #mermaid: true
 ---
-7.12 b 站预习数据挖掘网课记录
+29-LangChain
 
 <!--more-->
 
-## 
+## 什么是LangChain
+
+LangChain 是一个开源的 Python 库，用于构建 LLM 应用。包含以下特性
+
+1. LLM统一接口和丰富的提示
+2. 链（将工具串联起来）
+3. LCEL表达式
+4. 检索增强生产（RAG）
+5. Agent
+6. 模型记忆（memory）
+
+## LangChain框架组成
+
+ 

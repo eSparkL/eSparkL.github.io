@@ -1,0 +1,61 @@
+{{/* 栏目页（点导航栏「科研 / 课程笔记 / 各项技能 / 实习就业」后看到的页面）
+
+     版面：左上角是该栏目下的分类导航（分类名 + 文章数），下面是文章列表，右侧是侧边栏。
+     分类按钮用的类名与侧边栏的 Categories 完全一致（post_tag button button_translucent
+     + button_tally），所以配色、圆角、字号都一样。
+     点击分类由 static/js/section-filter.js 在本页过滤，不跳转、不重新加载。 */}}
+{{- define "main" }}
+  {{- $pages := .RegularPagesRecursive.ByDate.Reverse }}
+
+  {{/* 统计本栏目下每个分类有多少篇文章（空分类名忽略） */}}
+  {{- $counts := newScratch }}
+  {{- range $pages }}
+    {{- $cats := .Params.categories | default slice }}
+    {{- if not (reflect.IsSlice $cats) }}
+      {{- $cats = slice $cats }}
+    {{- end }}
+    {{- range $cats }}
+      {{- with . }}
+        {{- $name := strings.TrimSpace (printf "%v" .) }}
+        {{- if $name }}
+          {{- $counts.Set $name (add (default 0 ($counts.Get $name)) 1) }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{/* 转成可按数量排序的切片：文章多的排前面 */}}
+  {{- $cats := slice }}
+  {{- range $name, $count := $counts.Values }}
+    {{- $cats = $cats | append (dict "name" $name "count" $count) }}
+  {{- end }}
+  {{- $cats = sort $cats "count" "desc" }}
+
+  <div class="grid-inverse wrap content">
+    <div>
+      {{- with $cats }}
+      <section class="section_categories" data-section-filter>
+        <h2 class="taxonomy">{{ T "categories" }}</h2>
+        <nav class="tags_nav">
+          <a href="?" class="post_tag button button_translucent is-active" data-category="" title="全部">
+            全部<span class="button_tally">{{ len $pages }}</span>
+          </a>
+          {{- range . }}
+          <a href="?category={{ .name }}" class="post_tag button button_translucent" data-category="{{ .name }}" title="{{ .name }}">
+            {{- .name -}}<span class="button_tally">{{ .count }}</span>
+          </a>
+          {{- end }}
+        </nav>
+      </section>
+      {{- end }}
+      <ul class="posts" id="posts">
+        {{- range $pages }}
+          {{ partial "excerpt" . }}
+        {{- end }}
+      </ul>
+      <p class="pale section_categories_empty" style="display:none">该分类下暂时没有文章。</p>
+    </div>
+    {{- partial "sidebar" . }}
+  </div>
+  <script src="{{ "js/section-filter.js" | relURL }}" defer></script>
+{{- end }}
