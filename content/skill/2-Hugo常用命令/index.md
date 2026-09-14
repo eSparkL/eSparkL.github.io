@@ -4,6 +4,7 @@ description:
 keywords:
 date: 2025-05-12T23:20:40+08:00
 lastmod: 2025-05-12T23:20:40+08:00
+toc: true
 categories:
   - Hugo
 tags:
@@ -39,3 +40,14 @@ tags:
 
   git push
   ```
+
+4. 脚本化创建和推送过程
+
+  ```cmd
+  bash newpost.sh # 在其他电脑需要修改hugo.exe路径
+  ```
+
+  ```cmd
+  bash update.sh
+  ```
+  
