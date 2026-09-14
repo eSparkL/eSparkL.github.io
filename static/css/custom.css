@@ -37,7 +37,7 @@
 
 /* ============ 侧边栏头像：圆形 + 阴影 ============ */
 .author_header {
-  --avatar-size: 4.25rem;        /* ← 想改头像大小只改这一行 */
+  --avatar-size: 5.00rem;        /* ← 想改头像大小只改这一行 */
   grid-template-columns: var(--avatar-size) 1fr;
   grid-gap: 0.9rem;
   align-items: center;
@@ -46,7 +46,7 @@
 .author_header img {
   width: var(--avatar-size);
   height: var(--avatar-size);
-  margin: 0;                 /* 覆盖主题 img 的 margin: 1rem auto */
+  margin: 1rem 0;                 /* 覆盖主题 img 的 margin: 1rem auto */
   padding: 3px;              /* 图片与描边之间留一点白 */
   object-fit: cover;
   border-radius: 50%;        /* 圆形 */

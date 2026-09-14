@@ -2,13 +2,16 @@
 enableSearch = true
 defaultContentLanguage = "zh-cn"
 
+# Hugo 的 mainSections：侧边栏「最新文章」、RSS、默认列表页只收录这些栏目的文章。
+# 不设置时 Hugo 只会自动挑「页数最多的那一个栏目」（当前是 skill），
+# 于是 job / research / study 的新文章不会出现在侧边栏「最新文章」里。
+mainSections = ["job", "research", "skill", "study"]
+
 # 侧边栏简介（支持 Markdown）
 introDescription = """
-见证成长的地方
-
-stay hungry, stay humble
-
-致力做一个知识厨子
+- 见证成长的地方
+- stay hungry, stay humble
+- 致力做一个知识厨子
 """
 
 # 侧边栏“阅读更多”按钮跳转地址；设为 false 可隐藏按钮
@@ -29,7 +32,7 @@ fontsDir = "fonts/"
 # 社交分享时的默认大图，以及左上角 Logo。
 # logo 留空则直接显示站点标题文字（当前配置）。
 fallBackOgImage = "images/thumbnail.png"
-# logo = "logos/logo.png"
+logo = "icons/webtitle.png"
 centerLogo = false
 
 # 代码块：超过多少行折叠；是否默认显示行号
@@ -40,8 +43,9 @@ codeLineNumbers = false
 # 并支持 $...$ 与 $$...$$ 两种写法；单篇文章可用 front matter 里的 enableMathNotation = false 关掉。
 enableMathNotation = true
 
-# 图片是否显示 “Figure 1” 编号
-figurePositionShow = false
+# 图片
+figurePositionShow = true # 图片自动编号
+figurePositionLabel = "Figure" # 图片前缀文字，如 Figure1
 
 # 手机端菜单从哪一侧滑出：left / right
 mobileNavigation = "left"
@@ -58,7 +62,7 @@ showShare = true
 # 每页最多显示多少篇文章卡片
 numberOfRecentPosts = 8
 
-# 自定义 CSS（文件放在 static/css/ 下；这是数组，可以加多个）
+# 自定义CSS
 customCSS = ["css/custom.css"]
 
 # 文章正文下方的评论区，先保持关闭。

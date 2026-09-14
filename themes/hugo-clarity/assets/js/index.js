@@ -261,21 +261,37 @@ function fileClosure(){
       let addCaption = true
       let captionText = ''
 
+      /*
+      图片自动编号
+      */
+      // 判断图片命名是否为空：空 alt、字面量 alt text、或与图片文件名相同，都视为未命名图片
+      let imgFileName = ''
+      try {
+        imgFileName = decodeURIComponent((image.currentSrc || image.src || '').split('/').pop()).replace(/\.[^.]+$/, '')
+      } catch (err) {
+        imgFileName = ''
+      }
+      const altTrimmed = alt.trim()
+      const altIsPlaceholder = !altTrimmed.length || /^alt text$/i.test(altTrimmed) || altTrimmed === imgFileName
+
       if(image.title.trim().length) {
         captionText = image.title.trim()
       } else {
         if(image.title === " ") {
           addCaption = false
         } else {
-          captionText = alt
+          captionText = altIsPlaceholder ? '' : alt
         }
       }
 
+      const showImagePosition = showingImagePosition();
+
       // Don't add a caption for featured images, inline images, or empty text
+      // 开启编号时，未命名的图片也要生成 figcaption（只显示编号）
       if(
         image.matches(`.${featuredImageClass}`) ||
         containsClass(image, 'alt' && !isInline) ||
-        !captionText.length
+        (!captionText.length && !showImagePosition)
       ) {
         addCaption = false
       }
@@ -287,9 +303,11 @@ function fileClosure(){
         // Add figure numbering
         imagePosition += 1;
         image.dataset.pos = imagePosition;
-        const showImagePosition = showingImagePosition();
         const thisImgPos = image.dataset.pos;
-        captionText = showImagePosition ? `${showImagePositionLabel} ${thisImgPos}: ${captionText}` : captionText;
+        // 有名称 → 「Figure 1: 名称」；没有名称 → 「Figure 1」
+        captionText = showImagePosition
+          ? (captionText ? `${showImagePositionLabel} ${thisImgPos}: ${captionText}` : `${showImagePositionLabel} ${thisImgPos}`)
+          : captionText;
         desc.textContent = captionText;
 
         // If a caption exists, remove it
