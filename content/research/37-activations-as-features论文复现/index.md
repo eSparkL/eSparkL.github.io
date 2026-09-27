@@ -11,10 +11,9 @@ categories:
 tags:
 ---
 
-复现论文 Activations as Features: Probing LLMs for Generalizable Essay Scoring
-Representations[https://ojs.aaai.org/index.php/AAAI/article/view/40292](https://ojs.aaai.org/index.php/AAAI/article/view/40292)：
+🔗 复现论文 Activations as Features: Probing LLMs for Generalizable Essay Scoring Representations[https://ojs.aaai.org/index.php/AAAI/article/view/40292]：
 
-[与gpt对话记录](https://chatgpt.com/s/cx_6ab4df192bec8191a59a4ee43bc9a1b2)
+🔗 [与gpt对话记录](https://chatgpt.com/s/cx_6ab4df192bec8191a59a4ee43bc9a1b2)
 
 <!--more-->
 
@@ -41,10 +40,10 @@ conda activate
 按照AI的pip指令，已经配置好环境，配置固化在`requirements-lock.txt`
 
 > 配置环境上，AI还是很nb的；包冲突不再是问题
-
+>
 > 唯一需要自己介入的是git clone网络问题，这个用代理解决
 
-## 下载开源模型
+## 第二步 下载开源模型
 
 代码中是 Llama-2-7b ：需要meta验证（小红书上说要美国IP+美国信息），加上模型本身至少需要24G以上（实际更多，AI建议留150G），因此先从小参数模型验证，选择了Qwen3-0.6B（无需验证、对存储要求小）
 
@@ -55,9 +54,9 @@ conda activate
 | config.py | `default='Llama-2-7b-chat-hf'` | `default='Qwen3-0.6B'` |
 | LLM_activations.py | `args.model_name = 'Llama-2-7b-chat-hf'` | `args.model_name = 'Qwen3-0.6B'` |
 | LLM_activations.py | `model_folder = f'/{args.model_name}'` | `model_folder = args.model_name` |
-| LLM_activations.py | `type_list = ['all', 'wo_p', 'wo_i', 'only_e']` | `type_list = ['all']` |
+| LLM_activations.py | `type_list = ['all', 'wo_p', 'wo_i', 'only_e']` | `type_list = ['all']` ，不复现消融|
 
-## 后台提取激活(监控进度：nohup + setsid)
+## 第三步 后台提取激活(监控进度：nohup + setsid)
 
 ```bash
 cd ~/chenrui/AAF
@@ -103,7 +102,7 @@ find AES/ASAP/activations/Qwen3-0.6B \
   -type f -name '*.pt' | wc -l
 ```
 
-## 执行探针
+## 第四步 执行探针
 
 ```bash
 cd ~/chenrui/AAF
@@ -134,7 +133,7 @@ prompt-trait 组合共 67,604 篇次进行激活提取：
 
 激活文件大小（AES/ASAP/activations/Qwen3-0.6B/）：7.3G
 
-### 与论文对比
+### 与论文的整体对比
 
 总体对比：
 
