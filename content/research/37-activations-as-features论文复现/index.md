@@ -11,7 +11,7 @@ categories:
 tags:
 ---
 
-🔗 复现论文 Activations as Features: Probing LLMs for Generalizable Essay Scoring Representations[https://ojs.aaai.org/index.php/AAAI/article/view/40292]：
+🔗 论文 [Activations as Features: Probing LLMs for Generalizable Essay Scoring Representations](https://ojs.aaai.org/index.php/AAAI/article/view/40292)
 
 🔗 [与gpt对话记录](https://chatgpt.com/s/cx_6ab4df192bec8191a59a4ee43bc9a1b2)
 
